@@ -136,5 +136,41 @@
     "scheduled_at": "2026-06-27T15:00:00+00:00",
     "text": "🐜 Муравьи существуют на Земле 130 миллионов лет — они пережили динозавров, три массовых вымирания и несколько ледниковых периодов. Суммарный вес всех муравьёв планеты примерно равен весу всех людей.",
     "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ants_Colony_1.jpg?width=800"
+  },
+  {
+    "id": 108,
+    "scheduled_at": "2026-06-27T19:00:00+00:00",
+    "text": "❤️ Сердце бьётся около 100 000 раз в сутки. За 70 лет жизни оно перекачивает примерно 200 миллионов литров крови — достаточно, чтобы заполнить 80 олимпийских бассейнов.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Heart_anterior_exterior_view.png/800px-Heart_anterior_exterior_view.png"
+  },
+  {
+    "id": 109,
+    "scheduled_at": "2026-06-28T04:00:00+00:00",
+    "text": "🗿 Стоунхендж старше пирамид примерно на 500 лет. Кто его построил и зачем — до сих пор точно неизвестно. Самые тяжёлые камни весят 25 тонн и привезены за 250 км.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/800px-Stonehenge2007_07_30.jpg"
+  },
+  {
+    "id": 110,
+    "scheduled_at": "2026-06-28T08:00:00+00:00",
+    "text": "🧠 Мозг человека потребляет 20% всей энергии тела, хотя весит всего 2%. Нейронная сеть мозга сложнее всего интернета — в нём около 86 миллиардов нейронов и 100 триллионов связей.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/800px-Brain_autopsy_lateral_view.jpg"
+  },
+  {
+    "id": 111,
+    "scheduled_at": "2026-06-28T13:00:00+00:00",
+    "text": "🪐 На Сатурне идут дожди из алмазов. Молнии превращают метан в сажу, которая под давлением слипается в графит, а затем в алмазные кристаллы.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/800px-Saturn_during_Equinox.jpg"
+  },
+  {
+    "id": 112,
+    "scheduled_at": "2026-06-28T15:00:00+00:00",
+    "text": "🌵 Кактус Сагуаро не вырастает первую ветку до 75 лет. Он живёт до 200 лет и может хранить до 750 литров воды. Его защищает закон штата Аризона — за кражу грозит тюрьма.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/800px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg"
+  },
+  {
+    "id": 113,
+    "scheduled_at": "2026-06-28T19:00:00+00:00",
+    "text": "🐘 Слоны — единственные животные, которые устраивают похороны. Они возвращаются к костям умерших родственников годами и ощупывают их хоботом, словно прощаясь заново.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/800px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg"
   }
 ]

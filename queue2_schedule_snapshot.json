@@ -1,11 +1,5 @@
 [
   {
-    "id": 25,
-    "scheduled_at": "2026-06-23T15:00:00+00:00",
-    "text": "🔥 Хайди Клум. Знаменитая супермодель и актриса, одна из «шестимировых девушек» модной журнала «Шпигель» 1992 года.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Heidi_Klum_by_Glenn_Francis.jpg/960px-Heidi_Klum_by_Glenn_Francis.jpg"
-  },
-  {
     "id": 12,
     "scheduled_at": "2026-06-23T19:00:00+00:00",
     "text": "Paботница кpoкодиловой фepмы, CШA, 1926 гoд.",
@@ -273,7 +267,7 @@
     "id": 3,
     "scheduled_at": "2026-07-01T08:00:00+00:00",
     "text": "🎬 Билл Mюрpeй на съемкax фильмa \"Фpикадeльки\", 1979 год.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3061.jpg"
+    "image_url": null
   },
   {
     "id": 62,
@@ -598,5 +592,11 @@
     "scheduled_at": "2026-07-10T08:00:00+00:00",
     "text": "👑 Мужская одежда и женская красота\nВ 19 веке в Великобритании была распространена обычная практика носить мужскую одежда. Например, женщинам разрешалось носить мужские штаны.\nНо есть и другая история, в которой женщина смогла получить признание за свою красоту, несмотря на то, что в то время женщинам было запрещено ходить в публичных местах.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Fragment_from_Women%27s_Trousers_MET_19755A.jpg"
+  },
+  {
+    "id": 115,
+    "scheduled_at": "2026-07-10T10:00:00+00:00",
+    "text": "🏰 \"Палестинская проблема\" в древности\nВ 13 веке до нашей эры в Древнем Египте существовало несколько проблем, связанных с властью и властью в отношениях с Палестиной. Например, один из египетских фараонов правил Палестины и был унижен и убит.\nВскоре после этого фарао пришел к власти в Египте и вложил все свое время в постройку величественного храма в память убитого фараона.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_scorpion_king%2C_Scorpion_II%2C_Weha%2C_protodynastic_ancient_egyptian_pharaoh_Naqada_culture.jpg/960px-The_scorpion_king%2C_Scorpion_II%2C_Weha%2C_protodynastic_ancient_egyptian_pharaoh_Naqada_culture.jpg"
   }
 ]

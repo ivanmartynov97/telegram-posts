@@ -112,5 +112,41 @@
     "scheduled_at": "2026-06-26T19:00:00+00:00",
     "text": "💡 Люди, которые часто смеются, живут дольше и реже сталкиваются с проблемами сердца.",
     "image_url": "https://image.pollinations.ai/prompt/Laughing%20people%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=663986&nologo=true"
+  },
+  {
+    "id": 101,
+    "scheduled_at": "2026-06-27T04:00:00+00:00",
+    "text": "🚽 Частое мытье рук может привести к раннему старению кожи.",
+    "image_url": "https://image.pollinations.ai/prompt/hand%20soap%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=913687&nologo=true"
+  },
+  {
+    "id": 102,
+    "scheduled_at": "2026-06-27T08:00:00+00:00",
+    "text": "🚭 Курение укорачивает жизнь на 10-15 лет, даже при отсутствии симптомов болезни.",
+    "image_url": "https://image.pollinations.ai/prompt/cigarette%20smoke%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=711778&nologo=true"
+  },
+  {
+    "id": 103,
+    "scheduled_at": "2026-06-27T10:00:00+00:00",
+    "text": "🌿 Дети, выросшие в домах с большим количеством книг, развивают интеллект быстрее и лучше.",
+    "image_url": "https://image.pollinations.ai/prompt/old%20books%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=191236&nologo=true"
+  },
+  {
+    "id": 104,
+    "scheduled_at": "2026-06-27T13:00:00+00:00",
+    "text": "🚽 Частые душевые процедуры ослабляют иммунитет, уменьшая естественные жировые слои кожи.",
+    "image_url": "https://image.pollinations.ai/prompt/Shower%20gel%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=663869&nologo=true"
+  },
+  {
+    "id": 105,
+    "scheduled_at": "2026-06-27T15:00:00+00:00",
+    "text": "🌊 Человеческий мозг состоит на 80% из воды, что делает его самым водянистым органом в теле.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20brain%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=101703&nologo=true"
+  },
+  {
+    "id": 106,
+    "scheduled_at": "2026-06-27T19:00:00+00:00",
+    "text": "💄 Красная помада может содержать свинец, повышая риск отравления.",
+    "image_url": "https://image.pollinations.ai/prompt/lipstick%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=823011&nologo=true"
   }
 ]

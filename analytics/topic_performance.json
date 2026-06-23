@@ -70,5 +70,29 @@
     "best_post_id": 253,
     "avg_rate": 200.0,
     "last_updated": "2026-06-23T16:15:44.789748+03:00"
+  },
+  "Австралии": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 255,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T22:14:41.251689+03:00"
+  },
+  "Однако": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 255,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T22:14:41.251718+03:00"
+  },
+  "1932": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 255,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T22:14:41.251726+03:00"
   }
 }

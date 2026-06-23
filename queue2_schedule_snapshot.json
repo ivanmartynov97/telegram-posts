@@ -1,59 +1,5 @@
 [
   {
-    "id": 12,
-    "scheduled_at": "2026-06-23T19:00:00+00:00",
-    "text": "Paботница кpoкодиловой фepмы, CШA, 1926 гoд.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3044.jpg"
-  },
-  {
-    "id": 26,
-    "scheduled_at": "2026-06-24T04:00:00+00:00",
-    "text": "⛳️🚗 Первый автомобиль Бенца, созданный Карлом Бенцем в своей лаборатории в Мангейме. 1885 год.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Landstra%C3%9Fe_K1008_%C3%BCber_der_Autobahn_BAB_A8_mit_Benz_Patent-Motorwagen_%281885%E2%80%931886%2C_anl%C3%A4%C3%9Flich_125_Jahre_Jubil%C3%A4um%29_-_panoramio.jpg"
-  },
-  {
-    "id": 27,
-    "scheduled_at": "2026-06-24T08:00:00+00:00",
-    "text": "⚕️‍♂️✝\n\n«Знаменательный случай, когда из ничто получилось что-то»\n\nАлександр Флеминг случайно открыл пенициллин в 1928 году, наблюдая за ростом плесени на одном из своих баков. В те времена Флеминг работал в лаборатории университета в Лондоне, изучая свойства стафилококка, вызывающего пузырьковые волдыри на коже. Плесень, которой накрыли его ростки, случайно опустилась на лабораторный стол. По его описаниям, он заметил некую плесень, которую он позже определил какPenicillium, и как будто она нач",
-    "image_url": null
-  },
-  {
-    "id": 28,
-    "scheduled_at": "2026-06-24T10:00:00+00:00",
-    "text": "❄️☃️ Сковолом Муцием в греческую темницу сбросили мраморный идол Солнца весом в 2 таланта, бросаясь с оной вниз во время бунта в 494 году до н.э. в Риме.",
-    "image_url": null
-  },
-  {
-    "id": 29,
-    "scheduled_at": "2026-06-24T13:00:00+00:00",
-    "text": "🏛️👑\n\nСэр Винстон Черчилль, единственный премьер-министр Великобритании, который дважды занимал эту должность.\n\nГай Юлий Цезарь Октавиан Август, первый римский император, 13 раз занимал должность консула, с 12 года до н.э. - великий понтифик, с 23 года до н.э. обладал полномочиями трибуна и в 2 году до н.э. получил почётный титул \"отец отечества\".",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Augustus_Prima_Porta_Louvre_Ma1247_n2.jpg/960px-Augustus_Prima_Porta_Louvre_Ma1247_n2.jpg"
-  },
-  {
-    "id": 30,
-    "scheduled_at": "2026-06-24T15:00:00+00:00",
-    "text": "☀️ О́дри Хе́пбёрн. 1929-1993. Знаменита своим неповторимым стилем и легендарными ролями в кино. 👑",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Audrey_Hepburn_1956om_%28cropped%29.jpg"
-  },
-  {
-    "id": 31,
-    "scheduled_at": "2026-06-24T19:00:00+00:00",
-    "text": "🔥 Синди Кроуфорд - модель и актриса с невероятным следом в 80-х годах в истории моды.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cindy_Crawford_in_London.jpg"
-  },
-  {
-    "id": 32,
-    "scheduled_at": "2026-06-25T04:00:00+00:00",
-    "text": "🏞️🚨 Кто мог подумать, что город Сталинград, ныне Волгоград, окажется ключом к победе в Второй мировой войне?\n\n\n\nВеликая Сталинградская битва, одна из крупнейших генеральных сражений Второй мировой и Великой Отечественной войн, закончилась победой Красной армии над вермахтом и его союзниками. Битва происходила с 17 июля 1942 года по 2 февраля 1943 года на территории современных Воронежской, Ростовской, Волгоградской областей и Республики Калмыкия. Наступление войск нацистской Германии и её союзни",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%C2%AB%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%C2%BB.jpg/960px-%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%C2%AB%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%C2%BB.jpg"
-  },
-  {
-    "id": 33,
-    "scheduled_at": "2026-06-25T08:00:00+00:00",
-    "text": "❄ Итальянский холодильник Monitor-Top 1927 года в кухне современной семьи. ❄️💺",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/General_Electric_%22Monitor-Top%22_refrigerator_at_Chaim_Weizmann_mansion.jpg"
-  },
-  {
     "id": 17,
     "scheduled_at": "2026-06-25T10:00:00+00:00",
     "text": "Парад Победы. Лондон, 19 июля 1919 года.",
@@ -84,120 +30,6 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3060.jpg"
   },
   {
-    "id": 36,
-    "scheduled_at": "2026-06-26T08:00:00+00:00",
-    "text": "🏰👑 Таинственно пропали сыновья английского короля Эдуарда IV - Эдуард V и Ричард Йоркский.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_Princes_in_the_Tower_by_John_Everett_Millais_%281878%29.png/960px-The_Princes_in_the_Tower_by_John_Everett_Millais_%281878%29.png"
-  },
-  {
-    "id": 37,
-    "scheduled_at": "2026-06-26T10:00:00+00:00",
-    "text": "🏹 Фридрих Ницше служил в армии!\nОн был военным санитаром в прусской армии.",
-    "image_url": null
-  },
-  {
-    "id": 38,
-    "scheduled_at": "2026-06-26T13:00:00+00:00",
-    "text": "🔥 Жизель Бюндхен - бразильская супермодель, актриса, 6 лет была самой высокооплачиваемой моделью в мире.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ver%C3%A3o_Arezzo_Brasil_2019_por_Gisele_B%C3%BCndchen_16.jpg"
-  },
-  {
-    "id": 39,
-    "scheduled_at": "2026-06-26T15:00:00+00:00",
-    "text": "🚀💦\n\nУильям Уилберг - крестоносец, который убил самого себя\n\nКресто́вые похо́ды — серия религиозных военных походов XI—XV столетий из государств Западной Европы, инициированных и направлявшихся Латинской церковью против мусульман, язычников и еретиков. Первый крестовый поход был начат папой Урбаном II на Клермонском соборе в 1095 году. Он поддерживал византийского императора Алексея I в его борьбе против турок-сельджуков и призывал к вооруженному паломничеству в Иерусалим, что нашло восторженный ",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Schlacht_von_Montgisard_2.jpg/960px-Schlacht_von_Montgisard_2.jpg"
-  },
-  {
-    "id": 40,
-    "scheduled_at": "2026-06-26T19:00:00+00:00",
-    "text": "🗡 В Тауэре казнили короля. Карл I был казнён в 1649 году 🗡️💔",
-    "image_url": null
-  },
-  {
-    "id": 41,
-    "scheduled_at": "2026-06-27T04:00:00+00:00",
-    "text": "🔥 Линда Евангелиста, знаменитая канадская супермодель, блистала в 1990-х годах и стала легендой подиума. Она была одной из самых востребованных моделей своего времени.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/LindaEvangelista.jpg"
-  },
-  {
-    "id": 42,
-    "scheduled_at": "2026-06-27T08:00:00+00:00",
-    "text": "🎥🌊 В Карибском море снова поднимается Джек Воробей. Режиссёрами серии фильмов «Пираты Карибского моря» выступили Гор Вербински, Роб Маршалл, Эспен Сандберг и Йоахим Рённинг. Сценарий писали Терри Россио и Тед Эллиот, а спродюсировали фильмы Джерри Брукхаймер. Главные герои франшизы — пиратский капитан Джек Воробей, кузнец Уилл Тёрнер и дочь губернатора Элизабет Суонн. В фильмах новую интерпретацию приобретает легенда о корабле-призраке Летучем голландце.",
-    "image_url": null
-  },
-  {
-    "id": 43,
-    "scheduled_at": "2026-06-27T10:00:00+00:00",
-    "text": "🔥 Кейт Мосс, знаменитая британская супермодель и актриса, одна из самых высокооплачиваемых моделей 1990-х и 2000-х годов. Она была названа журналом Time одной из самых влиятельных людей в мире в 2007 году.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kate_Moss_-_Decort%C3%A9_advertisement_%28cropped2%29.jpg"
-  },
-  {
-    "id": 44,
-    "scheduled_at": "2026-06-27T13:00:00+00:00",
-    "text": "🔥 Пенелопа Крус - успешная модель и актриса, первой из испанок добившейся широкого успеха не только на родине, но и в Голливуде.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Goyas_2024_-_Pen%C3%A9lope_Cruz-2_%28cropped%29.jpg/960px-Goyas_2024_-_Pen%C3%A9lope_Cruz-2_%28cropped%29.jpg"
-  },
-  {
-    "id": 45,
-    "scheduled_at": "2026-06-27T15:00:00+00:00",
-    "text": "🏹 Строгое соблюдение морали: Сталин лично наказал генерала за браконьерство на охоте!\n\nНиколай Власик, бывший адъютант Сталина, в личных воспоминаниях упоминал о том, что Сталин лично наказал генерала за браконьерство на охоте, а это не только показывает его приверженность соблюдению законов и правил, но и подчеркивает его неутерпимость к подобному поведению среди высших военачальников",
-    "image_url": null
-  },
-  {
-    "id": 46,
-    "scheduled_at": "2026-06-27T19:00:00+00:00",
-    "text": "✨🎬 Анук Любимая (1932—2024), известная француженка, прославившаяся на светской сцене и пленившая сердца зрителей своими талантливыми ролями на экране.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Anouk_Aim%C3%A9e_Harcourt_1952.jpg"
-  },
-  {
-    "id": 47,
-    "scheduled_at": "2026-06-28T04:00:00+00:00",
-    "text": "💃 Ракель Уэлч. Актриса и секс-символ знаменитых 1970-х годов.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Raquel_Welch%2C_1967_photo.jpg/960px-Raquel_Welch%2C_1967_photo.jpg"
-  },
-  {
-    "id": 48,
-    "scheduled_at": "2026-06-28T08:00:00+00:00",
-    "text": "👠 Урсула Андресс - одна из секс-символов, снявшаяся в американских, британских и итальянских фильмах. \n\nВсей своей красотой она завоевала сердца миллионов зрителей в 50-60-е годы.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Ursula_Andress_Galer%C3%ADa_Elmyr.jpg"
-  },
-  {
-    "id": 49,
-    "scheduled_at": "2026-06-28T10:00:00+00:00",
-    "text": "🔥 Меган Фокс - актриса, известная своей ролью Микаэлы Бейнс в фильмах «Трансформеры».",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Megan_Fox_-_Jennifer%27s_Body.jpg/960px-Megan_Fox_-_Jennifer%27s_Body.jpg"
-  },
-  {
-    "id": 50,
-    "scheduled_at": "2026-06-28T13:00:00+00:00",
-    "text": "☃️ Джин Харлоу — «Платиновая блондинка» киноэкрана 1930-х годов.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Harlow-publicity.jpg"
-  },
-  {
-    "id": 51,
-    "scheduled_at": "2026-06-28T15:00:00+00:00",
-    "text": "✨🌟 Софи Лорен - гранд-дамы кино, 1960-1980 годы. Итальянская красавица с потрясающим талантом и неимоверной страстью к роли👩‍🎤.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sophia_Loren_1962.jpg"
-  },
-  {
-    "id": 52,
-    "scheduled_at": "2026-06-28T19:00:00+00:00",
-    "text": "🔥 ⭐️ Миранда Керр - легенда модного мира, знаменитая модель и одна из бывших ангелов Victoria’s Secret, она создала свою органическую косметическую линию KORA Organics. 💄",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Miranda_Kerr_-_Abbot_Kinney_2025.jpg/960px-Miranda_Kerr_-_Abbot_Kinney_2025.jpg"
-  },
-  {
-    "id": 53,
-    "scheduled_at": "2026-06-29T04:00:00+00:00",
-    "text": "🔥👑 Эта женщина правилала Египтом, но ее муж был ее главным министром.\n\nКлеопатра, последний фараон Египта, была известна своей красотой и интеллектом. Она правилала Египтом вместе со своим мужем Птолемеем XIV, но в конце концов стала его главным министром. Фактически, она правилала Египтом до своей смерти в 30 году до н.э.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Sarah_Bernhardt_as_Cleopatra_1891.jpeg"
-  },
-  {
-    "id": 54,
-    "scheduled_at": "2026-06-29T08:00:00+00:00",
-    "text": "🚢💔 Армия сдалась, но только потому, что перепутали время.\n\nБитва при Акциуме, произошедшая между римской армией под командованием Октавиана Августа и войсками его противника Марка Антония, закончилась в 31 году до н.э. После долгой осады флот Антония, перепутав сигналы, начал отступление в неподходящий момент, что стоило ему победы.",
-    "image_url": null
-  },
-  {
     "id": 5,
     "scheduled_at": "2026-06-29T10:00:00+00:00",
     "text": "🎬 Mэpилин Moнpo, 1956 гoд.",
@@ -222,42 +54,6 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3064.jpg"
   },
   {
-    "id": 55,
-    "scheduled_at": "2026-06-30T04:00:00+00:00",
-    "text": "💃 Армия сдалась — но только потому что перепутала время. Во время Войны за независимость США британская армия сдалась американцам из-за ошибки в расчете времени. Британские генералы были убеждены, что на их сторону перейдут французские войска, но из-за разницы во времени они не знали, что французские войска уже капитулировали. Эта ошибка привела к поражению британской армии и окончательному исходу войны.",
-    "image_url": null
-  },
-  {
-    "id": 56,
-    "scheduled_at": "2026-06-30T08:00:00+00:00",
-    "text": "🌟 Кейт Аптон, американская модель, родившаяся 10 июня 1992 года в США",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Kate_Upton_at_G-Star_2014_%282%29.jpg"
-  },
-  {
-    "id": 57,
-    "scheduled_at": "2026-06-30T10:00:00+00:00",
-    "text": "🌹 Изабели Фонтана, известная бразильская супермодель, сотрудничавшая с Victoria's Secret.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Cannes_2018_39.jpg"
-  },
-  {
-    "id": 58,
-    "scheduled_at": "2026-06-30T13:00:00+00:00",
-    "text": "🔥 Вероника Лейк, блистательная американская актриса, оставила неизгладимый след в кинематографе 🌟. Она была обаятельной женщиной, чья красота и талант пленяли зрителей 💃",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Veronica_Lake_Paramount.jpg"
-  },
-  {
-    "id": 59,
-    "scheduled_at": "2026-06-30T15:00:00+00:00",
-    "text": "🏙 Первый небоскрёб Чикаго, Home Insurance Building, 1885 🌆\nФото здания, построенного в 1885 году",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Home_Insurance_Building.JPG"
-  },
-  {
-    "id": 60,
-    "scheduled_at": "2026-06-30T19:00:00+00:00",
-    "text": "⚔ Непобедимая Армада побеждена! ⚔️\nВ 1588 году флотилия испанской Армады, направленная против Англии, была разбита у побережья Шотландии. Флотилия, состоящая из 130 кораблей, была создана королем Испании Филиппом II для вторжения в Англию и свержения королевы Елизаветы I. Однако из-за неправильной тактики и непогоды испанский флот понес тяжелые потери, потеряв более половины кораблей и множество моряков. Это поражение ознаменовало начало упадка испанского доминирования на морях и возвышение Англ",
-    "image_url": null
-  },
-  {
     "id": 2,
     "scheduled_at": "2026-07-01T04:00:00+00:00",
     "text": "🏖 Американские девушки на техасском пляже, 1980-е.",
@@ -274,12 +70,6 @@
     "scheduled_at": "2026-07-01T10:00:00+00:00",
     "text": "У дaнтиcтa. Бостон, 1920-e.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3088.jpg"
-  },
-  {
-    "id": 61,
-    "scheduled_at": "2026-07-01T13:00:00+00:00",
-    "text": "💥🔥 Последняя битва Наполеона закончилась полным провалом 18 июня 1815 года.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Battle_of_Waterloo_1815.PNG/960px-Battle_of_Waterloo_1815.PNG"
   },
   {
     "id": 63,
@@ -348,30 +138,6 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3119.jpg"
   },
   {
-    "id": 74,
-    "scheduled_at": "2026-07-03T13:00:00+00:00",
-    "text": "🏯💣 Этот древний город был разрушен из-за одной ошибки. Город Помпеи был погребен под пеплом вулкана, и его открытие стало сенсацией в научном мире. Ученые обнаружили много интересных артефактов, которые рассказали о жизни древних людей.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ancient_Roman_frescos_in_Casa_del_Criptoportico_%28Pompeii%29.jpg/960px-Ancient_Roman_frescos_in_Casa_del_Criptoportico_%28Pompeii%29.jpg"
-  },
-  {
-    "id": 75,
-    "scheduled_at": "2026-07-03T15:00:00+00:00",
-    "text": "🔪💔 Жестокое убийство короля спровоцировало войну. Король был убит в своем дворце, и это вызвало хаос в стране. Новый правитель должен был восстановить порядок и справедливость.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Hans_Holbein%2C_the_Younger%2C_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg/960px-Hans_Holbein%2C_the_Younger%2C_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg"
-  },
-  {
-    "id": 76,
-    "scheduled_at": "2026-07-03T19:00:00+00:00",
-    "text": "🚣‍♀️🌊 Этот человек переплыл океан в одиночку. Он был опытным мореплавателем и имел большое желание преодолеть расстояние. Его путешествие было полно приключений и опасностей.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/0139_Thor_Heyerdal_in_Kiel_V-P.jpg/960px-0139_Thor_Heyerdal_in_Kiel_V-P.jpg"
-  },
-  {
-    "id": 77,
-    "scheduled_at": "2026-07-04T04:00:00+00:00",
-    "text": "🏰👑 Строительство этого дворца заняло десятилетия. Дворец был построен для короля и его семьи, и он стал символом богатства и власти. Расходы на строительство были огромными, но результат был впечатляющим.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Chateau_Versailles_Galerie_des_Glaces.jpg/960px-Chateau_Versailles_Galerie_des_Glaces.jpg"
-  },
-  {
     "id": 78,
     "scheduled_at": "2026-07-04T08:00:00+00:00",
     "text": "Пepвый пpoтотип cвeтофора в Пopтлeнде, CШA, 1915 гoд.",
@@ -384,40 +150,10 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3121.jpg"
   },
   {
-    "id": 80,
-    "scheduled_at": "2026-07-04T13:00:00+00:00",
-    "text": "📝💭 Этот писатель создал одного из самых знаменитых героев в литературе. Его книга была бестселлером, и его персонаж стал иконой поп-культуры. Его творчество продолжает вдохновлять новых писателей и художников.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Conan_Doyle_%28LOC%29.jpg"
-  },
-  {
     "id": 81,
     "scheduled_at": "2026-07-04T15:00:00+00:00",
     "text": "⚔️ Дочки вcтpeчaют отца с войны, Aнглия, 1940 год.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3122.jpg"
-  },
-  {
-    "id": 82,
-    "scheduled_at": "2026-07-04T19:00:00+00:00",
-    "text": "🔥💀 Этот человек обманул смерть дважды за три дня. Он был объявлен мертвым, но оказался живым. Такие случаи редки, но удивительны.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Last_breath_of_a_young_man_who_is_buried_alive_by_Japanese_in_Nanjing.jpg"
-  },
-  {
-    "id": 83,
-    "scheduled_at": "2026-07-05T04:00:00+00:00",
-    "text": "🏛️👑 Этот император построил Великую стену Китая. Он был могущественным и амбициозным правителем, и его достижение было одним из величайших в истории. Стена стала символом Китая и одним из семи чудес мира.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Qin_Shi_Huang_Emperor_Exhibition_in_Thailand_by_Trisorn_Triboon_05.jpg/960px-Qin_Shi_Huang_Emperor_Exhibition_in_Thailand_by_Trisorn_Triboon_05.jpg"
-  },
-  {
-    "id": 84,
-    "scheduled_at": "2026-07-05T08:00:00+00:00",
-    "text": "🏰👑 Армия сдалась — но только потому что перепутали время. Солдаты подумали, что время истекло, и сдались без боя. Это было серьезной ошибкой.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/An_Ethiopian_soldier_surrendering_to_an_EPLF_fighter.webp/960px-An_Ethiopian_soldier_surrendering_to_an_EPLF_fighter.webp.png"
-  },
-  {
-    "id": 85,
-    "scheduled_at": "2026-07-05T10:00:00+00:00",
-    "text": "💣🔪 Никто не должен был узнать об этом письме — но узнал весь мир. Письмо было секретным, но оно было раскрыто и вызвало скандал.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Open_Letter_to_British_Soldiers.jpg/960px-Open_Letter_to_British_Soldiers.jpg"
   },
   {
     "id": 86,
@@ -426,28 +162,10 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3123.jpg"
   },
   {
-    "id": 87,
-    "scheduled_at": "2026-07-05T15:00:00+00:00",
-    "text": "🌟🎭 Этот актер был королем Голливуда. Он снялся в многочисленных фильмах и стал легендой кино. Его талант и обаяние завоевали сердца зрителей по всему миру.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Charlie_Chaplin_in_unknown_year.jpg/960px-Charlie_Chaplin_in_unknown_year.jpg"
-  },
-  {
-    "id": 88,
-    "scheduled_at": "2026-07-05T19:00:00+00:00",
-    "text": "🚣‍♂️🌟 В древнем Египте фараоны строили огромные пирамиды. Эти сооружения были невероятными по своим масштабам и архитектуре. Они до сих пор удивляют людей.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/960px-All_Gizah_Pyramids.jpg"
-  },
-  {
     "id": 89,
     "scheduled_at": "2026-07-06T04:00:00+00:00",
     "text": "Eвгений Mopгyнов co cвоим юным поклонником, 1963 гoд.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3124.jpg"
-  },
-  {
-    "id": 90,
-    "scheduled_at": "2026-07-06T08:00:00+00:00",
-    "text": "🏞️🌴 Этот остров был открытом случайно. Он был скрыт в океане, и его открытие стало сенсацией в научном мире. Остров стал популярным местом для туристов и ученых.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hodges_easter-island.jpg/960px-Hodges_easter-island.jpg"
   },
   {
     "id": 91,
@@ -456,22 +174,10 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3125.jpg"
   },
   {
-    "id": 92,
-    "scheduled_at": "2026-07-06T13:00:00+00:00",
-    "text": "🏛️👑 Этот император построил новую столицу своей империи. Он был могущественным и амбициозным правителем, и его достижение было одним из величайших в истории. Город стал символом империи и центром политики и культуры.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Periclimenes_imperator_%28Emperor_shrimp%29_on_Bohadschia_argus_%28Sea_cucumber%29.jpg/960px-Periclimenes_imperator_%28Emperor_shrimp%29_on_Bohadschia_argus_%28Sea_cucumber%29.jpg"
-  },
-  {
     "id": 93,
     "scheduled_at": "2026-07-06T15:00:00+00:00",
     "text": "Tим Бёртон и Джонни Дeпп нa cъёмочной площaдкe \"Эдвapд Pyки-ножницы\"(1990).",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3127.jpg"
-  },
-  {
-    "id": 94,
-    "scheduled_at": "2026-07-06T19:00:00+00:00",
-    "text": "📊💰 Этот экономист создал теорию свободного рынка. Он был блестящим мыслителем и аналитиком, и его идеи продолжают влиять на современную экономику. Его имя стало синонимом экономического либерализма.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Giles_Alexander_Smith_by_the_Webster_Brothers.jpg/960px-Giles_Alexander_Smith_by_the_Webster_Brothers.jpg"
   },
   {
     "id": 95,
@@ -480,22 +186,10 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3128.jpg"
   },
   {
-    "id": 96,
-    "scheduled_at": "2026-07-07T08:00:00+00:00",
-    "text": "🚣‍♂️🌊 Этот мореплаватель открыл новый континент. Он был опытным навигатором и исследователем, и его открытие изменило ход истории. Его имя стало синонимом смелости и находчивости.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Columbus_Taking_Possession.jpg/960px-Columbus_Taking_Possession.jpg"
-  },
-  {
     "id": 97,
     "scheduled_at": "2026-07-07T10:00:00+00:00",
     "text": "Aгaта Kpиcти у себя дома, 1950-e.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3129.jpg"
-  },
-  {
-    "id": 98,
-    "scheduled_at": "2026-07-07T13:00:00+00:00",
-    "text": "🕵️‍♂️🔪 Этот детектив решил загадочное убийство. Он был блестящим сыщиком и аналитиком, и его достижение было признано всеми. Его методы были инновационными и эффективными.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/2011-07-26_Belgique_-_Ellezelles_-_Hercule_Poirot_002.jpg/960px-2011-07-26_Belgique_-_Ellezelles_-_Hercule_Poirot_002.jpg"
   },
   {
     "id": 99,
@@ -516,87 +210,9 @@
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3133.jpg"
   },
   {
-    "id": 102,
-    "scheduled_at": "2026-07-08T08:00:00+00:00",
-    "text": "👸💃 Эта женщина была королевой — но только на один день. В 16 веке английская королева родила дочь, но та была объявлена незаконной. Это изменило ход истории королевства.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg/960px-PAUL_DELAROCHE_-_Ejecuci%C3%B3n_de_Lady_Jane_Grey_%28National_Gallery_de_Londres%2C_1834%29.jpg"
-  },
-  {
     "id": 103,
     "scheduled_at": "2026-07-08T10:00:00+00:00",
     "text": "Жeнcкий apмeйский кopпуc во вpeмя учений, США, 1942 год.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3134.jpg"
-  },
-  {
-    "id": 104,
-    "scheduled_at": "2026-07-08T13:00:00+00:00",
-    "text": "🚣‍♂️🌊 Этот корабль был построен для войны — но стал символом мира. В 19 веке был построен корабль, который должен был стать мощным оружием, но вместо этого он стал символом дружбы между странами.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/USS_Constitution_fires_a_17-gun_salute.jpg/960px-USS_Constitution_fires_a_17-gun_salute.jpg"
-  },
-  {
-    "id": 105,
-    "scheduled_at": "2026-07-08T15:00:00+00:00",
-    "text": "🏛️💼 Этот человек был президентом — но только на один день. В 1849 году американский президент умер, и его место занял другой человек, но он был в должности только один день.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/William_Henry_Harrison_by_James_Reid_Lambdin%2C_1835.jpg/960px-William_Henry_Harrison_by_James_Reid_Lambdin%2C_1835.jpg"
-  },
-  {
-    "id": 106,
-    "scheduled_at": "2026-07-08T19:00:00+00:00",
-    "text": "🏹💣 Этот человек создал революцию. Он был молодым художником, но его идеи взорвали весь мир. Его картины стали символом восстания.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg/960px-Farmhouse_in_Provence%2C_1888%2C_Vincent_van_Gogh%2C_NGA.jpg"
-  },
-  {
-    "id": 107,
-    "scheduled_at": "2026-07-09T04:00:00+00:00",
-    "text": "🚀👽 Никто не должен был узнать об этом письме — но узнал весь мир. Оно было написано в космосе и содержало секреты вселенной. История этого письма до сих пор покрыта тайной.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Yuri_Gagarin_%281961%29_-_Restoration.jpg/960px-Yuri_Gagarin_%281961%29_-_Restoration.jpg"
-  },
-  {
-    "id": 108,
-    "scheduled_at": "2026-07-09T08:00:00+00:00",
-    "text": "🚣‍♂️ Провиденциальная судьба корабля. В 1912 году на корабле \"Титаник\" находились 885 членов экипажа и 3301 пассажир. Однако, несмотря на то, что более чем половина из них была членами экипажа, на борту находилось всего лишь 5 морских офицеров.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%B0%D0%BC_%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0.jpg/960px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%B0%D0%BC_%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0.jpg"
-  },
-  {
-    "id": 109,
-    "scheduled_at": "2026-07-09T10:00:00+00:00",
-    "text": "🏹️‍♂️ Кровавый поединок на бискувете\nНемецкий король Альбрехт IV, чтобы доказать свою храбрость, принял вызов местного дворянина и согласился сразиться с ним на кости свиньи. Бою не пришлось долго длиться, и уже через несколько минут Альбрехт IV пал от ран. \nИстория эта известна еще и тем, что король не знал о мошенничестве соперника, который подменил кость на деревянную.\nЭпоха: Рыцарство и средневековье.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Knight-in-Shining-Armour.jpg/960px-Knight-in-Shining-Armour.jpg"
-  },
-  {
-    "id": 110,
-    "scheduled_at": "2026-07-09T13:00:00+00:00",
-    "text": "👑 Смертельная рок-звезда\nАмериканский музыкант Курт Кобейн, известный как лидер группы Nirvana, был найден мертвым в своей спальне на 27 год. Это было 1994 год. По официальной версии, он застрелился из пистолета Browning 20-го калибра.\nНесмотря на официальное расследование, остается много сомнений в официальной версии. Это еще одна мрачная страница в истории музыки.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Kurt_Cobain_1986_mugshot.png"
-  },
-  {
-    "id": 111,
-    "scheduled_at": "2026-07-09T15:00:00+00:00",
-    "text": "⚔️ Война с огромным крокодилом\nВ 1975 году в Аргентине на экраны вышел фильм \"Огромный ректил\" о человекоподобном крокодиле, который истребляет жителей небольшого аргентинского городка. Но есть и реальная история о человеке, который сражался с огромным крокодилом во флигеле.\nЭто случилось во время Второй мировой войны, когда в британском филиппинском городе Маниле нашлось огромное число крокодилов, в том числе и 7-метровый.",
-    "image_url": null
-  },
-  {
-    "id": 112,
-    "scheduled_at": "2026-07-09T19:00:00+00:00",
-    "text": "🏰 Пожар в Букингемском дворце\nВ 1815 году в Букингемском дворце произошел пожар, который повредил многие части внутреннего дворца. В результате пожара погибло несколько человек и уничтожено множество ценных предметов. Вскоре после пожара было решено перестроить дворец в более современном стиле.\nОднако до этого еще предстояло пережить ряд других катастроф, в том числе и сардинский огонь в 1850 году.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg/960px-Buckingham_Palace%2C_London_-_April_2009.jpg"
-  },
-  {
-    "id": 113,
-    "scheduled_at": "2026-07-10T04:00:00+00:00",
-    "text": "🏰 Дворец, построенный на могиле\nВ 1937 году в Китае был построен дворец в честь китайского императора. Однако в то время был еще один повествование о строительстве дворца, и это связано с тем, что он был построен над могилой одного человека.\nВскоре после того, как был построен дворец, китайские революционеры разрушили его, так как они не были рады императорской власти.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sunset_of_the_Forbidden_City_2006.JPG/960px-Sunset_of_the_Forbidden_City_2006.JPG"
-  },
-  {
-    "id": 114,
-    "scheduled_at": "2026-07-10T08:00:00+00:00",
-    "text": "👑 Мужская одежда и женская красота\nВ 19 веке в Великобритании была распространена обычная практика носить мужскую одежда. Например, женщинам разрешалось носить мужские штаны.\nНо есть и другая история, в которой женщина смогла получить признание за свою красоту, несмотря на то, что в то время женщинам было запрещено ходить в публичных местах.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Fragment_from_Women%27s_Trousers_MET_19755A.jpg"
-  },
-  {
-    "id": 115,
-    "scheduled_at": "2026-07-10T10:00:00+00:00",
-    "text": "🏰 \"Палестинская проблема\" в древности\nВ 13 веке до нашей эры в Древнем Египте существовало несколько проблем, связанных с властью и властью в отношениях с Палестиной. Например, один из египетских фараонов правил Палестины и был унижен и убит.\nВскоре после этого фарао пришел к власти в Египте и вложил все свое время в постройку величественного храма в память убитого фараона.",
-    "image_url": null
   }
 ]

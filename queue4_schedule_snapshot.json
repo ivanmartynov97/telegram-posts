@@ -24,6 +24,12 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/800px-Voyager_spacecraft_model.png"
   },
   {
+    "id": 150,
+    "scheduled_at": "2026-06-24T15:00:00+00:00",
+    "text": "😴 Во сне мозг активнее, чем во время просмотра телевизора. Во время быстрого сна он буквально «промывается» — спинномозговая жидкость очищает его от токсинов, накопившихся за день.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg/800px-Domenico_Fetti_-_Sleeping_Girl_-_WGA7863.jpg"
+  },
+  {
     "id": 144,
     "scheduled_at": "2026-06-24T19:00:00+00:00",
     "text": "🌳 Секвойи — самые большие живые организмы на Земле. Дерево Генерал Шерман весит 1385 тонн и живёт более 2700 лет. Оно всё ещё растёт — примерно 60 кубических футов древесины в год.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
@@ -34,6 +40,12 @@
     "scheduled_at": "2026-06-25T04:00:00+00:00",
     "text": "❄️ В Антарктиде есть озёра жидкой воды под 4 км льда — они не замерзают из-за геотермального тепла. В них обнаружены бактерии, изолированные от остального мира миллионы лет.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lake_Vostok_Sat_Photo_color.jpg"
+  },
+  {
+    "id": 151,
+    "scheduled_at": "2026-06-25T08:00:00+00:00",
+    "text": "🍄 Самый большой живой организм — не кит и не слон, а грибница опёнка в Орегоне. Она занимает 9 км² и весит около 600 тонн. Возраст — 8650 лет.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Armillaria_ostoyae.jpg/800px-Armillaria_ostoyae.jpg"
   },
   {
     "id": 137,
@@ -52,6 +64,12 @@
     "scheduled_at": "2026-06-25T15:00:00+00:00",
     "text": "🏺 Клеопатра жила ближе к изобретению iPhone, чем к строительству пирамид. Пирамиды построены 4500 лет назад, Клеопатра родилась 2100 лет назад, iPhone появился 17 лет назад.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/800px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+  },
+  {
+    "id": 152,
+    "scheduled_at": "2026-06-25T19:00:00+00:00",
+    "text": "🦎 Варан с острова Комодо может размножаться без самца — самки откладывают оплодотворённые яйца партеногенезом. Все детёныши при этом оказываются самцами.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/800px-202306_Varanus_komodoensis.jpg"
   },
   {
     "id": 146,
@@ -82,5 +100,11 @@
     "scheduled_at": "2026-06-26T15:00:00+00:00",
     "text": "🪐 На Сатурне идут дожди из алмазов. Молнии превращают метан в сажу, которая под давлением слипается в графит, а затем в алмазные кристаллы.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/800px-Saturn_during_Equinox.jpg"
+  },
+  {
+    "id": 153,
+    "scheduled_at": "2026-06-26T19:00:00+00:00",
+    "text": "🌪️ Самый длинный молниеотвод в мире — горная цепь Анды. Здесь каждую ночь бушует «вечная» гроза Кататумбо над озером Маракайбо: до 280 молний в час, 160 ночей в году.\n\nКря! 🦆 Понравилось? Ставь лайк! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Catatumbo_Lightning_%28141677107%29.jpeg/800px-Catatumbo_Lightning_%28141677107%29.jpeg"
   }
 ]

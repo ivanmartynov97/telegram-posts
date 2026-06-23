@@ -82,5 +82,41 @@
     "scheduled_at": "2026-06-26T04:00:00+00:00",
     "text": "🏋️‍♂️ Высшая физическая активность может повысить иммунитет и помочь при заболевании СЧ — она вызывает увеличение выработки интерферона, который помогает бороться с вирусами.",
     "image_url": null
+  },
+  {
+    "id": 99,
+    "scheduled_at": "2026-06-26T08:00:00+00:00",
+    "text": "🚀 Ракеты летят в космос со скоростью 28 000 км/ч — 23 Маха. При этом большую часть топлива они сжигают в первые несколько минут, просто чтобы подняться выше плотной атмосферы.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/First_NASA_ISINGLASS_rocket_launch.jpg?width=800"
+  },
+  {
+    "id": 100,
+    "scheduled_at": "2026-06-26T10:00:00+00:00",
+    "text": "🧲 Магниты теряют намагниченность при нагреве до точки Кюри. Для железа это 770°C. После остывания намагниченность не возвращается — нужно намагничивать заново.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Neodymag.jpg?width=800"
+  },
+  {
+    "id": 101,
+    "scheduled_at": "2026-06-26T13:00:00+00:00",
+    "text": "🐬 Дельфины дают друг другу имена — уникальные свисты, которые используют всю жизнь. Другие дельфины обращаются к ним именно по этому свисту.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/800px-Tursiops_truncatus_01.jpg"
+  },
+  {
+    "id": 102,
+    "scheduled_at": "2026-06-26T15:00:00+00:00",
+    "text": "📱 Смартфон в вашем кармане мощнее компьютеров NASA, которые отправили людей на Луну в 1969 году, в миллион раз. Программа Apollo использовала 4 КБ оперативной памяти.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret_Hamilton_-_restoration.jpg?width=800"
+  },
+  {
+    "id": 103,
+    "scheduled_at": "2026-06-26T19:00:00+00:00",
+    "text": "🐝 Пчёлы могут узнавать человеческие лица. Их мозг размером с кунжутное семечко обрабатывает черты лица так же, как и наш — путём распознавания отдельных частей.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Lone_Pollinator.jpg/800px-The_Lone_Pollinator.jpg"
+  },
+  {
+    "id": 104,
+    "scheduled_at": "2026-06-27T04:00:00+00:00",
+    "text": "🔥 Самое горячее место во вселенной создали люди — в Большом адронном коллайдере температура при столкновении частиц достигает 5,5 трлн градусов. Это в 350 000 раз горячее центра Солнца.",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/CERN_Large_Hadron_Collider.jpg?width=800"
   }
 ]

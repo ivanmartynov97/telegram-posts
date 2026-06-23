@@ -1,0 +1,24 @@
+{
+  "message_id": 225,
+  "text": "📜 Жан-Жак Дессалин, один из лидеров Гаитянской революции рабов, 1804 год \nПортрет одного из ключевых деятелей борьбы за независимость Гаити от Франции.",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Haitian_Revolution_-_Black_slaves_killing_white_slavers.jpg",
+  "scheduled_at": "2026-07-05T22:00:00+03:00",
+  "hour": 22,
+  "channel": "@history_plus_facts",
+  "total_reactions": 0,
+  "views_15min": null,
+  "ai_generated": true,
+  "ai_tag": null,
+  "ai_topic": null,
+  "created_at": "2026-06-20T01:05:38.789010+03:00",
+  "views_history": [
+    {
+      "ts": "2026-06-20T22:51:47.661885+03:00",
+      "views": 2
+    }
+  ],
+  "views_current": 2,
+  "views_updated_at": "2026-06-23T16:20:29.619744+03:00",
+  "hours_since_pub": 87.2,
+  "spike_score": 2
+}

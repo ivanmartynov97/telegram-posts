@@ -1,0 +1,22 @@
+{
+  "message_id": 250,
+  "text": "Паровоз Ракета Стефенсона, разработанный Джорджем Стефенсоном, захватывающий момент на железнодорожной трассе в начале 19 века \nПостроен в 1829 году.",
+  "scheduled_at": "2026-06-23T07:03:02+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 149,
+  "views_history": [
+    {
+      "ts": "2026-06-23T11:34:15.769598+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": null,
+  "hours_since_pub": 9.3,
+  "views_updated_at": "2026-06-23T16:20:29.619744+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

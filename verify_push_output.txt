@@ -1,0 +1,26 @@
+=== git push status ===
+[main ef8702e] AI-tab fixes: book-cover image source removal, hot-model relaxed fallback
+ 4 files changed, 25 insertions(+)
+ create mode 100644 push_now_v2_output.txt
+ create mode 100755 verify_push.command
+ create mode 100644 verify_push_output.txt
+ rename add_images.py => "\320\261\320\270\320\273.py" (100%)
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/ivanmartynov97/telegram-posts.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ivanmartynov97/telegram-posts.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PUSH_EXIT_CODE=1
+=== local HEAD ===
+ef8702e AI-tab fixes: book-cover image source removal, hot-model relaxed fallback
+=== live GitHub raw content check ===
+downloaded bytes:   407376
+fromTelegram count (should be 0): 0
+tgBadge count (should be 0): 0
+findHotModelImageRelaxed count (should be 3): 3
+fetchArchiveOrgImage(imgQuery) count (should be 0): 0

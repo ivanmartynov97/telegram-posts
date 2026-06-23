@@ -1,0 +1,16 @@
+=== Git: пуш фиксов (OpenRouter модели + retry картинок) ===
+[main fb18b89] Fix: update OpenRouter free models (DeepSeek removed); Pollinations retry on 429
+ 3 files changed, 21 insertions(+), 6 deletions(-)
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   7aa7583..fb8a500  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   fb8a500..fcaec8f  main -> main
+PUSH_EXIT=0
+
+=== Тест новых OpenRouter моделей ===
+  ❌ meta-llama/llama-3.3-70b-instruct:free: HTTP 429 b'{"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct:free is te'
+  ❌ deepseek/deepseek-r1-0528:free: HTTP 404 b'{"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: deep'
+  ❌ google/gemma-3-27b-it:free: HTTP 404 b'{"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: goog'
+/Users/ivanmartynov/Claude/Projects/telegram/fix_round9.command: line 37: import: command not found

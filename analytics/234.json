@@ -1,0 +1,24 @@
+{
+  "message_id": 234,
+  "text": "📜 Сара Бернар (1844-1923) - самая знаменитая актриса за всю историю \nИзвестна своими выступлениями на сценах Европы",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg/960px-Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg",
+  "scheduled_at": "2026-07-06T18:00:00+03:00",
+  "hour": 18,
+  "channel": "@history_plus_facts",
+  "total_reactions": 0,
+  "views_15min": null,
+  "ai_generated": true,
+  "ai_tag": null,
+  "ai_topic": null,
+  "created_at": "2026-06-20T01:06:02.908708+03:00",
+  "views_history": [
+    {
+      "ts": "2026-06-20T22:51:47.661885+03:00",
+      "views": 2
+    }
+  ],
+  "views_current": 2,
+  "views_updated_at": "2026-06-23T16:20:29.619744+03:00",
+  "hours_since_pub": 87.2,
+  "spike_score": 2
+}

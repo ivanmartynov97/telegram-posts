@@ -1,0 +1,43 @@
+[main b2a9c38] Add cleanup script for leaked historical posts in facts channels
+ 1 file changed, 45 insertions(+)
+ create mode 100755 cleanup_queue3.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   bae0647..b2a9c38  main -> main
+PUSH_EXIT=0
+
+=== queue3 ===
+Найдено исторических постов для удаления: 12
+  ✅ удалён slot-2026-06-25T13.json
+  ✅ удалён slot-2026-06-25T16.json
+  ✅ удалён slot-2026-06-25T18.json
+  ✅ удалён slot-2026-06-25T22.json
+  ✅ удалён slot-2026-06-26T07.json
+  ✅ удалён slot-2026-06-26T11.json
+  ✅ удалён slot-2026-06-26T13.json
+  ✅ удалён slot-2026-06-26T16.json
+  ✅ удалён slot-2026-06-26T18.json
+  ✅ удалён slot-2026-06-26T22.json
+  ✅ удалён slot-2026-06-27T22.json
+  ✅ удалён slot-2026-06-28T11.json
+=== queue4 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/cleanup_queue3.py", line 37, in <module>
+    items = gh_list(QDIR)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/cleanup_queue3.py", line 23, in gh_list
+    with urllib.request.urlopen(req, timeout=15, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found

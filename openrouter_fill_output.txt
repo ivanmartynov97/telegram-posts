@@ -1,0 +1,57 @@
+=== Текущее состояние очередей ===
+queue2: всего=24 AI-постов=24
+queue4: всего=0 AI-постов=0
+
+=== Git: коммит и пуш фикса (OpenRouter fallback) ===
+[main 7dd5d83] Add OpenRouter fallback for AI generation when Groq quota is exhausted
+ 3 files changed, 194 insertions(+), 18 deletions(-)
+ create mode 100755 check_counts.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   b2a9c38..5fed4cb  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   5fed4cb..f8643c6  main -> main
+PUSH_EXIT=0
+
+=== Допополняю queue2 (Рыцарь) до 21 AI-постов ===
+=== Генерируем 4 AI-постов для queue2 ===
+Готово текстов с картинками: 4 из 4 запрошенных
+  ✅ queue2/20260622_210936_727123.json: '🔥💀 Этот человек обманул смерть дважды за три дня. '
+  ✅ queue2/20260622_210938_900184.json: '🏰👑 Армия сдалась — но только потому что перепутали'
+  ✅ queue2/20260622_210940_447609.json: '💣🔪 Никто не должен был узнать об этом письме — но '
+  ✅ queue2/20260622_210942_940930.json: '🚣\u200d♂️🌟 В древнем Египте фараоны строили огромные пи'
+
+✅ Сохранено 4 AI-постов в queue2/ (чередуются с грабли по времени слотов)
+
+=== Заполняю queue4 (Умная утка) — 14 AI-постов, тема facts ===
+=== Генерируем 14 AI-постов для queue4 ===
+  ⚠️ Groq: лимит модели llama-3.3-70b-versatile исчерпан, пробую другую модель…
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 342, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 290, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 269, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 106, in groq_chat
+    return _http_chat(url, GROQ_KEY, gmodel, messages, max_tokens)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 92, in _http_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+=== Финальное состояние очередей ===
+queue2: всего=28 AI-постов=28
+queue4: всего=0 AI-постов=0

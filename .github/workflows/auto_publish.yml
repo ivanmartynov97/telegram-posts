@@ -1,0 +1,44 @@
+name: Auto Publish Queue
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # каждые 30 минут
+  workflow_dispatch: {}        # можно запускать вручную из вкладки Actions на GitHub
+
+permissions:
+  contents: write
+
+# Защита от повторения инцидента с флудом: если предыдущий запуск ещё не закончился,
+# новый запуск ЖДЁТ его завершения (не отменяет и не запускается параллельно).
+concurrency:
+  group: auto-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install telethon
+
+      - name: Restore Telethon session
+        run: echo "${{ secrets.TG_SESSION_B64 }}" | base64 -d > tg_user_session.session
+
+      - name: Write config.json
+        run: |
+          cat > config.json << 'EOF'
+          {
+            "channel_id": "@history_plus_facts",
+            "github_token": "${{ secrets.GITHUB_TOKEN }}",
+            "github_repo": "${{ github.repository }}"
+          }
+          EOF
+
+      - name: Run auto_publish.py
+        run: python3 auto_publish.py

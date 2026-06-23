@@ -1,0 +1,25 @@
+=== Git: пуш скрипта фикса live-категорий ===
+[main 9caeb55] Add script to fix already-scheduled posts that start with category label
+ 1 file changed, 47 insertions(+)
+ create mode 100755 fix_live_category_prefix.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   1ed268a..6671b76  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   6671b76..d6ff237  main -> main
+PUSH_EXIT=0
+
+=== Чиню уже отложенные в Telegram посты с этикеткой категории в начале ===
+
+=== @fact_po_secretu ===
+  Исправлено постов с этикеткой категории: 0
+
+=== @umnaya_utka ===
+  ❌ id=18: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  ❌ id=17: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  ❌ id=16: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  ❌ id=15: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  ❌ id=14: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  ❌ id=13: не смог отредактировать (The specified message ID is invalid or you can't do that operation on such message (caused by EditMessageRequest))
+  Исправлено постов с этикеткой категории: 0

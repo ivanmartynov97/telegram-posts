@@ -1,0 +1,176 @@
+[main b21942c] Fix: расширить OpenRouter fallback модели + ускорить 429 retry
+ 1 file changed, 12 insertions(+), 7 deletions(-)
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   00eedca..4a402de  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   4a402de..c01a472  main -> main
+=== PUSH_EXIT=0 ===
+
+=== Генерируем Рыцарь (queue2, history, 14 постов) ===
+=== Генерируем 14 AI-постов для queue2 ===
+  ⚠️ Groq: модель llama-3.3-70b-versatile недоступна (HTTP Error 401: Unauthorized), пробую OpenRouter…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.3-70b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.3-70b-instruct:free недоступна (HTTP Error 429: Too Many Requests), пробую другую…
+  ↪ Пробую OpenRouter (google/gemma-3-27b-it:free)…
+  ⚠️ OpenRouter: модель google/gemma-3-27b-it:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (deepseek/deepseek-v3-base:free)…
+  ⚠️ OpenRouter: модель deepseek/deepseek-v3-base:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (qwen/qwen3-8b:free)…
+  ⚠️ OpenRouter: модель qwen/qwen3-8b:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.1-8b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.1-8b-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (microsoft/phi-3-mini-128k-instruct:free)…
+  ⚠️ OpenRouter: модель microsoft/phi-3-mini-128k-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Крайний случай: пробую слабую модель Groq (llama-3.1-8b-instant)…
+  ⚠️ Groq: модель llama-3.1-8b-instant недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+  ↪ Крайний случай: пробую слабую модель Groq (gemma2-9b-it)…
+  ⚠️ Groq: модель gemma2-9b-it недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 417, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 350, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 316, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 169, in groq_chat
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 165, in groq_chat
+    return _try_model(url, GROQ_KEY, gmodel, messages, max_tokens, retries)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 133, in _try_model
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 124, in _try_model
+    return _http_chat(url, api_key, gmodel, messages, max_tokens, extra_headers)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 114, in _http_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+=== Генерируем Факт по секрету (queue3, facts, 14 постов) ===
+=== Генерируем 14 AI-постов для queue3 ===
+  ⚠️ Groq: модель llama-3.3-70b-versatile недоступна (HTTP Error 401: Unauthorized), пробую OpenRouter…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.3-70b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.3-70b-instruct:free недоступна (HTTP Error 429: Too Many Requests), пробую другую…
+  ↪ Пробую OpenRouter (google/gemma-3-27b-it:free)…
+  ⚠️ OpenRouter: модель google/gemma-3-27b-it:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (deepseek/deepseek-v3-base:free)…
+  ⚠️ OpenRouter: модель deepseek/deepseek-v3-base:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (qwen/qwen3-8b:free)…
+  ⚠️ OpenRouter: модель qwen/qwen3-8b:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.1-8b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.1-8b-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (microsoft/phi-3-mini-128k-instruct:free)…
+  ⚠️ OpenRouter: модель microsoft/phi-3-mini-128k-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Крайний случай: пробую слабую модель Groq (llama-3.1-8b-instant)…
+  ⚠️ Groq: модель llama-3.1-8b-instant недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+  ↪ Крайний случай: пробую слабую модель Groq (gemma2-9b-it)…
+  ⚠️ Groq: модель gemma2-9b-it недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 417, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 350, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 316, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 169, in groq_chat
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 165, in groq_chat
+    return _try_model(url, GROQ_KEY, gmodel, messages, max_tokens, retries)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 133, in _try_model
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 124, in _try_model
+    return _http_chat(url, api_key, gmodel, messages, max_tokens, extra_headers)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 114, in _http_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+=== Генерируем Умная утка (queue4, facts, 14 постов) ===
+=== Генерируем 14 AI-постов для queue4 ===
+  ⚠️ Groq: модель llama-3.3-70b-versatile недоступна (HTTP Error 401: Unauthorized), пробую OpenRouter…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.3-70b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.3-70b-instruct:free недоступна (HTTP Error 429: Too Many Requests), пробую другую…
+  ↪ Пробую OpenRouter (google/gemma-3-27b-it:free)…
+  ⚠️ OpenRouter: модель google/gemma-3-27b-it:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (deepseek/deepseek-v3-base:free)…
+  ⚠️ OpenRouter: модель deepseek/deepseek-v3-base:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (qwen/qwen3-8b:free)…
+  ⚠️ OpenRouter: модель qwen/qwen3-8b:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (meta-llama/llama-3.1-8b-instruct:free)…
+  ⚠️ OpenRouter: модель meta-llama/llama-3.1-8b-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Пробую OpenRouter (microsoft/phi-3-mini-128k-instruct:free)…
+  ⚠️ OpenRouter: модель microsoft/phi-3-mini-128k-instruct:free недоступна (HTTP Error 404: Not Found), пробую другую…
+  ↪ Крайний случай: пробую слабую модель Groq (llama-3.1-8b-instant)…
+  ⚠️ Groq: модель llama-3.1-8b-instant недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+  ↪ Крайний случай: пробую слабую модель Groq (gemma2-9b-it)…
+  ⚠️ Groq: модель gemma2-9b-it недоступна (HTTP Error 401: Unauthorized), пробую другую модель…
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 417, in <module>
+    main()
+    ~~~~^^
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 350, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 316, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 169, in groq_chat
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 165, in groq_chat
+    return _try_model(url, GROQ_KEY, gmodel, messages, max_tokens, retries)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 133, in _try_model
+    raise last_err
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 124, in _try_model
+    return _http_chat(url, api_key, gmodel, messages, max_tokens, extra_headers)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 114, in _http_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+=== ВСЁ ГОТОВО ===

@@ -1,0 +1,24 @@
+{
+  "message_id": 198,
+  "text": "📜 Юлий Цезарь, пересекающий Рубикон\n1 год до н.э.",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Julius_Caesar_by_A_Yakovlev_1911.jpg",
+  "scheduled_at": "2026-07-03T16:00:00+03:00",
+  "hour": 16,
+  "channel": "@history_plus_facts",
+  "total_reactions": 0,
+  "views_15min": null,
+  "ai_generated": true,
+  "ai_tag": null,
+  "ai_topic": null,
+  "created_at": "2026-06-20T01:04:14.758245+03:00",
+  "views_history": [
+    {
+      "ts": "2026-06-20T22:51:47.661885+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_updated_at": "2026-06-22T17:25:41.360076+03:00",
+  "hours_since_pub": 64.4,
+  "spike_score": 1
+}

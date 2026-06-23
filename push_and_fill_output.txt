@@ -1,0 +1,121 @@
+=== 1. Пуш кода (book-cover фикс, Идеи фикс, 2 новых канала) ===
+The following paths are ignored by one of your .gitignore files:
+config.json
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+[main e70f6cd] Fix book-cover image leak, merge strict+relaxed Идеи search, add channels 3-4 (facts theme)
+ 2 files changed, 344 insertions(+), 44 deletions(-)
+ create mode 100755 ai_fill.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   c639f9d..1913437  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   1913437..c6c725f  main -> main
+PUSH_EXIT=0
+c6c725f Fix book-cover image leak, merge strict+relaxed Идеи search, add channels 3-4 (facts theme)
+
+=== 2. Проверка что index.html реально live на GitHub ===
+Локальный размер: 417308 / Live размер: 417308
+✅ СОВПАДАЕТ — фикс реально live
+
+=== 3. AI-половина для queue (История+), 14 постов (history) ===
+=== Генерируем 14 AI-постов для queue ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 274, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 225, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 204, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 68, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+=== 4. AI-половина для queue2 (Рыцарь), 21 постов (history) ===
+=== Генерируем 21 AI-постов для queue2 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 274, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 225, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 204, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 68, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+=== 5. Стартовое заполнение queue3 (Факт по секрету), 14 постов (facts) ===
+=== Генерируем 14 AI-постов для queue3 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 274, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 225, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 204, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 68, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+=== 6. Стартовое заполнение queue4 (Умная утка), 14 постов (facts) ===
+=== Генерируем 14 AI-постов для queue4 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 274, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 225, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 204, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 68, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden

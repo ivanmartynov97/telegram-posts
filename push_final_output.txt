@@ -1,0 +1,14 @@
+[main 7614dc2] Fix emoji-thumbnail regex (Extended_Pictographic instead of single-codepoint Emoji)
+ 5 files changed, 76 insertions(+), 2 deletions(-)
+ create mode 100755 push_final.command
+ create mode 100644 push_now_v5_output.txt
+ create mode 100755 refill_channel2.command
+ create mode 100644 refill_channel2_output.txt
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   7670e7b..20485c5  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   20485c5..955c63b  main -> main
+PUSH_EXIT=0
+955c63b Fix emoji-thumbnail regex (Extended_Pictographic instead of single-codepoint Emoji)

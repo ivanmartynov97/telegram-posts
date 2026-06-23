@@ -1,0 +1,19 @@
+=== Пополняем donor-пул foreign/ (грабли) — 5 проходов ===
+--- проход 1 ---
+❌ Не авторизован. Запусти qr_login.command
+--- проход 2 ---
+❌ Не авторизован. Запусти qr_login.command
+--- проход 3 ---
+❌ Не авторизован. Запусти qr_login.command
+--- проход 4 ---
+❌ Не авторизован. Запусти qr_login.command
+--- проход 5 ---
+❌ Не авторизован. Запусти qr_login.command
+=== Заполняем queue2 (Рыцарь) до 21 поста из foreign/ ===
+Найдено 4 постов в foreign/, берём 4 → queue2/ на GitHub
+  ✅ queue2/20260622_202838_894307.json ← foreign/istorian_3088.json (seq=53)
+  ✅ queue2/20260622_202842_090029.json ← foreign/istorian_3089.json (seq=54)
+  ✅ queue2/20260622_202845_642320.json ← foreign/istorian_3091.json (seq=55)
+  ✅ queue2/20260622_202849_026537.json ← foreign/istorian_3092.json (seq=56)
+
+✅ Готово: 4 постов из Граблей сохранено в queue2/ на GitHub

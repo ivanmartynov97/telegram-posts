@@ -1,0 +1,13 @@
+[main 2a995a3] AI-tab fixes: count-mismatch buffer fix, book-cover removal, hot-model fallback
+ 2 files changed, 35 insertions(+)
+ create mode 100755 push_now_v5.command
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   7d52080..eaabe30  main       -> origin/main
+Rebasing (1/5)Rebasing (2/5)Rebasing (3/5)Rebasing (4/5)Rebasing (5/5)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   eaabe30..7670e7b  main -> main
+PUSH_EXIT=0
+7670e7b AI-tab fixes: count-mismatch buffer fix, book-cover removal, hot-model fallback
+bytes:   407376
+textPostsAdded marker (should be >=1): 0

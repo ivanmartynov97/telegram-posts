@@ -1,0 +1,2 @@
+DONE_PUSH_V2
+7d52080 AI-tab: relevance-checked broad image fallback + clearer empty-result message

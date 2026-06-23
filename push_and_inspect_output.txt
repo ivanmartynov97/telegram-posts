@@ -1,0 +1,88 @@
+=== 0. Пуш: фикс авто-пополнения (история больше не льётся в факт-каналы) + клик-байт ===
+[main cee91c7] Fix autoWeeklyTopUp leaking history content into facts channels; add fact-slot generator + inspection script
+ 3 files changed, 202 insertions(+), 16 deletions(-)
+ create mode 100644 inspect_facts_channels.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   d2777b4..5207623  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   5207623..d5c19be  main -> main
+PUSH_EXIT=0
+
+=== 1. Диагностика: что реально в queue3/queue4 и в LIVE Telegram расписании ===
+=== GitHub queue3 (Факт по секрету) ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/inspect_facts_channels.py", line 101, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/inspect_facts_channels.py", line 64, in main
+    obj, sha = gh_get(it["path"])
+  File "/Users/ivanmartynov/Claude/Projects/telegram/inspect_facts_channels.py", line 38, in gh_get
+    with urllib.request.urlopen(req, timeout=15, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+=== 2. Дозаполняем queue2 (Рыцарь) — 4 поста ===
+=== Генерируем 4 AI-постов для queue2 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 294, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 242, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 221, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 72, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+
+=== 3. queue4 (Умная утка), 14 постов (facts, retry) ===
+=== Генерируем 14 AI-постов для queue4 ===
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 294, in <module>
+    main()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 242, in main
+    batch = gen_text(need)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 221, in gen_text
+    raw = groq_chat([{"role": "user", "content": prompt}], max_tokens=2200 + n * 70)
+  File "/Users/ivanmartynov/Claude/Projects/telegram/ai_fill.py", line 72, in groq_chat
+    with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests

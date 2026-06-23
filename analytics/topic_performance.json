@@ -1,0 +1,74 @@
+{
+  "Болоньей": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 248,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T18:15:43.378157+03:00"
+  },
+  "Цаппольно": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 248,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T18:15:43.378235+03:00"
+  },
+  "Модена": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 248,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T18:15:43.378253+03:00"
+  },
+  "Первая": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 249,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T22:18:26.178626+03:00"
+  },
+  "Китаем": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 249,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T22:18:26.178654+03:00"
+  },
+  "Британией": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 249,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-22T22:18:26.178664+03:00"
+  },
+  "Группа": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 253,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T16:15:44.789680+03:00"
+  },
+  "Гаем": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 253,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T16:15:44.789731+03:00"
+  },
+  "Кассием": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 253,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-23T16:15:44.789748+03:00"
+  }
+}

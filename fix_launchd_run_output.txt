@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/auto_publish.py", line 492, in <module>
+    asyncio.run(main(dry_run=dry))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/auto_publish.py", line 470, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked

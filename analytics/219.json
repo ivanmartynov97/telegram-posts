@@ -1,0 +1,24 @@
+{
+  "message_id": 219,
+  "text": "📜 Луиза Брукс 1906-1985, американская актриса немого кино, знаменитая своим иконическим образом флэппера.",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/LB_P703-178.jpg/960px-LB_P703-178.jpg",
+  "scheduled_at": "2026-07-05T13:00:00+03:00",
+  "hour": 13,
+  "channel": "@history_plus_facts",
+  "total_reactions": 0,
+  "views_15min": null,
+  "ai_generated": true,
+  "ai_tag": null,
+  "ai_topic": null,
+  "created_at": "2026-06-20T01:05:23.542900+03:00",
+  "views_history": [
+    {
+      "ts": "2026-06-20T22:51:47.661885+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_updated_at": "2026-06-23T16:20:29.619744+03:00",
+  "hours_since_pub": 87.3,
+  "spike_score": 1
+}

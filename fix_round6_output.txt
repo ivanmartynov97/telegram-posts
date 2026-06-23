@@ -1,0 +1,86 @@
+=== Повтор фикса live-категорий (сессия была заблокирована конкурентным процессом) ===
+--- попытка 1 ---
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 62, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 25, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+--- попытка 2 ---
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 62, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 25, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+--- попытка 3 ---
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 62, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 25, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+--- попытка 4 ---
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 62, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 25, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+--- попытка 5 ---
+Traceback (most recent call last):
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 62, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/ivanmartynov/Claude/Projects/telegram/fix_live_category_prefix.py", line 25, in main
+    await client.connect()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/client/telegrambaseclient.py", line 571, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 191, in auth_key
+    self._update_session_table()
+  File "/Users/ivanmartynov/Library/Python/3.9/lib/python/site-packages/telethon/sessions/sqlite.py", line 210, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked

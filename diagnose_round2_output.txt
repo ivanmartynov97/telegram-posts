@@ -1,0 +1,33 @@
+=== Git: пуш диагностического скрипта ===
+[main e63aeca] Add diagnostics for image-load reliability + OpenRouter status
+ 1 file changed, 89 insertions(+)
+ create mode 100755 diagnose_round2.py
+From https://github.com/ivanmartynov97/telegram-posts
+ * branch            main       -> FETCH_HEAD
+   02fe786..3080adb  main       -> origin/main
+Rebasing (1/1)[KSuccessfully rebased and updated refs/heads/main.
+To https://github.com/ivanmartynov97/telegram-posts.git
+   3080adb..7aa7583  main -> main
+PUSH_EXIT=0
+
+=== 1) Проверка OpenRouter (работает ли DeepSeek сейчас?) ===
+  ❌ deepseek/deepseek-chat-v3-0324:free: HTTP 404 b'{"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: deepseek/deepseek-chat-v3-0324","code":404},"user_id":"user_3FVQNNLg9ptU1aWZ0cAZq0f4'
+  ❌ deepseek/deepseek-r1:free: HTTP 404 b'{"error":{"message":"This model is unavailable for free. The paid version is available now - use this slug instead: deepseek/deepseek-r1","code":404},"user_id":"user_3FVQNNLg9ptU1aWZ0cAZq0f4wyN"}'
+
+=== 2) Проверка реальной загрузки картинок Pollinations из очереди ===
+
+--- queue3 ---
+  20260622_233859_901669.json: ✅ загрузилась за 1.4с, 96238 байт, type=image/jpeg
+      текст: 🤯 Вы можете забыть до 10% своих воспоминаний — исследования показывают, что у взрослых есть заметная память к собственным событиям, но часть воспоминаний не до конца запечатлена в мозгу.
+  20260622_233903_361268.json: ❌ НЕ ЗАГРУЗИЛАСЬ за 1.2с (HTTP Error 429: Too Many Requests) url=https://image.pollinations.ai/prompt/Sleeping%20person%2C%20vivid%2C%20eye-catching%2C%20h
+      текст: 😴 Сон на боку увеличивает риск заболеть — лежа на боку, голова оказывается в наклоненном положении, что приводит к сужению дыхательных пути и повышенному риску бронхита и астмы.
+
+--- queue4 ---
+  20260622_234009_587788.json: ✅ загрузилась за 11.9с, 134514 байт, type=image/jpeg
+      текст: 🔴 Более 20% убийств в США совершаются во время секса - это связано с насилием и убийствами, связанными с сексом.
+  20260622_234013_383330.json: ✅ загрузилась за 1.6с, 102668 байт, type=image/jpeg
+      текст: 🏥 Выпадение зубов может привести к снижению иммунитета - исследования показывают, что выпадение зубов может привести к снижению защитных функций иммунной системы.
+  20260622_234017_852407.json: ❌ НЕ ЗАГРУЗИЛАСЬ за 25.9с (The read operation timed out) url=https://image.pollinations.ai/prompt/%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%2C%20vivid%2C%20
+      текст: 🌈 Вулкан Туба - это высшая точка на острове Индонезия, достигающая высоты 2 946 метров над уровнем моря.
+
+=== Готово ===

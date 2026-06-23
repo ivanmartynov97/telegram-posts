@@ -172,5 +172,17 @@
     "scheduled_at": "2026-06-28T19:00:00+00:00",
     "text": "🐘 Слоны — единственные животные, которые устраивают похороны. Они возвращаются к костям умерших родственников годами и ощупывают их хоботом, словно прощаясь заново.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg/800px-African_Elephant_%28Loxodonta_africana%29_male_%2817289351322%29.jpg"
+  },
+  {
+    "id": 114,
+    "scheduled_at": "2026-06-29T10:00:00+00:00",
+    "text": "💀 Скелет человека полностью обновляется каждые 10 лет. Вы буквально живёте в другом теле, чем десять лет назад. Кости выглядят мёртвыми, но постоянно перестраиваются.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Human-Skeleton.jpg/800px-Human-Skeleton.jpg"
+  },
+  {
+    "id": 115,
+    "scheduled_at": "2026-06-29T13:00:00+00:00",
+    "text": "🌺 Цветок раффлезии — самый большой в мире, до 1 метра в диаметре, и пахнет разлагающимся мясом. У него нет стеблей, листьев и корней — он полностью живёт внутри другого растения.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rafflesia_arnoldii_Bengkulu_01.jpg/800px-Rafflesia_arnoldii_Bengkulu_01.jpg"
   }
 ]

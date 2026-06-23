@@ -148,5 +148,29 @@
     "scheduled_at": "2026-06-27T19:00:00+00:00",
     "text": "💄 Красная помада может содержать свинец, повышая риск отравления.",
     "image_url": "https://image.pollinations.ai/prompt/lipstick%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=823011&nologo=true"
+  },
+  {
+    "id": 107,
+    "scheduled_at": "2026-06-28T04:00:00+00:00",
+    "text": "👀 Сон после 45 лет может быть причиной ранней деменции - исследования показывают, что старение мозга начинается уже в возрасте 45 лет, и это может привести к деменции и Alzheimer Disease.",
+    "image_url": "https://image.pollinations.ai/prompt/Cognitive%20decline%20after%2045%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=72703&nologo=true"
+  },
+  {
+    "id": 108,
+    "scheduled_at": "2026-06-28T08:00:00+00:00",
+    "text": "🚭 Питьевая вода может содержать вредные микроорганизмы, которые могут вызвать серьезные заболевания. Всемирная здравоохранительная организация рекомендует всегда проверять качество питьевого источника.",
+    "image_url": "https://image.pollinations.ai/prompt/Drinking%20water%20quality%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=215864&nologo=true"
+  },
+  {
+    "id": 109,
+    "scheduled_at": "2026-06-28T10:00:00+00:00",
+    "text": "👥 Тревожный синдром: люди, которые переживают сильную депрессию, живут в среднем на 15 лет меньше, чем те, кто благополучен.",
+    "image_url": "https://image.pollinations.ai/prompt/Mental%20health%20depression%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=83759&nologo=true"
+  },
+  {
+    "id": 110,
+    "scheduled_at": "2026-06-28T13:00:00+00:00",
+    "text": "🏋 \"🌪️ Человеческое тело может потерпеть голод в течение 3-6 недель, при этом сохранять способность к движению и мыслиманию, но при отсутствии воды выживание становится невозможным уже на 3-5 днях.\"",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20endurance%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=117382&nologo=true"
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "message_id": 256,
+  "text": "Бapрикады на Литeйном, yгол Cepгиевской. Петроград, 23 февраля 1917 годa.",
+  "scheduled_at": "2026-06-24T07:04:52+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 73,
+  "views_history": [
+    {
+      "ts": "2026-06-24T13:28:49.397361+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 6.4,
+  "views_updated_at": "2026-06-24T13:28:49.397361+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

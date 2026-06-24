@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 212,
+    "scheduled_at": "2026-06-24T19:00:00+00:00",
+    "text": "🤔 👁️ Глаз различает около 10 миллионов оттенков цвета. Но слепое пятно есть у каждого — там, где зрительный нерв входит в сетчатку. Мозг просто дорисовывает картинку.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg"
+  },
+  {
+    "id": 213,
+    "scheduled_at": "2026-06-25T04:00:00+00:00",
+    "text": "🤔 🦑 Кальмар-гигант имеет глаза диаметром 30 см — это самые большие глаза среди всех живых существ на планете. Они нужны, чтобы видеть биолюминесценцию кашалотов в кромешной тьме.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_squid_Ranheim.jpg/960px-Giant_squid_Ranheim.jpg"
+  },
+  {
+    "id": 214,
+    "scheduled_at": "2026-06-25T08:00:00+00:00",
+    "text": "😳 🐝 Пчёлы могут узнавать человеческие лица. Их мозг размером с кунжутное семечко обрабатывает черты лица так же, как и наш — путём распознавания отдельных частей.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Lone_Pollinator.jpg/960px-The_Lone_Pollinator.jpg"
+  },
+  {
+    "id": 215,
+    "scheduled_at": "2026-06-25T10:00:00+00:00",
+    "text": "🧠 Мозг человека потребляет 20% всей энергии тела, хотя весит всего 2%. Нейронная сеть мозга сложнее всего интернета — в нём около 86 миллиардов нейронов и 100 триллионов связей.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Chimp_Brain_in_a_jar.jpg/960px-Chimp_Brain_in_a_jar.jpg"
+  },
+  {
+    "id": 216,
+    "scheduled_at": "2026-06-25T13:00:00+00:00",
+    "text": "🤔 🔭 Свет от самых далёких галактик шёл до нас 13 миллиардов лет. Мы видим их такими, какими они были вскоре после Большого взрыва — самих этих галактик давно может не существовать.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/HubbleDeepField.800px.jpg/960px-HubbleDeepField.800px.jpg"
+  },
+  {
+    "id": 217,
+    "scheduled_at": "2026-06-25T15:00:00+00:00",
+    "text": "🤓 🕷️ Пауки-птицееды защищаются, стреляя волосками с брюшка. Каждый волосок покрыт крючками — попав в глаза жертвы, они вызывают необратимое повреждение роговицы.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg"
+  }
+]

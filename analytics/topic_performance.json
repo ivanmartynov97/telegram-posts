@@ -94,5 +94,29 @@
     "best_post_id": 255,
     "avg_rate": 200.0,
     "last_updated": "2026-06-23T22:14:41.251726+03:00"
+  },
+  "Цезарь": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 259,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-24T16:22:30.792317+03:00"
+  },
+  "Рубикон": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 259,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-24T16:22:30.792342+03:00"
+  },
+  "Река": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 259,
+    "avg_rate": 200.0,
+    "last_updated": "2026-06-24T16:22:30.792350+03:00"
   }
 }

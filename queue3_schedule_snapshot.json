@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": 197,
+    "scheduled_at": "2026-06-24T13:00:00+00:00",
+    "text": "🌙 Луна удаляется от Земли на 3,8 см каждый год. Миллиард лет назад она была вдвое ближе — приливы тогда были катастрофическими, а сутки длились всего 18 часов.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/960px-FullMoon2010.jpg"
+  },
+  {
+    "id": 198,
+    "scheduled_at": "2026-06-24T15:00:00+00:00",
+    "text": "💀 Ваш организм ежедневно производит тысячи раковых клеток — и уничтожает их иммунной системой. Рак возникает лишь когда одной клетке удаётся «сбежать» от контроля.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tumor_Mesothelioma2_legend.jpg"
+  },
+  {
+    "id": 199,
+    "scheduled_at": "2026-06-24T19:00:00+00:00",
+    "text": "🦟 Комары — самые смертоносные животные в истории. По оценкам учёных, они убили более половины всех людей, когда-либо живших на Земле — около 52 миллиарда. До сих пор убивают 725 000 человек в год.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Aedes_aegypti.jpg/960px-Aedes_aegypti.jpg"
+  },
+  {
+    "id": 200,
+    "scheduled_at": "2026-06-25T04:00:00+00:00",
+    "text": "🗿 Стоунхендж старше пирамид примерно на 500 лет. Кто его построил и зачем — до сих пор точно неизвестно. Самые тяжёлые камни весят 25 тонн и привезены за 250 км.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/960px-Stonehenge2007_07_30.jpg"
+  },
+  {
+    "id": 201,
+    "scheduled_at": "2026-06-25T08:00:00+00:00",
+    "text": "☢️ В Чернобыльском реакторе обнаружены грибы, которые питаются радиацией — используют её как энергию вместо солнечного света. Чем выше радиация, тем быстрее они растут.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg/960px-Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg"
+  },
+  {
+    "id": 202,
+    "scheduled_at": "2026-06-25T10:00:00+00:00",
+    "text": "👀 Глаза двигаются около 200 000 раз в сутки. Мозг «выключает» зрение во время этих движений, иначе мы бы видели размытую картинку постоянно. Вы никогда не видите движение своих глаз в зеркале.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Szakkad.jpg"
+  },
+  {
+    "id": 203,
+    "scheduled_at": "2026-06-25T13:00:00+00:00",
+    "text": "📱 Смартфон в вашем кармане мощнее компьютеров NASA, которые отправили людей на Луну в 1969 году, в миллион раз. Программа Apollo использовала 4 КБ оперативной памяти.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Agc_view.jpg/960px-Agc_view.jpg"
+  },
+  {
+    "id": 204,
+    "scheduled_at": "2026-06-25T15:00:00+00:00",
+    "text": "🐘 Слоны — единственные животные, которые устраивают похороны. Они возвращаются к костям умерших родственников годами и ощупывают их хоботом, словно прощаясь заново.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/960px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  {
+    "id": 205,
+    "scheduled_at": "2026-06-25T19:00:00+00:00",
+    "text": "🧠 Лоботомия — операция по разрезанию лобных долей мозга — считалась передовым лечением психических расстройств до 1970-х. Её делали через глазницу, без наркоза. Было проведено более 40 000 операций в США.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Lobotomy_1949.jpg"
+  },
+  {
+    "id": 206,
+    "scheduled_at": "2026-06-26T04:00:00+00:00",
+    "text": "🍄 Самый большой живой организм — не кит и не слон, а грибница опёнка в Орегоне. Она занимает 9 км² и весит около 600 тонн. Возраст — 8650 лет.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Armillaria_ostoyae.jpg"
+  },
+  {
+    "id": 207,
+    "scheduled_at": "2026-06-26T08:00:00+00:00",
+    "text": "🦠 Тарградиграды (водяные медведи) — единственные существа, выжившие во всех 5 массовых вымираниях. Они переносят -272°C, +150°C, 10 дней в открытом космосе и дозу радиации в 570 000 рентген.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/960px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png"
+  },
+  {
+    "id": 208,
+    "scheduled_at": "2026-06-26T10:00:00+00:00",
+    "text": "🌋 Самая большая из когда-либо зафиксированных волн цунами — 524 метра. Она произошла в заливе Литуйя на Аляске в 1958 году из-за оползня. Несколько рыбаков пережили её прямо на лодках.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2004-tsunami.jpg/960px-2004-tsunami.jpg"
+  },
+  {
+    "id": 209,
+    "scheduled_at": "2026-06-26T13:00:00+00:00",
+    "text": "🦠 90% серотонина — «гормона счастья» — вырабатывается не мозгом, а кишечником. Когда исследователи уничтожали кишечные бактерии у мышей, те впадали в клиническую депрессию.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/960px-E._coli_Bacteria_%287316101966%29.jpg"
+  },
+  {
+    "id": 210,
+    "scheduled_at": "2026-06-26T15:00:00+00:00",
+    "text": "👁️ Глаз различает около 10 миллионов оттенков цвета. Но слепое пятно есть у каждого — там, где зрительный нерв входит в сетчатку. Мозг просто дорисовывает картинку.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg"
+  },
+  {
+    "id": 211,
+    "scheduled_at": "2026-06-26T19:00:00+00:00",
+    "text": "🌪️ Самый длинный молниеотвод в мире — горная цепь Анды. Здесь каждую ночь бушует «вечная» гроза Кататумбо над озером Маракайбо: до 280 молний в час, 160 ночей в году.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Catatumbo_Lightning_%28141677107%29.jpeg/960px-Catatumbo_Lightning_%28141677107%29.jpeg"
+  }
+]

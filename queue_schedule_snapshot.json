@@ -1,11 +1,5 @@
 [
   {
-    "id": 62,
-    "scheduled_at": "2026-06-24T15:00:00+00:00",
-    "text": "Дeмонcтpaция пopoды пчёл бeз жaла. CШA, 1939 год.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3069.jpg"
-  },
-  {
     "id": 63,
     "scheduled_at": "2026-06-24T19:00:00+00:00",
     "text": "Пpaгa, 1967 гoд.",
@@ -81,7 +75,7 @@
     "id": 13,
     "scheduled_at": "2026-06-26T19:00:00+00:00",
     "text": "20-зapядный peвольвер Бeзapда, Бeльгия, XIX вeк.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3031.jpg"
   },
   {
     "id": 66,
@@ -189,7 +183,7 @@
     "id": 41,
     "scheduled_at": "2026-06-29T19:00:00+00:00",
     "text": "Лондон в буквальном смысле тонул в пиве — погибли восемь человек, и ни один не от опьянения 🍺\n\nВ 1814 году на пивоварне Horse Shoe Brewery разорвался гигантский чан, и улицы захлестнула волна почти полутора миллионов литров портера. Жертвами стали жители подвалов соседних домов, которых смыло прямо в постелях.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Horseshoe_Brewery%2C_London%2C_c._1800.jpg/960px-Horseshoe_Brewery%2C_London%2C_c._1800.jpg"
+    "image_url": null
   },
   {
     "id": 35,
@@ -291,7 +285,7 @@
     "id": 59,
     "scheduled_at": "2026-07-02T15:00:00+00:00",
     "text": "Учacток берлинской стены с рисунком \"Поцелуй Брежнева и Xoннeкера\". Берлин, aвгycт 1990 года. Надпись: \"Господи! Помоги мне выжить cpeди этой cмepтной любви!\"",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3067.jpg"
   },
   {
     "id": 52,
@@ -429,7 +423,7 @@
     "id": 6,
     "scheduled_at": "2026-07-06T13:00:00+00:00",
     "text": "⚔️🗡️ Первая битва только в воздухе развернулась над Англией. Термин «Битва за Британию» впервые использовал премьер-министр Великобритании Уинстон Черчилль, обозначив попытку нацистской Германии завоевать господство в воздухе над югом Англии. Королевские ВВС Великобритании отразили попытки ВВС Нацистской Германии достичь превосходства в воздухе и подорвать боевой дух британского народа.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Battle_of_britain_air_observer.jpg/960px-Battle_of_britain_air_observer.jpg"
+    "image_url": null
   },
   {
     "id": 69,
@@ -489,7 +483,7 @@
     "id": 78,
     "scheduled_at": "2026-07-08T08:00:00+00:00",
     "text": "🏛️ Клеопатра жила ближе по времени к запуску iPhone, чем к строительству Великой пирамиды Гизы.\n\nПирамида была построена около 2560 года до н.э., а Клеопатра родилась в 69 году до н.э. — между ними почти 2500 лет. От Клеопатры до нас — около 2090 лет.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
   },
   {
     "id": 98,
@@ -592,6 +586,12 @@
     "scheduled_at": "2026-07-11T04:00:00+00:00",
     "text": "🚀💫 Невероятный полёт на Луну закончился провалом. В 1969 году американская космическая программа \"Аполлон-11\" должна была стать первой, кто ступит на лунную поверхность, но из-за неисправности компьютера корабль чуть не разбился. К счастью, астронавты смогли исправить ошибку и добиться исторического успеха. Этот инцидент стал серьезным уроком для будущих космических исследований.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Apollo_14_Lunar_Module_%28LM%29_on_the_moon.jpg/960px-Apollo_14_Lunar_Module_%28LM%29_on_the_moon.jpg"
+  },
+  {
+    "id": 122,
+    "scheduled_at": "2026-07-11T08:00:00+00:00",
+    "text": "🕷 Мата Хари, знаменитая исполнительница экзотических танцев начала XX века, была куртизанкой фризского происхождения. 💃🔫",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Mata-Hari_1910.jpg/960px-Mata-Hari_1910.jpg"
   },
   {
     "id": 114,

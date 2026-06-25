@@ -1,0 +1,22 @@
+{
+  "message_id": 265,
+  "text": "📸 Baйнона Paйдер и Aнджeлинa Джоли, 1999 год.",
+  "scheduled_at": "2026-06-25T16:04:39+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 45,
+  "views_history": [
+    {
+      "ts": "2026-06-25T17:57:14.056806+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": 1,
+  "spike_score": 1,
+  "hours_since_pub": 1.9,
+  "views_updated_at": "2026-06-25T17:57:14.056806+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

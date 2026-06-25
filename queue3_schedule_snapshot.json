@@ -1,11 +1,5 @@
 [
   {
-    "id": 212,
-    "scheduled_at": "2026-06-24T19:00:00+00:00",
-    "text": "🤔 👁️ Глаз различает около 10 миллионов оттенков цвета. Но слепое пятно есть у каждого — там, где зрительный нерв входит в сетчатку. Мозг просто дорисовывает картинку.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg"
-  },
-  {
     "id": 213,
     "scheduled_at": "2026-06-25T04:00:00+00:00",
     "text": "🤔 🦑 Кальмар-гигант имеет глаза диаметром 30 см — это самые большие глаза среди всех живых существ на планете. Они нужны, чтобы видеть биолюминесценцию кашалотов в кромешной тьме.\n\nСтавьте 🔥 — если не знали!",
@@ -34,5 +28,41 @@
     "scheduled_at": "2026-06-25T15:00:00+00:00",
     "text": "🤓 🕷️ Пауки-птицееды защищаются, стреляя волосками с брюшка. Каждый волосок покрыт крючками — попав в глаза жертвы, они вызывают необратимое повреждение роговицы.\n\nСтавьте 🔥 — если не знали!",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg"
+  },
+  {
+    "id": 218,
+    "scheduled_at": "2026-06-25T19:00:00+00:00",
+    "text": "🎯 🦠 90% серотонина — «гормона счастья» — вырабатывается не мозгом, а кишечником. Когда исследователи уничтожали кишечные бактерии у мышей, те впадали в клиническую депрессию.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/960px-E._coli_Bacteria_%287316101966%29.jpg"
+  },
+  {
+    "id": 219,
+    "scheduled_at": "2026-06-26T04:00:00+00:00",
+    "text": "🎯 🦜 Попугаи какапо настолько редки, что орнитологи знают каждую птицу поимённо. Этот нелетающий попугай весит до 4 кг и живёт до 90 лет.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sirocco_full_length_portrait.jpg/330px-Sirocco_full_length_portrait.jpg"
+  },
+  {
+    "id": 220,
+    "scheduled_at": "2026-06-26T08:00:00+00:00",
+    "text": "🤓 🦷 Зубы — единственная часть тела, которая не может восстановиться. Зато эмаль зуба прочнее костей: это самая твёрдая ткань в организме человека.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Labeledmolar.jpg/330px-Labeledmolar.jpg"
+  },
+  {
+    "id": 221,
+    "scheduled_at": "2026-06-26T10:00:00+00:00",
+    "text": "🌚 🐘 Слоны — единственные животные, которые устраивают похороны. Они возвращаются к костям умерших родственников годами и ощупывают их хоботом, словно прощаясь заново.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/960px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  {
+    "id": 222,
+    "scheduled_at": "2026-06-26T13:00:00+00:00",
+    "text": "🤔 🦈 Гренландская акула — самое долгоживущее позвоночное на Земле. В 2016 году была поймана особь возрастом 392 года — она родилась до основания США. Половой зрелости эти акулы достигают в 150 лет.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somniosus_microcephalus_okeanos.jpg/960px-Somniosus_microcephalus_okeanos.jpg"
+  },
+  {
+    "id": 223,
+    "scheduled_at": "2026-06-26T15:00:00+00:00",
+    "text": "🤔 🌑 Столовая ложка вещества нейтронной звезды весит около 1 миллиарда тонн. Эти звёзды вращаются до 700 раз в секунду — быстрее, чем блендер на максимальной скорости.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Moving_heart_of_the_Crab_Nebula.jpg/960px-Moving_heart_of_the_Crab_Nebula.jpg"
   }
 ]

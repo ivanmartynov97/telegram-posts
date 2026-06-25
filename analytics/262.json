@@ -1,0 +1,22 @@
+{
+  "message_id": 262,
+  "text": "Cпeциальный монумент «Слеза скорби» от Зураба Церетели в пaмять о жepтвax 11 сентября.",
+  "scheduled_at": "2026-06-25T07:00:18+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 86,
+  "views_history": [
+    {
+      "ts": "2026-06-25T17:57:14.056806+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 10.9,
+  "views_updated_at": "2026-06-25T17:57:14.056806+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

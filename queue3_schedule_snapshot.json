@@ -39,7 +39,7 @@
     "id": 224,
     "scheduled_at": "2026-06-26T19:00:00+00:00",
     "text": "🎯 🧬 ДНК одного человека, вытянутая в линию, достигает 2 метров. Во всех 37 триллионах клеток вашего тела — вместе это расстояние от Земли до Плутона и обратно 17 раз.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/CCF10292011_00000.jpg/960px-CCF10292011_00000.jpg"
+    "image_url": null
   },
   {
     "id": 225,
@@ -88,5 +88,35 @@
     "scheduled_at": "2026-06-28T08:00:00+00:00",
     "text": "🤓 🌙 Луна удаляется от Земли на 3,8 см каждый год. Миллиард лет назад она была вдвое ближе — приливы тогда были катастрофическими, а сутки длились всего 18 часов.\n\nСтавьте 🔥 — если не знали!",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Moon_Crescent_-_False_Color_Mosaic.jpg/330px-Moon_Crescent_-_False_Color_Mosaic.jpg"
+  },
+  {
+    "id": 233,
+    "scheduled_at": "2026-06-28T10:00:00+00:00",
+    "text": "🧠 🗿 Стоунхендж старше пирамид примерно на 500 лет. Кто его построил и зачем — до сих пор точно неизвестно. Самые тяжёлые камни весят 25 тонн и привезены за 250 км.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/330px-Stonehenge2007_07_30.jpg"
+  },
+  {
+    "id": 234,
+    "scheduled_at": "2026-06-28T13:00:00+00:00",
+    "text": "🤯 🏺 Клеопатра жила ближе к изобретению iPhone, чем к строительству пирамид. Пирамиды построены 4500 лет назад, Клеопатра родилась 2100 лет назад, iPhone появился 17 лет назад.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+  },
+  {
+    "id": 235,
+    "scheduled_at": "2026-06-28T15:00:00+00:00",
+    "text": "🤓 🐜 Муравей-пуля вызывает самую мучительную боль среди всех насекомых — как выстрел из пистолета. Боль держится 24 часа. В ритуале посвящения у индейцев санума юноши носят перчатку с 40 живыми муравьями.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paraponera_clavata.jpg/330px-Paraponera_clavata.jpg"
+  },
+  {
+    "id": 236,
+    "scheduled_at": "2026-06-28T19:00:00+00:00",
+    "text": "🎯 🐙 Синекольчатый осьминог размером с теннисный мяч содержит яд, которого хватит убить 26 взрослых людей за 10 минут. Укус почти безболезнен. Противоядия не существует.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hapalochlaena_lunulata2.JPG/960px-Hapalochlaena_lunulata2.JPG"
+  },
+  {
+    "id": 237,
+    "scheduled_at": "2026-06-29T04:00:00+00:00",
+    "text": "💀 Ваш организм ежедневно производит тысячи раковых клеток — и уничтожает их иммунной системой. Рак возникает лишь когда одной клетке удаётся «сбежать» от контроля.\n\nСтавьте 🔥 — если не знали!",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tumor_Mesothelioma2_legend.jpg"
   }
 ]

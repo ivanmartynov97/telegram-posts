@@ -1,17 +1,5 @@
 [
   {
-    "id": 105,
-    "scheduled_at": "2026-06-26T13:00:00+00:00",
-    "text": "📜 Рита Хейворт 1918-1987, одна из самых ярких звёзд Голливуда, знаменитая своей красотой и танцевальными талантами.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hayworth-Gilda-1946-Color.jpg"
-  },
-  {
-    "id": 19,
-    "scheduled_at": "2026-06-26T15:00:00+00:00",
-    "text": "☢️ Ядерный проект изменил мир \nВзрыв ядерной бомбы стал одним из самых значительных событий в истории человечества. Проект Манхэттен, начавшийся 13 августа 1942 года, был секретной программой США по разработке ядерного оружия. Возглавляли проект Роберт Оппенгеймер и генерал Лесли Гровс.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Trinity_shot_color.jpg/960px-Trinity_shot_color.jpg"
-  },
-  {
     "id": 13,
     "scheduled_at": "2026-06-26T19:00:00+00:00",
     "text": "20-зapядный peвольвер Бeзapда, Бeльгия, XIX вeк.",
@@ -580,5 +568,23 @@
     "scheduled_at": "2026-07-12T13:00:00+00:00",
     "text": "🚂🔥 Паровоз \"Ракета\" Ричарда Стефенсона из экспериментальной паровозной станции на станции Дарлингтон, 1829 год.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Stephenson%27s_Rocket_drawing.jpg"
+  },
+  {
+    "id": 130,
+    "scheduled_at": "2026-07-12T15:00:00+00:00",
+    "text": "🔪️💀\n\nКогда королева Екатерина Медичи распорядилась убить людей, она, возможно, не знала, что создаст событие, которое будет носить название \"krvavá svadba\" - \"кровавая свадьба\". \n\nВ ночь на 24 августа 1572 года, в канун дня Святого Варфоломея, католики устроили массовое убийство гугенотов во Франции. По разным оценкам, в Париже в этот день погибло около трёх тысяч человек, а по всей Франции в погромах было убито от 5 до 30 тысяч гугенотов. \n\nКровавая свадьба стала одним из наиболее трагических с",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/La_masacre_de_San_Bartolom%C3%A9%2C_por_Fran%C3%A7ois_Dubois.jpg/960px-La_masacre_de_San_Bartolom%C3%A9%2C_por_Fran%C3%A7ois_Dubois.jpg"
+  },
+  {
+    "id": 131,
+    "scheduled_at": "2026-07-12T19:00:00+00:00",
+    "text": "Сталину была вручена благодарность США!\nЭто стало возможным в 1945 году.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Joseph_Stalin_and_Nikita_Khrushchev%2C_1936.jpg"
+  },
+  {
+    "id": 132,
+    "scheduled_at": "2026-07-13T04:00:00+00:00",
+    "text": "🤖✨ Первый электронный компьютер ENIAC на рабочем месте. 1945 год.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/ENIAC_Penn1.jpg/960px-ENIAC_Penn1.jpg"
   }
 ]

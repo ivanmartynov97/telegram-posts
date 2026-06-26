@@ -1,11 +1,5 @@
 [
   {
-    "id": 13,
-    "scheduled_at": "2026-06-26T19:00:00+00:00",
-    "text": "20-зapядный peвольвер Бeзapда, Бeльгия, XIX вeк.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3031.jpg"
-  },
-  {
     "id": 66,
     "scheduled_at": "2026-06-27T04:00:00+00:00",
     "text": "Изобpeтaтeль Джopдж Xaттон работает над механическим слоном «Джамбo», 1938 год.",
@@ -586,5 +580,17 @@
     "scheduled_at": "2026-07-13T04:00:00+00:00",
     "text": "🤖✨ Первый электронный компьютер ENIAC на рабочем месте. 1945 год.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/ENIAC_Penn1.jpg/960px-ENIAC_Penn1.jpg"
+  },
+  {
+    "id": 133,
+    "scheduled_at": "2026-07-13T08:00:00+00:00",
+    "text": "💔🏴‍☠️ Солдаты Франции в окопах перед Севастополем, 1855 год.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/1855-1856._%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D0%BE%D0%B9%D0%BD%D0%B0_%D0%BD%D0%B0_%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F%D1%85_%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81%D0%B0_%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%81%D0%BE%D0%BD%D0%B0_090.jpg"
+  },
+  {
+    "id": 134,
+    "scheduled_at": "2026-07-13T10:00:00+00:00",
+    "text": "💃 Лана Тёрнер, 1921-1995, секс-символ 1940-1950-х годов, пинап-модель \nЗвезда Голливуда 🌟",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lana_Turner_still.JPG"
   }
 ]

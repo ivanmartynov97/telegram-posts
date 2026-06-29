@@ -1,17 +1,5 @@
 [
   {
-    "id": 47,
-    "scheduled_at": "2026-06-29T15:00:00+00:00",
-    "text": "Враги вышли из окопов, спели рождественские гимны вместе и сыграли в футбол ⚽🎄\n\nВ декабре 1914 года на Западном фронте британские и немецкие солдаты стихийно прекратили огонь, обменялись сигаретами и похоронили погибших. Командование с обеих сторон было в ужасе и запретило подобное на будущее.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Illustrated_London_News_-_Christmas_Truce_1914.jpg/960px-Illustrated_London_News_-_Christmas_Truce_1914.jpg"
-  },
-  {
-    "id": 41,
-    "scheduled_at": "2026-06-29T19:00:00+00:00",
-    "text": "Лондон в буквальном смысле тонул в пиве — погибли восемь человек, и ни один не от опьянения 🍺\n\nВ 1814 году на пивоварне Horse Shoe Brewery разорвался гигантский чан, и улицы захлестнула волна почти полутора миллионов литров портера. Жертвами стали жители подвалов соседних домов, которых смыло прямо в постелях.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Horseshoe_Brewery%2C_London%2C_c._1800.jpg/960px-Horseshoe_Brewery%2C_London%2C_c._1800.jpg"
-  },
-  {
     "id": 35,
     "scheduled_at": "2026-06-30T04:00:00+00:00",
     "text": "Первый сохранившийся в истории снимок человечество делало восемь часов подряд 📷🕰️\n\nВ 1826 или 1827 году француз Жозеф Нисефор Ньепс направил камеру на вид из окна своей мастерской — выдержка заняла около восьми часов, и тени на фото падают сразу с двух сторон.",
@@ -574,5 +562,29 @@
     "scheduled_at": "2026-07-15T13:00:00+00:00",
     "text": "⚡️ Первый электрический трамвай Берлина на улицах города. 1881.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg/960px-Muzeum_MHD%2C_tramvaje_T3_8084_a_6149%2C_zep%C5%99edu.jpg"
+  },
+  {
+    "id": 150,
+    "scheduled_at": "2026-07-15T15:00:00+00:00",
+    "text": "🌊🏴 Пираты Карибского моря: Джек Воробей завоевал кинематограф в 2000-х годах.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Jack_Sparrow.JPG"
+  },
+  {
+    "id": 148,
+    "scheduled_at": "2026-07-15T15:00:00+00:00",
+    "text": "🔥💡 Победа с слишком высокой ценой - это \"пи́ррова побе́да\", когда выигрыш оборачивается проигрышем.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Guerre_di_Pirro_in_latino.jpg"
+  },
+  {
+    "id": 151,
+    "scheduled_at": "2026-07-15T19:00:00+00:00",
+    "text": "Maколeй Kaлкин с однокласницей Лорой, Рождество 1991 годa.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3080.jpg"
+  },
+  {
+    "id": 149,
+    "scheduled_at": "2026-07-15T19:00:00+00:00",
+    "text": "🚀 Британский танк Марк I, один из первых массовых танков в истории, 1916 год \nТанк изображён в боевых условиях Первой мировой войны",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/British_Mark_I_male_tank_Somme_25_September_1916.jpg/960px-British_Mark_I_male_tank_Somme_25_September_1916.jpg"
   }
 ]

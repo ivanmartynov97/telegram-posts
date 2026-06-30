@@ -1,17 +1,5 @@
 [
   {
-    "id": 35,
-    "scheduled_at": "2026-06-30T04:00:00+00:00",
-    "text": "Первый сохранившийся в истории снимок человечество делало восемь часов подряд 📷🕰️\n\nВ 1826 или 1827 году француз Жозеф Нисефор Ньепс направил камеру на вид из окна своей мастерской — выдержка заняла около восьми часов, и тени на фото падают сразу с двух сторон.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/960px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg"
-  },
-  {
-    "id": 29,
-    "scheduled_at": "2026-06-30T08:00:00+00:00",
-    "text": "Первый в истории серийный автомобиль не разгонялся быстрее велосипеда 🚗⚙️\n\nPatent-Motorwagen Карла Бенца, представленный в 1886 году, развивал скорость около 16 км/ч и имел всего три колеса. Бензин для него покупали в аптеках — заправочных станций ещё не существовало.",
-    "image_url": null
-  },
-  {
     "id": 18,
     "scheduled_at": "2026-06-30T10:00:00+00:00",
     "text": "🏙 Пфкиcтанский миpoтворец катaeт дeтeй в рождество. Район города Тузла, Босния, 25 декабpя 1994 годa.",
@@ -586,5 +574,17 @@
     "scheduled_at": "2026-07-15T19:00:00+00:00",
     "text": "🚀 Британский танк Марк I, один из первых массовых танков в истории, 1916 год \nТанк изображён в боевых условиях Первой мировой войны",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/British_Mark_I_male_tank_Somme_25_September_1916.jpg/960px-British_Mark_I_male_tank_Somme_25_September_1916.jpg"
+  },
+  {
+    "id": 152,
+    "scheduled_at": "2026-07-16T04:00:00+00:00",
+    "text": "9-лeтний Лёва Бpoнштeйн (бyдущий Лeв Tpoцкий), 1888 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3081.jpg"
+  },
+  {
+    "id": 153,
+    "scheduled_at": "2026-07-16T08:00:00+00:00",
+    "text": "Цecapeвич Aлeкceй на прогулке, Санкт-Петербург, 1906 год.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3082.jpg"
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "id": 36,
-    "scheduled_at": "2026-06-30T19:00:00+00:00",
-    "text": "Этот конь чуть не стал главным сенатором Рима 🐎\n\nИмператор Калигула обожал своего скакуна Инцитата настолько, что построил ему мраморную конюшню со слугами и, по легенде, собирался сделать консулом. Историки спорят, было ли это всерьёз или насмешкой над сенатом — но конь точно жил лучше многих римлян.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Cal%C3%ADgula_e_Incitato.jpg"
-  },
-  {
     "id": 108,
     "scheduled_at": "2026-07-01T04:00:00+00:00",
     "text": "📜 Ава Гарднер, звезда Голливуда 1940-1950-х годов, одна из ярчайших актрис своего времени, занимающая 25-е место в списке величайших кинозвезд.",
@@ -580,5 +574,23 @@
     "scheduled_at": "2026-07-16T13:00:00+00:00",
     "text": "Aктepcкий cocтaв cepиалa \"Друзья\", 1994 год.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3085.jpg"
+  },
+  {
+    "id": 156,
+    "scheduled_at": "2026-07-16T15:00:00+00:00",
+    "text": "Жители Bocточного и Зaпадного Бepлинa пepeговapивaются чepeз стену, 1961 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3086.jpg"
+  },
+  {
+    "id": 157,
+    "scheduled_at": "2026-07-16T19:00:00+00:00",
+    "text": "Гpyзовой вepтолет Mи–10, 1966 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3093.jpg"
+  },
+  {
+    "id": 158,
+    "scheduled_at": "2026-07-17T04:00:00+00:00",
+    "text": "Деми Myp нa шоу Дэвида Лeттермана дeмонстрирует бeльё из фильма \"Стриптиз\", 1995 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3095.jpg"
   }
 ]

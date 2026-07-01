@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 301,
+    "scheduled_at": "2026-07-02T04:00:00+00:00",
+    "text": "🐧 ❄️ В Антарктиде есть озёра жидкой воды под 4 км льда — они не замерзают из-за геотермального тепла. В них обнаружены бактерии, изолированные от остального мира миллионы лет.\n\nКря! 🦆 Жми лайк, если не знал! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lake_Vostok_Sat_Photo_color.jpg"
+  },
+  {
+    "id": 302,
+    "scheduled_at": "2026-07-02T08:00:00+00:00",
+    "text": "🔥 👀 Глаза двигаются около 200 000 раз в сутки. Мозг «выключает» зрение во время этих движений, иначе мы бы видели размытую картинку постоянно. Вы никогда не видите движение своих глаз в зеркале.\n\nКря! 🦆 Жми лайк, если не знал! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Szakkad.jpg"
+  },
+  {
+    "id": 303,
+    "scheduled_at": "2026-07-02T10:00:00+00:00",
+    "text": "🐧 🦠 Тарградиграды (водяные медведи) — единственные существа, выжившие во всех 5 массовых вымираниях. Они переносят -272°C, +150°C, 10 дней в открытом космосе и дозу радиации в 570 000 рентген.\n\nКря! 🦆 Жми лайк, если не знал! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/960px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png"
+  },
+  {
+    "id": 304,
+    "scheduled_at": "2026-07-02T13:00:00+00:00",
+    "text": "🐻 ☢️ В Чернобыльском реакторе обнаружены грибы, которые питаются радиацией — используют её как энергию вместо солнечного света. Чем выше радиация, тем быстрее они растут.\n\nКря! 🦆 Жми лайк, если не знал! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg/960px-Cryptococcus_neoformans_using_a_light_India_ink_staining_preparation_PHIL_3771_lores.jpg"
+  },
+  {
+    "id": 305,
+    "scheduled_at": "2026-07-02T15:00:00+00:00",
+    "text": "🤩 🌺 Цветок раффлезии — самый большой в мире, до 1 метра в диаметре, и пахнет разлагающимся мясом. У него нет стеблей, листьев и корней — он полностью живёт внутри другого растения.\n\nКря! 🦆 Жми лайк, если не знал! 👍",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rafflesia_arnoldii_Bengkulu_01.jpg/960px-Rafflesia_arnoldii_Bengkulu_01.jpg"
+  },
+  {
+    "id": 300,
+    "scheduled_at": "2026-07-08T15:00:00+00:00",
+    "text": "💔 Люди, которые реже обнимаются, имеют более высокий уровень кортизола, что приводит к проблемам со сердцем.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
+    "image_url": "https://image.pollinations.ai/prompt/human%20hugs%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=307227&nologo=true"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "message_id": 298,
+  "text": "📜 Ава Гарднер, звезда Голливуда 1940-1950-х годов, одна из ярчайших актрис своего времени, занимающая 25-е место в списке величайших кинозвезд.",
+  "scheduled_at": "2026-07-01T07:02:13+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 143,
+  "views_history": [
+    {
+      "ts": "2026-07-01T20:32:26.487066+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 13.5,
+  "views_updated_at": "2026-07-01T20:32:26.487066+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

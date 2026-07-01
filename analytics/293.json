@@ -1,0 +1,22 @@
+{
+  "message_id": 293,
+  "text": "Первый в истории серийный автомобиль не разгонялся быстрее велосипеда 🚗⚙️\n\nPatent-Motorwagen Карла Бенца, представленный в 1886 году, развивал скорость около 16 км/ч и имел всего три колеса. Бензин для него покупали в аптеках — заправочных станций ещё не существовало.",
+  "scheduled_at": "2026-06-30T11:02:02+03:00",
+  "hour": 11,
+  "has_image": false,
+  "char_count": 268,
+  "views_history": [
+    {
+      "ts": "2026-07-01T03:47:20.136639+03:00",
+      "views": 2
+    }
+  ],
+  "views_current": 2,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 16.8,
+  "views_updated_at": "2026-07-01T03:47:20.136639+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

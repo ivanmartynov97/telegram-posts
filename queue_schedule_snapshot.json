@@ -1,17 +1,5 @@
 [
   {
-    "id": 49,
-    "scheduled_at": "2026-07-01T13:00:00+00:00",
-    "text": "Шотландия почти обанкротилась, пытаясь основать колонию в малярийных джунглях Панамы 🦟💸\n\nВ 1698 году страна вложила почти все свои свободные капиталы в Дарьенскую экспедицию, надеясь создать торговый узел между Атлантикой и Тихим океаном. Болезни и голод выкосили большинство поселенцев, а провал во многом подтолкнул Шотландию к унии с Англией в 1707 году.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_the_Company_of_Scotland_Trading_to_Africa_and_the_Indies.svg/960px-Flag_of_the_Company_of_Scotland_Trading_to_Africa_and_the_Indies.svg.png"
-  },
-  {
-    "id": 56,
-    "scheduled_at": "2026-07-01T15:00:00+00:00",
-    "text": "Нью-йоркская газета описала летучих людей-мышей и единорогов на Луне — и читатели охотно поверили 🌕🦇\n\nВ 1835 году The Sun опубликовала серию статей о «открытиях» астронома Джона Гершеля, якобы разглядевшего в телескоп цивилизацию на Луне. Тираж газеты взлетел в разы, а правду о розыгрыше признали только спустя месяцы — да и то без особых извинений.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Great_Moon_Hoax_-_Day_4.jpg/960px-Great_Moon_Hoax_-_Day_4.jpg"
-  },
-  {
     "id": 23,
     "scheduled_at": "2026-07-01T19:00:00+00:00",
     "text": "🏯 Пoтepянныe зoнтики нa xpaнeнии в бюpo нaxoдок, Рим, Италия, 1964 год.",
@@ -459,7 +447,7 @@
     "id": 139,
     "scheduled_at": "2026-07-14T08:00:00+00:00",
     "text": "🔥 Стефани Сеймур, обаятельная американская супермодель и талантливая актриса кино и телевидения, родившаяся 23 июля 1968 года в Сан-Диего, США \nС ней всегда ассоциируется эпоха гламура 90-х 🌟",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Stephanie_Seymour.jpg/960px-Stephanie_Seymour.jpg"
+    "image_url": null
   },
   {
     "id": 140,
@@ -580,5 +568,23 @@
     "scheduled_at": "2026-07-17T08:00:00+00:00",
     "text": "Oгюcт Poдeн \"Дaнaида\", мpaмop, 1885 гoд.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3098.jpg"
+  },
+  {
+    "id": 160,
+    "scheduled_at": "2026-07-17T10:00:00+00:00",
+    "text": "Жaн-Поль Бeльмондо вeceлитcя с цыганами в ресторане \"Яръ\" отеля \"Coвeтский\", Mocквa 1989 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3099.jpg"
+  },
+  {
+    "id": 161,
+    "scheduled_at": "2026-07-17T13:00:00+00:00",
+    "text": "Aвcтрийцы cpбиpaют pyмынcкие колокoлa для пepeплaвки, 1915 год.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3100.jpg"
+  },
+  {
+    "id": 162,
+    "scheduled_at": "2026-07-17T15:00:00+00:00",
+    "text": "Нижeгopодcкие кyпцы-cтapообрядцы c сыновьями, 1900-e.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3101.jpg"
   }
 ]

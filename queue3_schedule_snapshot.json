@@ -178,5 +178,41 @@
     "scheduled_at": "2026-07-06T19:00:00+00:00",
     "text": "💦 Люди могут умереть от обезвоживания уже через 3 дня без воды.",
     "image_url": "https://image.pollinations.ai/prompt/Human%20body%20dehydration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=978491&nologo=true"
+  },
+  {
+    "id": 292,
+    "scheduled_at": "2026-07-07T04:00:00+00:00",
+    "text": "✝ \"💀 Заболевания мозга могут пройти незамеченными годами — люди могут страдать от деменции или амиотрофического склероза всю жизнь, не замечая своих проблем, пока не поздно.\"",
+    "image_url": "https://image.pollinations.ai/prompt/Neurodegenerative%20diseases%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=356422&nologo=true"
+  },
+  {
+    "id": 293,
+    "scheduled_at": "2026-07-07T08:00:00+00:00",
+    "text": "🌹 Воздействие синего света от экранов гаджетов нарушает сон, снижая выработку мелатонина на 23%.",
+    "image_url": "https://image.pollinations.ai/prompt/Blue%20light%20from%20screens%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=491564&nologo=true"
+  },
+  {
+    "id": 294,
+    "scheduled_at": "2026-07-07T10:00:00+00:00",
+    "text": "💡 Человеку требуется в среднем 7 минут, чтобы забыть информацию, которую он не повторяет.",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20brain%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=191138&nologo=true"
+  },
+  {
+    "id": 295,
+    "scheduled_at": "2026-07-07T13:00:00+00:00",
+    "text": "💔 Люди чаще умирают от сердечных приступов в конце месяца из-за финансового стресса.",
+    "image_url": "https://image.pollinations.ai/prompt/Heart%20Attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=333564&nologo=true"
+  },
+  {
+    "id": 296,
+    "scheduled_at": "2026-07-07T15:00:00+00:00",
+    "text": "🧠 Человек может вспомнить до 10 000 запахов, но забывает порядка 5 000 слов.",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20scent%20memory%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=507836&nologo=true"
+  },
+  {
+    "id": 297,
+    "scheduled_at": "2026-07-07T19:00:00+00:00",
+    "text": "🌟 Люди тратят в среднем 4 года своей жизни на сон с открытыми глазами — это происходит во время бодрствования.",
+    "image_url": "https://image.pollinations.ai/prompt/dreaming%20face%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=381646&nologo=true"
   }
 ]

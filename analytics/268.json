@@ -1,0 +1,22 @@
+{
+  "message_id": 268,
+  "text": "Moникa Бeллyччи, 1991 год.",
+  "scheduled_at": "2026-06-26T07:03:48+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 26,
+  "views_history": [
+    {
+      "ts": "2026-07-01T03:47:20.136639+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 116.7,
+  "views_updated_at": "2026-07-01T03:47:20.136639+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

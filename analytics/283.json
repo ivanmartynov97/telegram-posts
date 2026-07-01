@@ -1,0 +1,22 @@
+{
+  "message_id": 283,
+  "text": "📜 Первый в мире автомобиль, созданный Карлом Бенцем, модель 1885 года.",
+  "scheduled_at": "2026-06-28T16:02:57+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 70,
+  "views_history": [
+    {
+      "ts": "2026-07-01T03:47:20.136639+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 59.7,
+  "views_updated_at": "2026-07-01T03:47:20.136639+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

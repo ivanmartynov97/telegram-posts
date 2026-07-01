@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "scheduled_at": "2026-07-02T04:00:00+00:00",
+    "text": "🧠 Твой мозг не умеет чувствовать боль. В нём нет болевых рецепторов вообще. Нейрохирурги оперируют мозг у полностью бодрствующих пациентов — и те не ощущают ничего.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Craniotomy_Arachnoid.jpg"
+  },
+  {
+    "id": 2,
+    "scheduled_at": "2026-07-02T08:00:00+00:00",
+    "text": "🤓 👁️ Ты видишь меньше 0,0035% реальности. Вокруг тебя сейчас — радиоволны, рентген, гамма-излучение, ультрафиолет. Ты слеп ко всему, что не вписывается в узкий диапазон видимого света.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/EM_Spectrum_Properties_edit.svg/960px-EM_Spectrum_Properties_edit.svg.png"
+  },
+  {
+    "id": 3,
+    "scheduled_at": "2026-07-02T10:00:00+00:00",
+    "text": "🤯 🦟 Комар убивает больше людей, чем все войны в истории вместе взятые. Он уничтожил около 52 миллиардов человек — половину всех, кто когда-либо жил.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Malaria_Parasite_Connecting_to_Human_Red_Blood_Cell_%2834034143483%29.jpg/330px-Malaria_Parasite_Connecting_to_Human_Red_Blood_Cell_%2834034143483%29.jpg"
+  },
+  {
+    "id": 4,
+    "scheduled_at": "2026-07-02T13:00:00+00:00",
+    "text": "🌚 🌍 Прямо сейчас ты летишь вокруг Солнца со скоростью 107 000 км/ч. Ты никогда не стоишь на месте — Земля при этом ещё и движется внутри галактики на 220 км/с.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/960px-ESO-VLT-Laser-phot-33a-07.jpg"
+  },
+  {
+    "id": 5,
+    "scheduled_at": "2026-07-02T15:00:00+00:00",
+    "text": "🤯 ⚡ Если вытащить все кровеносные сосуды из тела взрослого человека и вытянуть в линию — они обернут Землю 2,5 раза. Сосудов в одном человеке больше 96 000 км.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Blood_vessels_%28retouched%29_-en.svg/960px-Blood_vessels_%28retouched%29_-en.svg.png"
+  },
+  {
+    "id": 6,
+    "scheduled_at": "2026-07-02T19:00:00+00:00",
+    "text": "🤓 🌑 Ложка вещества нейтронной звезды весит 1 миллиард тонн. Такие звёзды вращаются до 700 раз в секунду и сжимают протоны настолько, что они превращаются в нейтроны.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Moving_heart_of_the_Crab_Nebula.jpg/960px-Moving_heart_of_the_Crab_Nebula.jpg"
+  }
+]

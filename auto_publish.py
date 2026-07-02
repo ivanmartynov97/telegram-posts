@@ -494,8 +494,8 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
             if image_url:
                 photo_file = fetch_image_for_telegram(image_url)
                 if photo_file is None:
-                    # Картинка не скачалась — пропускаем для queue3/4 (require картинку)
-                    if queue_dir in ("queue3", "queue4"):
+                    # Картинка не скачалась — пропускаем для queue3/4/5 (require картинку)
+                    if queue_dir in ("queue3", "queue4", "queue5"):
                         print(f"  ⛔ Картинка недоступна — пропускаю пост (queue {queue_dir} требует картинку)")
                         logging.warning(f"Skipped (no image): {it['name']}")
                         fail += 1
@@ -506,7 +506,7 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
                         msg = await client.send_message(entity, text, schedule=schedule_dt, parse_mode="html")
                 else:
                     msg = await client.send_file(entity, file=photo_file, caption=text, schedule=schedule_dt, parse_mode="html", force_document=False)
-            elif queue_dir in ("queue3", "queue4"):
+            elif queue_dir in ("queue3", "queue4", "queue5"):
                 # Нет image_url вообще — пропустить для этих каналов
                 print(f"  ⛔ Нет картинки — пропускаю пост (queue {queue_dir} требует картинку)")
                 logging.warning(f"Skipped (no image_url): {it['name']}")

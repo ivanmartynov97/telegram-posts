@@ -178,5 +178,41 @@
     "scheduled_at": "2026-07-07T19:00:00+00:00",
     "text": "😳 ⏱️ В момент смертельной опасности время в голове замедляется — но не потому что мозг ускоряется. Просто страх активирует амигдалу, которая записывает воспоминания детальнее. Потом кажется, что прошло больше времени.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Multistability.svg/960px-Multistability.svg.png"
+  },
+  {
+    "id": 43,
+    "scheduled_at": "2026-07-08T04:00:00+00:00",
+    "text": "🚽 Моча человека может быть жёлтой из-за распада белков и продуктов жизнедеятельности.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20urine%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=330534&nologo=true"
+  },
+  {
+    "id": 44,
+    "scheduled_at": "2026-07-08T08:00:00+00:00",
+    "text": "👀 Человек видит лицо и узнаёт его за 13 миллисекунд.",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20face%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=145493&nologo=true"
+  },
+  {
+    "id": 45,
+    "scheduled_at": "2026-07-08T10:00:00+00:00",
+    "text": "💔 Сердечная недостаточность может быть вызвана одиночеством — социальная изоляция увеличивает риск сердечно-сосудистых заболеваний.",
+    "image_url": "https://image.pollinations.ai/prompt/heart%20disease%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=538513&nologo=true"
+  },
+  {
+    "id": 46,
+    "scheduled_at": "2026-07-08T13:00:00+00:00",
+    "text": "🚽 Запах пота может сигнализировать о проблемах со здоровьем — некоторые заболевания имеют характерный запах пота.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20sweat%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=970331&nologo=true"
+  },
+  {
+    "id": 47,
+    "scheduled_at": "2026-07-08T15:00:00+00:00",
+    "text": "🌟 В организме человека находится примерно 60 000 миль кровеносных сосудов.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20blood%20vessels%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=564133&nologo=true"
+  },
+  {
+    "id": 48,
+    "scheduled_at": "2026-07-08T19:00:00+00:00",
+    "text": "🏃‍♀️ Регулярные занятия спортом увеличивают продолжительность жизни на 3-7 лет, даже при отсутствии других здоровых привычек.",
+    "image_url": "https://image.pollinations.ai/prompt/jogging%20woman%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=998736&nologo=true"
   }
 ]

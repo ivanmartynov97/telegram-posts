@@ -322,5 +322,41 @@
     "scheduled_at": "2026-07-11T19:00:00+00:00",
     "text": "🚽 Утренний кофе может повысить риск инфаркта на 50% в течение часа после употребления у чувствительных людей.",
     "image_url": "https://image.pollinations.ai/prompt/coffee%20cup%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=75213&nologo=true"
+  },
+  {
+    "id": 67,
+    "scheduled_at": "2026-07-12T04:00:00+00:00",
+    "text": "🚽 Частое мытье рук может сделать кожу более склонной к аллергическим реакциям.",
+    "image_url": "https://image.pollinations.ai/prompt/hand%20washing%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=462886&nologo=true"
+  },
+  {
+    "id": 68,
+    "scheduled_at": "2026-07-12T08:00:00+00:00",
+    "text": "💔 Сердце бьётся неправильно у 1% людей, что может привести к внезапной смерти.",
+    "image_url": "https://image.pollinations.ai/prompt/irregular%20heartbeat%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=803305&nologo=true"
+  },
+  {
+    "id": 69,
+    "scheduled_at": "2026-07-12T10:00:00+00:00",
+    "text": "💔 Сердечные приступы чаще случаются по понедельникам утром.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
+    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=99878&nologo=true"
+  },
+  {
+    "id": 70,
+    "scheduled_at": "2026-07-12T13:00:00+00:00",
+    "text": "💣 Каждое третье убийство совершается человеком, знакомым жертве.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
+    "image_url": "https://image.pollinations.ai/prompt/crime%20scene%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=68360&nologo=true"
+  },
+  {
+    "id": 71,
+    "scheduled_at": "2026-07-12T15:00:00+00:00",
+    "text": "🌟 Во время оргазма мозг женщины вырабатывает такое же количество эндорфинов, как при беге на 10 километров.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
+    "image_url": "https://image.pollinations.ai/prompt/female%20orgasm%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=252555&nologo=true"
+  },
+  {
+    "id": 72,
+    "scheduled_at": "2026-07-12T19:00:00+00:00",
+    "text": "💔 Сердце бьётся 3 миллиарда раз за жизнь человека.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
+    "image_url": "https://image.pollinations.ai/prompt/human%20heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=332460&nologo=true"
   }
 ]

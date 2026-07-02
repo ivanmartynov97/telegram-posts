@@ -286,5 +286,41 @@
     "scheduled_at": "2026-07-10T19:00:00+00:00",
     "text": "🤕 Человек, который слишком долго хранит молоко, рискует получить токсическое действие из-за образования ботулизма — бактерия может вызвать серьезное воспаление кишечника и даже летальный исход в течение двух часов после попадания в организм.",
     "image_url": "https://image.pollinations.ai/prompt/interesting%20fact%20illustration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=878031&nologo=true"
+  },
+  {
+    "id": 61,
+    "scheduled_at": "2026-07-11T04:00:00+00:00",
+    "text": "💔 Сердечные приступы чаще случаются в понедельник — из-за стресса после выходных.",
+    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=628969&nologo=true"
+  },
+  {
+    "id": 62,
+    "scheduled_at": "2026-07-11T08:00:00+00:00",
+    "text": "🚽 Человек производит около 25 тысяч литров слюны за жизнь.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20saliva%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=199712&nologo=true"
+  },
+  {
+    "id": 63,
+    "scheduled_at": "2026-07-11T10:00:00+00:00",
+    "text": "🚽 Объём календарных дней с симптомами ПМС у средней женщины равен почти 13 лет жизни.",
+    "image_url": "https://image.pollinations.ai/prompt/Premenstrual%20syndrome%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=331779&nologo=true"
+  },
+  {
+    "id": 64,
+    "scheduled_at": "2026-07-11T13:00:00+00:00",
+    "text": "💔 Люди, которые долго не общаются со своими любимыми, могут испытывать симптомы, похожие на болезнь отмены наркотиков.",
+    "image_url": "https://image.pollinations.ai/prompt/Broken%20Heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=654535&nologo=true"
+  },
+  {
+    "id": 65,
+    "scheduled_at": "2026-07-11T15:00:00+00:00",
+    "text": "💔 Каждый день сердце бьётся около 100 тысяч раз, перекачивая более 7500 литров крови.",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20Heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=200967&nologo=true"
+  },
+  {
+    "id": 66,
+    "scheduled_at": "2026-07-11T19:00:00+00:00",
+    "text": "🚽 Утренний кофе может повысить риск инфаркта на 50% в течение часа после употребления у чувствительных людей.",
+    "image_url": "https://image.pollinations.ai/prompt/coffee%20cup%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=75213&nologo=true"
   }
 ]

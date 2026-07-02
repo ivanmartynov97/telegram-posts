@@ -70,5 +70,77 @@
     "scheduled_at": "2026-07-03T19:00:00+00:00",
     "text": "🤓 🦈 Гренландская акула живёт 400+ лет и становится взрослой только в 150. Сейчас в океане плавают акулы, рождённые до эпохи Колумба.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somniosus_microcephalus_okeanos.jpg/330px-Somniosus_microcephalus_okeanos.jpg"
+  },
+  {
+    "id": 14,
+    "scheduled_at": "2026-07-04T04:00:00+00:00",
+    "text": "😎 🦠 Тихоходки (водяные медведи) — единственные существа, переживающие открытый космос. -272°C, +150°C, вакуум, смертельные дозы радиации — для них это просто стресс.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/330px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png"
+  },
+  {
+    "id": 13,
+    "scheduled_at": "2026-07-04T04:00:00+00:00",
+    "text": "😎 🦠 Тихоходки (водяные медведи) — единственные существа, переживающие открытый космос. -272°C, +150°C, вакуум, смертельные дозы радиации — для них это просто стресс.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/330px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png"
+  },
+  {
+    "id": 16,
+    "scheduled_at": "2026-07-04T08:00:00+00:00",
+    "text": "🎯 🐜 Муравьи-листорезы создают фермы с антибиотиками. Они выращивают грибы, убивают вредные плесени специальными бактериями и производят собственные пестициды — всё это за 50 миллионов лет до человека.",
+    "image_url": null
+  },
+  {
+    "id": 15,
+    "scheduled_at": "2026-07-04T08:00:00+00:00",
+    "text": "🎯 🐜 Муравьи-листорезы создают фермы с антибиотиками. Они выращивают грибы, убивают вредные плесени специальными бактериями и производят собственные пестициды — всё это за 50 миллионов лет до человека.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Leafcutter_ant_soldier_%2881794%29.jpg/960px-Leafcutter_ant_soldier_%2881794%29.jpg"
+  },
+  {
+    "id": 18,
+    "scheduled_at": "2026-07-04T10:00:00+00:00",
+    "text": "😎 🐙 У осьминога 9 мозгов и 3 сердца. 2 сердца перекачивают кровь к жабрам, третье — к телу. Когда осьминог плывёт — третье сердце останавливается. Именно поэтому они так не любят плавать.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg"
+  },
+  {
+    "id": 17,
+    "scheduled_at": "2026-07-04T10:00:00+00:00",
+    "text": "😎 🐙 У осьминога 9 мозгов и 3 сердца. 2 сердца перекачивают кровь к жабрам, третье — к телу. Когда осьминог плывёт — третье сердце останавливается. Именно поэтому они так не любят плавать.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg"
+  },
+  {
+    "id": 20,
+    "scheduled_at": "2026-07-04T13:00:00+00:00",
+    "text": "😳 🏺 Клеопатра жила ближе к нашему времени, чем к строительству пирамид. Пирамиды — 4500 лет назад. Клеопатра — 2100 лет назад. iPhone — 17 лет назад.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+  },
+  {
+    "id": 19,
+    "scheduled_at": "2026-07-04T13:00:00+00:00",
+    "text": "😳 🏺 Клеопатра жила ближе к нашему времени, чем к строительству пирамид. Пирамиды — 4500 лет назад. Клеопатра — 2100 лет назад. iPhone — 17 лет назад.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+  },
+  {
+    "id": 22,
+    "scheduled_at": "2026-07-04T15:00:00+00:00",
+    "text": "🌚 🔬 Оргазм и боль обрабатываются одними и теми же нейронными путями в мозге. Исследования МРТ показали: мозг почти не отличает их — только интенсивность и контекст разные.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anatomy_posture_and_body_mechanics_08.jpg"
+  },
+  {
+    "id": 21,
+    "scheduled_at": "2026-07-04T15:00:00+00:00",
+    "text": "🌚 🔬 Оргазм и боль обрабатываются одними и теми же нейронными путями в мозге. Исследования МРТ показали: мозг почти не отличает их — только интенсивность и контекст разные.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anatomy_posture_and_body_mechanics_08.jpg"
+  },
+  {
+    "id": 24,
+    "scheduled_at": "2026-07-04T19:00:00+00:00",
+    "text": "😎 🧬 Женщины биологически запрограммированы жить дольше мужчин — в каждой стране мира, при любом уровне жизни. Эстроген защищает сердце, иммунитет у женщин сильнее, X-хромосом у них две — резервная на случай мутаций.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Comparison_of_male_and_female_life_expectancy_-world.svg/330px-Comparison_of_male_and_female_life_expectancy_-world.svg.png"
+  },
+  {
+    "id": 23,
+    "scheduled_at": "2026-07-04T19:00:00+00:00",
+    "text": "😎 🧬 Женщины биологически запрограммированы жить дольше мужчин — в каждой стране мира, при любом уровне жизни. Эстроген защищает сердце, иммунитет у женщин сильнее, X-хромосом у них две — резервная на случай мутаций.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Comparison_of_male_and_female_life_expectancy_-world.svg/330px-Comparison_of_male_and_female_life_expectancy_-world.svg.png"
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "message_id": 307,
+  "text": "🐾 Фpaнцyзcкий xyдожник Жaк Лeмaнн риcyeт поpтpeт cвоeго котa, 1924 гoд",
+  "scheduled_at": "2026-07-02T16:02:56+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 70,
+  "views_history": [
+    {
+      "ts": "2026-07-02T16:08:34.942062+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": 1,
+  "spike_score": 1,
+  "hours_since_pub": 0.1,
+  "views_updated_at": "2026-07-02T16:08:34.942062+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

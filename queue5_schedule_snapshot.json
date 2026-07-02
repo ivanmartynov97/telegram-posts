@@ -1,11 +1,5 @@
 [
   {
-    "id": 5,
-    "scheduled_at": "2026-07-02T15:00:00+00:00",
-    "text": "🤯 ⚡ Если вытащить все кровеносные сосуды из тела взрослого человека и вытянуть в линию — они обернут Землю 2,5 раза. Сосудов в одном человеке больше 96 000 км.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Blood_vessels_%28retouched%29_-en.svg/960px-Blood_vessels_%28retouched%29_-en.svg.png"
-  },
-  {
     "id": 6,
     "scheduled_at": "2026-07-02T19:00:00+00:00",
     "text": "🤓 🌑 Ложка вещества нейтронной звезды весит 1 миллиард тонн. Такие звёзды вращаются до 700 раз в секунду и сжимают протоны настолько, что они превращаются в нейтроны.",
@@ -81,7 +75,7 @@
     "id": 24,
     "scheduled_at": "2026-07-04T19:00:00+00:00",
     "text": "😎 🧬 Женщины биологически запрограммированы жить дольше мужчин — в каждой стране мира, при любом уровне жизни. Эстроген защищает сердце, иммунитет у женщин сильнее, X-хромосом у них две — резервная на случай мутаций.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Comparison_of_male_and_female_life_expectancy_-world.svg/330px-Comparison_of_male_and_female_life_expectancy_-world.svg.png"
   },
   {
     "id": 25,

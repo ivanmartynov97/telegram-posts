@@ -96,6 +96,24 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gluehlampe_01_KMJ.png"
   },
   {
+    "id": 257,
+    "scheduled_at": "2026-07-05T13:00:00+00:00",
+    "text": "🎭 Премьера кинематографа, 1895\n\n28 декабря 1895 года братья Люмьер показали первый в мире фильм в парижском кафе. Фильм длился 50 секунд и показывал рабочих, выходящих из их фабрики. Билеты стоили 1 франк. Это стало началом эры кинематографии.\n🔥",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Lumi%C3%A8re_brothers.jpg/330px-Lumi%C3%A8re_brothers.jpg"
+  },
+  {
+    "id": 258,
+    "scheduled_at": "2026-07-05T15:00:00+00:00",
+    "text": "🔭 Открытие Урана, 1781\n\n13 марта 1781 года британский астроном Уильям Гершель открыл седьмую планету Солнечной системы через телескоп. Он назвал её Ураном. Это было первое открытие планеты в современную эпоху и почти удвоило известный размер Солнечной системы.\n🔥",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uranus_Voyager2_color_calibrated.png/330px-Uranus_Voyager2_color_calibrated.png"
+  },
+  {
+    "id": 259,
+    "scheduled_at": "2026-07-05T19:00:00+00:00",
+    "text": "⚡ Опыт Эддингтона с электричеством, 1752\n\nБеджамин Франклин запустил воздушного змея во время грозы и обнаружил, что молния - это электричество. Хотя опыт был очень опасен, он открыл новую эпоху в изучении электричества и привел к изобретению громоотвода.\n🔥",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg/330px-Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
+  },
+  {
     "id": 211,
     "scheduled_at": "2026-07-06T04:00:00+00:00",
     "text": "🐦 Полиция окaзывaeт помoщь дeвyшке нa концepтe \"Битлз\" в Topoнто, Канада, 1966 гoд.",

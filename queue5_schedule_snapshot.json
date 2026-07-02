@@ -214,5 +214,41 @@
     "scheduled_at": "2026-07-08T19:00:00+00:00",
     "text": "🏃‍♀️ Регулярные занятия спортом увеличивают продолжительность жизни на 3-7 лет, даже при отсутствии других здоровых привычек.",
     "image_url": "https://image.pollinations.ai/prompt/jogging%20woman%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=998736&nologo=true"
+  },
+  {
+    "id": 49,
+    "scheduled_at": "2026-07-09T04:00:00+00:00",
+    "text": "🚽 Человек за свою жизнь произведёт около 25 тонн слюны.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20saliva%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=568652&nologo=true"
+  },
+  {
+    "id": 50,
+    "scheduled_at": "2026-07-09T08:00:00+00:00",
+    "text": "🚽 Человеческие шейные позвонки содержат больше нервных окончаний, чем весь мозг.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20spine%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=920875&nologo=true"
+  },
+  {
+    "id": 51,
+    "scheduled_at": "2026-07-09T10:00:00+00:00",
+    "text": "🚽 Люди тратят в среднем 3 года жизни на туалете — и это не самый ужасный факт о нашей жизни в ванной.",
+    "image_url": "https://image.pollinations.ai/prompt/toilet%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=384207&nologo=true"
+  },
+  {
+    "id": 52,
+    "scheduled_at": "2026-07-09T13:00:00+00:00",
+    "text": "💀 Каждый день наш мозг теряет около 10 000 нейронов.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20brain%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=555530&nologo=true"
+  },
+  {
+    "id": 53,
+    "scheduled_at": "2026-07-09T15:00:00+00:00",
+    "text": "🔥 Каждый день мы теряем около 1-2 литров воды через кожу, дыхание и мочеиспускание.",
+    "image_url": "https://image.pollinations.ai/prompt/Human%20body%20water%20loss%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=988162&nologo=true"
+  },
+  {
+    "id": 54,
+    "scheduled_at": "2026-07-09T19:00:00+00:00",
+    "text": "💔 Сердечные приступы часто начинаются с боли в челюсти.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20jaw%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=91880&nologo=true"
   }
 ]

@@ -724,7 +724,7 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
       <button class="settings-btn" onclick="showSettings()">⚙️</button>
     </div>
   </div>
-  <div id="channel-switcher" style="display:flex;gap:6px;margin-bottom:10px"></div>
+  <div id="channel-switcher" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px"></div>
   <nav class="top-nav">
     <button class="tab-btn active" id="tab-queue" onclick="showTab('queue')"><span class="tab-icon">📋</span>Очередь</button>
     <button class="tab-btn" id="tab-newpost" onclick="showTab('newpost')"><span class="tab-icon">✍️</span>Новый пост</button>
@@ -1074,6 +1074,7 @@ function getChannels() {
     // Свой бот уже админ в обоих, своя GitHub-папка queue3/queue4 — без редеплоя кода.
     { id: 2, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts' },
     { id: 3, name: 'Умная утка', channel: '@umnaya_utka', prefix: '4', theme: 'facts' },
+    { id: 4, name: 'Умнейший вход', channel: '@umnim_vhod', prefix: '5', theme: 'facts' },
   ];
 }
 let currentChannelIdx = parseInt(localStorage.getItem('current_channel') || '0', 10) || 0;
@@ -1102,7 +1103,7 @@ function renderChannelSwitcher() {
   if (!el) return;
   const chs = getChannels();
   el.innerHTML = chs.map((c, i) => `
-    <button onclick="switchChannel(${i})" style="flex:1;padding:7px 10px;border-radius:10px;border:none;cursor:pointer;
+    <button onclick="switchChannel(${i})" style="flex:1 1 calc(33% - 6px);min-width:90px;padding:7px 10px;border-radius:10px;border:none;cursor:pointer;
       font-size:12px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
       transition:all var(--transition);
       background:${i===currentChannelIdx ? 'linear-gradient(135deg,var(--accent),var(--accent2))' : 'rgba(255,255,255,0.05)'};

@@ -19,17 +19,22 @@ Telegram сам хранит отложенный пост и публикует
 истории с флудом было физически невозможно даже при будущих багах.
 """
 
-import asyncio, json, os, ssl, time, base64, sys, io
+import asyncio, json, os, ssl, time, base64, sys, io, shutil
 import urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetScheduledHistoryRequest
 
-BASE       = os.path.dirname(os.path.abspath(__file__))
-CONFIG     = os.path.join(BASE, "config.json")
-SESSION    = os.path.join(BASE, "tg_user_session")
-LOG_PATH   = os.path.join(BASE, "auto_publish.log")
+BASE         = os.path.dirname(os.path.abspath(__file__))
+CONFIG       = os.path.join(BASE, "config.json")
+SESSION_ORIG = os.path.join(BASE, "tg_user_session")
+SESSION      = os.path.join(BASE, f"tg_pub_session_{os.getpid()}")
+LOG_PATH     = os.path.join(BASE, "auto_publish.log")
+
+# Копируем сессию чтобы не конфликтовать с launchd auto_publish
+if os.path.exists(SESSION_ORIG + ".session"):
+    shutil.copy2(SESSION_ORIG + ".session", SESSION + ".session")
 
 API_ID     = 39578814
 API_HASH   = "18f9ab304c0119a6ab28ff913f02f192"
@@ -37,7 +42,7 @@ API_HASH   = "18f9ab304c0119a6ab28ff913f02f192"
 RIGA_TZ    = timezone(timedelta(hours=3))
 POST_HOURS = [7, 11, 13, 16, 18, 22]
 
-MAX_PER_RUN = 6   # предохранитель: не больше 6 постов поставить в расписание за один запуск
+MAX_PER_RUN = 6   # предохранитель по умолчанию; переопределяется через --max N
 
 import logging
 logging.basicConfig(filename=LOG_PATH, level=logging.INFO,
@@ -55,23 +60,44 @@ def fetch(url, headers=None):
         return json.loads(r.read())
 
 def fetch_image_for_telegram(url):
-    # БАГ-ФИКС (22.06, жалоба "картинка прикреплена как файл, а не как фото"): Telethon
-    # решает фото-или-документ по РАСШИРЕНИЮ имени файла в URL/строке — а ссылки на
-    # AI-картинки (Pollinations, используются для facts-каналов) выглядят как
-    # ".../prompt/...?width=800&seed=123&nologo=true" БЕЗ .jpg/.png на конце. Без
-    # расширения Telethon не узнаёт в этом фото и шлёт как обычный файл-документ.
-    # Качаем картинку сами и оборачиваем в BytesIO с явным .jpg-именем — тогда
-    # Telethon видит расширение и отправляет как нормальное сжатое фото.
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=20, context=ssl_ctx()) as r:
-            data = r.read()
-        buf = io.BytesIO(data)
-        buf.name = "photo.jpg"
-        return buf
-    except Exception as e:
-        logging.warning(f"Не смог скачать картинку для отправки как фото ({url[:80]}): {e} — отправлю по URL как раньше")
-        return url
+    """Скачивает картинку и возвращает BytesIO с правильным расширением.
+    Проверяет magic bytes — если не картинка или слишком мало байт, возвращает None."""
+    HEADERS = {
+        "User-Agent": "Mozilla/5.0 (compatible; TelegramBot/1.0; +https://t.me)",
+        "Accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+        "Referer": "https://en.wikipedia.org/",
+    }
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=30, context=ssl_ctx()) as r:
+                data = r.read()
+            # Проверяем magic bytes — должна быть реальная картинка
+            if len(data) < 500:
+                logging.warning(f"Картинка слишком мала ({len(data)} байт): {url[:80]}")
+                return None
+            if data[:3] == b'\xff\xd8\xff':
+                ext = "photo.jpg"
+            elif data[:8] == b'\x89PNG\r\n\x1a\n':
+                ext = "photo.png"
+            elif data[:4] == b'RIFF' and data[8:12] == b'WEBP':
+                ext = "photo.webp"
+            elif data[:6] in (b'GIF87a', b'GIF89a'):
+                ext = "photo.gif"
+            else:
+                logging.warning(f"Неизвестный формат картинки ({data[:8].hex()}): {url[:80]}")
+                if attempt < 2:
+                    time.sleep(2)
+                    continue
+                return None
+            buf = io.BytesIO(data)
+            buf.name = ext
+            return buf
+        except Exception as e:
+            logging.warning(f"Попытка {attempt+1}: не смог скачать ({url[:80]}): {e}")
+            if attempt < 2:
+                time.sleep(3)
+    return None
 
 def get_thumbnail(article: str) -> str:
     data = fetch("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
@@ -192,7 +218,7 @@ def gh_put_analytics(path, obj, gh_token, gh_repo, msg):
         return json.loads(r.read())
 
 
-async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analytics_dir, dry_run=False):
+async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analytics_dir, dry_run=False, max_per_run=None, schedule_target=None):
     print(f"\n=== Канал {channel} (папка {queue_dir}/) ===")
     try:
         entity = await client.get_entity(channel)
@@ -233,6 +259,12 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
             if body:
                 existing_texts.add(body)
         print(f"  ℹ️ уже в расписании Telegram (raw API): {len(existing_scheduled)} постов")
+
+        # Если задана цель --target N: не добавляем ничего если уже достаточно постов
+        if schedule_target is not None:
+            if len(existing_scheduled) >= schedule_target:
+                print(f"  ✅ В расписании уже {len(existing_scheduled)} постов (цель {schedule_target}), пропускаю добавление")
+                return
 
         # БАГ-ФИКС "в миниапп список постов почти пуст, хотя в Telegram расписание полное"
         # (жалоба про канал 2: в Telegram 50+ постов на недели вперёд, а в миниапп список
@@ -379,12 +411,19 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
     # ловить коллизии МЕЖДУ ручными slot'ами в реальном времени, пост за постом.
     claimed_times = set(existing_times)
 
-    print(f"\n── Ставлю в расписание Telegram (максимум {MAX_PER_RUN} за запуск) ──")
+    run_limit = max_per_run if max_per_run is not None else MAX_PER_RUN
+    # Если задана цель --target N: ограничиваем добавляемое количество до нужного числа
+    if schedule_target is not None:
+        need = schedule_target - len(existing_scheduled)
+        run_limit = min(run_limit, need)
+        print(f"\n── Ставлю в расписание Telegram (нужно {need}, максимум {run_limit} за запуск, цель {schedule_target}) ──")
+    else:
+        print(f"\n── Ставлю в расписание Telegram (максимум {run_limit} за запуск) ──")
     ok = fail = 0
 
     for it, post, sha in loaded:
-        if ok >= MAX_PER_RUN:
-            print(f"  ⏸ Достигнут лимит {MAX_PER_RUN} за запуск — остальное в следующий раз")
+        if ok >= run_limit:
+            print(f"  ⏸ Достигнут лимит {run_limit} за запуск — остальное в следующий раз")
             break
 
         text      = (post.get("text") or "").strip()
@@ -454,7 +493,25 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
         try:
             if image_url:
                 photo_file = fetch_image_for_telegram(image_url)
-                msg = await client.send_file(entity, file=photo_file, caption=text, schedule=schedule_dt, parse_mode="html", force_document=False)
+                if photo_file is None:
+                    # Картинка не скачалась — пропускаем для queue3/4 (require картинку)
+                    if queue_dir in ("queue3", "queue4"):
+                        print(f"  ⛔ Картинка недоступна — пропускаю пост (queue {queue_dir} требует картинку)")
+                        logging.warning(f"Skipped (no image): {it['name']}")
+                        fail += 1
+                        continue
+                    else:
+                        print(f"  ⚠️ Картинка недоступна, публикую без картинки")
+                        logging.warning(f"Image failed for {it['name']} — posting without image")
+                        msg = await client.send_message(entity, text, schedule=schedule_dt, parse_mode="html")
+                else:
+                    msg = await client.send_file(entity, file=photo_file, caption=text, schedule=schedule_dt, parse_mode="html", force_document=False)
+            elif queue_dir in ("queue3", "queue4"):
+                # Нет image_url вообще — пропустить для этих каналов
+                print(f"  ⛔ Нет картинки — пропускаю пост (queue {queue_dir} требует картинку)")
+                logging.warning(f"Skipped (no image_url): {it['name']}")
+                fail += 1
+                continue
             else:
                 msg = await client.send_message(entity, text, schedule=schedule_dt, parse_mode="html")
 
@@ -505,8 +562,35 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
     print(f"\nГотово ({queue_dir}): {ok} поставлено в расписание, {fail} ошибок.")
     logging.info(f"Финиш {queue_dir}: {ok} поставлено, {fail} ошибок.")
 
+    # Обновляем снимок расписания ПОСЛЕ добавления новых постов — чтобы миниапп
+    # показывал актуальное количество, а не состояние до текущего запуска.
+    if ok > 0:
+        try:
+            raw2 = await client(GetScheduledHistoryRequest(peer=entity, hash=0))
+            msgs2 = [m for m in raw2.messages if hasattr(m, "date") and hasattr(m, "id")]
+            snapshot2 = []
+            for m in msgs2:
+                image_url = None
+                try:
+                    rec, _ = gh_get_file(gh_repo, f"{analytics_dir}/{m.id}.json", gh_token)
+                    image_url = rec.get("image_url")
+                except Exception:
+                    pass
+                snapshot2.append({
+                    "id": m.id,
+                    "scheduled_at": m.date.isoformat(),
+                    "text": (getattr(m, "message", None) or "").strip()[:500],
+                    "image_url": image_url,
+                })
+            snapshot2.sort(key=lambda x: x["scheduled_at"])
+            gh_put_analytics(f"{queue_dir}_schedule_snapshot.json", snapshot2, gh_token, gh_repo,
+                              f"Snapshot реального расписания {queue_dir} (post-publish)")
+            print(f"  📸 снимок обновлён после публикации ({len(snapshot2)} постов)")
+        except Exception as e:
+            logging.warning(f"post-publish snapshot failed for {queue_dir}: {e}")
 
-async def main(dry_run=False):
+
+async def main(dry_run=False, max_per_run=None, schedule_target=None, only_queue=None):
     with open(CONFIG) as f:
         cfg = json.load(f)
     gh_token = cfg.get("github_token", "")
@@ -539,16 +623,48 @@ async def main(dry_run=False):
     print(f"✅ Авторизован как {me.first_name} (@{me.username})")
 
     for ch in channels:
+        qdir = ch.get("queue_dir", "queue")
+        # Фильтр --only QUEUE_DIR: обрабатываем только указанный канал
+        if only_queue and qdir != only_queue:
+            print(f"\n=== Пропускаю {ch['channel_id']} ({qdir}/) — не входит в --only {only_queue} ===")
+            continue
         try:
             await process_channel(client, gh_token, gh_repo, ch["channel_id"],
-                                   ch.get("queue_dir", "queue"), ch.get("analytics_dir", "analytics"),
-                                   dry_run=dry_run)
+                                   qdir, ch.get("analytics_dir", "analytics"),
+                                   dry_run=dry_run, max_per_run=max_per_run, schedule_target=schedule_target)
         except Exception as e:
             print(f"❌ Ошибка обработки канала {ch.get('channel_id')}: {e}")
             logging.error(f"process_channel {ch.get('channel_id')}: {e}")
 
     await client.disconnect()
 
+    # Удаляем копию сессии
+    for ext in (".session", ".session-journal"):
+        p = SESSION + ext
+        if os.path.exists(p):
+            try: os.remove(p)
+            except Exception: pass
+
 if __name__ == "__main__":
     dry = "--dry-run" in sys.argv
-    asyncio.run(main(dry_run=dry))
+    max_override = None
+    target_override = None
+    for i, arg in enumerate(sys.argv):
+        if arg == "--max" and i + 1 < len(sys.argv):
+            try:
+                max_override = int(sys.argv[i + 1])
+                print(f"⚡ MAX_PER_RUN переопределён: {max_override} постов за прогон")
+            except ValueError:
+                pass
+        if arg == "--target" and i + 1 < len(sys.argv):
+            try:
+                target_override = int(sys.argv[i + 1])
+                print(f"🎯 SCHEDULE_TARGET: цель {target_override} постов в расписании на канал")
+            except ValueError:
+                pass
+    only_override = None
+    for i, arg in enumerate(sys.argv):
+        if arg == "--only" and i + 1 < len(sys.argv):
+            only_override = sys.argv[i + 1]
+            print(f"🔍 ONLY: обрабатываю только канал с queue_dir='{only_override}'")
+    asyncio.run(main(dry_run=dry, max_per_run=max_override, schedule_target=target_override, only_queue=only_override))

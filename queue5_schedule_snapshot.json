@@ -34,5 +34,41 @@
     "scheduled_at": "2026-07-02T19:00:00+00:00",
     "text": "🤓 🌑 Ложка вещества нейтронной звезды весит 1 миллиард тонн. Такие звёзды вращаются до 700 раз в секунду и сжимают протоны настолько, что они превращаются в нейтроны.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Moving_heart_of_the_Crab_Nebula.jpg/960px-Moving_heart_of_the_Crab_Nebula.jpg"
+  },
+  {
+    "id": 7,
+    "scheduled_at": "2026-07-03T04:00:00+00:00",
+    "text": "🤓 🐬 Дельфины занимаются сексом ради удовольствия, а не только для размножения. Они образуют долгосрочные пары, используют сложный флирт и помнят предыдущих партнёров годами.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/US_Navy_050411-N-3419D-057_A_female_bottlenose_dolphin_BJ_performs_her_daily_exercises_while_her_trainer%2C_Dera_Look%2C_supervises.jpg/330px-US_Navy_050411-N-3419D-057_A_female_bottlenose_dolphin_BJ_performs_her_daily_exercises_while_her_trainer%2C_Dera_Look%2C_supervises.jpg"
+  },
+  {
+    "id": 8,
+    "scheduled_at": "2026-07-03T08:00:00+00:00",
+    "text": "🧠 🪳 Таракан без головы живёт до 9 дней и умирает только от жажды. Голова при этом продолжает шевелить усами ещё несколько часов.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Snodgrass_common_household_roaches.png/960px-Snodgrass_common_household_roaches.png"
+  },
+  {
+    "id": 9,
+    "scheduled_at": "2026-07-03T10:00:00+00:00",
+    "text": "🤔 ⚔️ Чингисхан убил столько людей, что концентрация CO₂ в атмосфере упала. Его завоевания уничтожили 40 миллионов человек — 10% населения планеты. Леса выросли на опустевших полях.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Batu_Khan_on_the_Throne_by_Rashid_al-Din.jpg/960px-Batu_Khan_on_the_Throne_by_Rashid_al-Din.jpg"
+  },
+  {
+    "id": 10,
+    "scheduled_at": "2026-07-03T13:00:00+00:00",
+    "text": "🧠 🧪 Каждый атом железа в твоей крови был рождён в ядре умирающей звезды. Ты буквально сделан из звёздной пыли. Карл Саган был прав.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Iron_electrolytic_and_1cm3_cube.jpg/330px-Iron_electrolytic_and_1cm3_cube.jpg"
+  },
+  {
+    "id": 11,
+    "scheduled_at": "2026-07-03T15:00:00+00:00",
+    "text": "💀 Каждую ночь во сне ты несколько раз перестаёшь дышать на секунды — мозг «перезагружается». Это апноэ есть у каждого третьего, большинство даже не подозревает.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Obstruction_ventilation_apn%C3%A9e_sommeil.svg/330px-Obstruction_ventilation_apn%C3%A9e_sommeil.svg.png"
+  },
+  {
+    "id": 12,
+    "scheduled_at": "2026-07-03T19:00:00+00:00",
+    "text": "🤓 🦈 Гренландская акула живёт 400+ лет и становится взрослой только в 150. Сейчас в океане плавают акулы, рождённые до эпохи Колумба.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somniosus_microcephalus_okeanos.jpg/330px-Somniosus_microcephalus_okeanos.jpg"
   }
 ]

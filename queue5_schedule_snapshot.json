@@ -250,5 +250,41 @@
     "scheduled_at": "2026-07-09T19:00:00+00:00",
     "text": "💔 Сердечные приступы часто начинаются с боли в челюсти.",
     "image_url": "https://image.pollinations.ai/prompt/human%20jaw%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=91880&nologo=true"
+  },
+  {
+    "id": 55,
+    "scheduled_at": "2026-07-10T04:00:00+00:00",
+    "text": "🌊 Человеческий организм может выжить без почки, но не без воды — даже при отсутствии одной почки, человека можно спасти с помощью диализа.",
+    "image_url": "https://image.pollinations.ai/prompt/human%20kidney%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=840755&nologo=true"
+  },
+  {
+    "id": 56,
+    "scheduled_at": "2026-07-10T08:00:00+00:00",
+    "text": "💔 Сердечные приступы могут быть спровоцированы сильным стрессом или эмоциональным потрясением.",
+    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=758108&nologo=true"
+  },
+  {
+    "id": 57,
+    "scheduled_at": "2026-07-10T10:00:00+00:00",
+    "text": "💀 \"💀 Похожий на человека зомби нашелся в Индии в 2018 году. Раковина черепа выглядела так, словно была высверлена циркулярной пилой, а глаза были вырваны. Это было всего лишь обычная добыча дятла-ворона.",
+    "image_url": "https://image.pollinations.ai/prompt/Woodpecker%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=659593&nologo=true"
+  },
+  {
+    "id": 58,
+    "scheduled_at": "2026-07-10T13:00:00+00:00",
+    "text": "💔 Сердечные приступы чаще случаются по понедельникам.",
+    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=199336&nologo=true"
+  },
+  {
+    "id": 59,
+    "scheduled_at": "2026-07-10T15:00:00+00:00",
+    "text": "🎯 Высохшие черепица и другие покрытия кровельные могут быть источником цилиндрической диффузной легочной эмболии, которая может быть смертельной.",
+    "image_url": "https://image.pollinations.ai/prompt/Asbestos%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=827098&nologo=true"
+  },
+  {
+    "id": 60,
+    "scheduled_at": "2026-07-10T19:00:00+00:00",
+    "text": "🤕 Человек, который слишком долго хранит молоко, рискует получить токсическое действие из-за образования ботулизма — бактерия может вызвать серьезное воспаление кишечника и даже летальный исход в течение двух часов после попадания в организм.",
+    "image_url": "https://image.pollinations.ai/prompt/interesting%20fact%20illustration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=878031&nologo=true"
   }
 ]

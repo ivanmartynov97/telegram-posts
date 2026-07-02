@@ -81,7 +81,7 @@
     "id": 24,
     "scheduled_at": "2026-07-04T19:00:00+00:00",
     "text": "😎 🧬 Женщины биологически запрограммированы жить дольше мужчин — в каждой стране мира, при любом уровне жизни. Эстроген защищает сердце, иммунитет у женщин сильнее, X-хромосом у них две — резервная на случай мутаций.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Comparison_of_male_and_female_life_expectancy_-world.svg/330px-Comparison_of_male_and_female_life_expectancy_-world.svg.png"
+    "image_url": null
   },
   {
     "id": 25,
@@ -178,5 +178,17 @@
     "scheduled_at": "2026-07-07T13:00:00+00:00",
     "text": "🌚 💊 Плацебо работает даже когда люди ЗНАЮТ, что принимают сахарную таблетку. 59% пациентов с хронической болью почувствовали улучшение от «открытого плацебо». Мозг лечит себя сам — просто нужно разрешение.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/330px-Cebocap.jpg"
+  },
+  {
+    "id": 41,
+    "scheduled_at": "2026-07-07T15:00:00+00:00",
+    "text": "🤓 💋 Один поцелуй передаёт до 80 миллионов бактерий за 10 секунд. Некоторые из них остаются с тобой навсегда — и меняют состав твоей микрофлоры. Так люди буквально обмениваются частью себя.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cassatt_Mary_Maternal_Kiss_1896.jpg/330px-Cassatt_Mary_Maternal_Kiss_1896.jpg"
+  },
+  {
+    "id": 42,
+    "scheduled_at": "2026-07-07T19:00:00+00:00",
+    "text": "😳 ⏱️ В момент смертельной опасности время в голове замедляется — но не потому что мозг ускоряется. Просто страх активирует амигдалу, которая записывает воспоминания детальнее. Потом кажется, что прошло больше времени.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Multistability.svg/960px-Multistability.svg.png"
   }
 ]

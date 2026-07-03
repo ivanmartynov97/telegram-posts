@@ -36,10 +36,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg"
   },
   {
-    "id": 20,
+    "id": 130,
     "scheduled_at": "2026-07-04T13:00:00+00:00",
-    "text": "😳 🏺 Клеопатра жила ближе к нашему времени, чем к строительству пирамид. Пирамиды — 4500 лет назад. Клеопатра — 2100 лет назад. iPhone — 17 лет назад.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/960px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+    "text": "",
+    "image_url": null
   },
   {
     "id": 22,
@@ -48,10 +48,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anatomy_posture_and_body_mechanics_08.jpg"
   },
   {
-    "id": 24,
+    "id": 131,
     "scheduled_at": "2026-07-04T19:00:00+00:00",
-    "text": "😎 🧬 Женщины биологически запрограммированы жить дольше мужчин — в каждой стране мира, при любом уровне жизни. Эстроген защищает сердце, иммунитет у женщин сильнее, X-хромосом у них две — резервная на случай мутаций.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Comparison_of_male_and_female_life_expectancy_-world.svg/330px-Comparison_of_male_and_female_life_expectancy_-world.svg.png"
+    "text": "",
+    "image_url": null
   },
   {
     "id": 25,
@@ -60,10 +60,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/330px-E._coli_Bacteria_%287316101966%29.jpg"
   },
   {
-    "id": 26,
+    "id": 132,
     "scheduled_at": "2026-07-05T08:00:00+00:00",
-    "text": "😳 🫀 Сердце продолжает биться даже вне тела — пока в мышце есть кислород. Пересаженное сердце запускается само по себе, без нервных сигналов от мозга.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%B2_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B5_%D1%80%D0%B5%D1%86%D0%B8%D0%BF%D0%B8%D0%B5%D0%BD%D1%82%D0%B0.JPG/960px-%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5_%D0%B2_%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BA%D0%BB%D0%B5%D1%82%D0%BA%D0%B5_%D1%80%D0%B5%D1%86%D0%B8%D0%BF%D0%B8%D0%B5%D0%BD%D1%82%D0%B0.JPG"
+    "text": "",
+    "image_url": null
   },
   {
     "id": 27,
@@ -72,10 +72,10 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/LHC.svg/960px-LHC.svg.png"
   },
   {
-    "id": 28,
+    "id": 133,
     "scheduled_at": "2026-07-05T13:00:00+00:00",
-    "text": "😳 🦷 Зубная эмаль переживёт всё. Кости человека распадаются в земле за 25 лет. Мышцы — за недели. Через миллион лет от тебя останутся только зубы.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Labeledmolar.jpg"
+    "text": "",
+    "image_url": null
   },
   {
     "id": 29,
@@ -150,88 +150,76 @@
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/330px-Cebocap.jpg"
   },
   {
-    "id": 41,
+    "id": 134,
     "scheduled_at": "2026-07-07T15:00:00+00:00",
-    "text": "🤓 💋 Один поцелуй передаёт до 80 миллионов бактерий за 10 секунд. Некоторые из них остаются с тобой навсегда — и меняют состав твоей микрофлоры. Так люди буквально обмениваются частью себя.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Cassatt_Mary_Maternal_Kiss_1896.jpg/330px-Cassatt_Mary_Maternal_Kiss_1896.jpg"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 42,
+    "id": 135,
     "scheduled_at": "2026-07-07T19:00:00+00:00",
-    "text": "😳 ⏱️ В момент смертельной опасности время в голове замедляется — но не потому что мозг ускоряется. Просто страх активирует амигдалу, которая записывает воспоминания детальнее. Потом кажется, что прошло больше времени.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Multistability.svg/960px-Multistability.svg.png"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 43,
+    "id": 89,
     "scheduled_at": "2026-07-08T04:00:00+00:00",
-    "text": "🚽 Моча человека может быть жёлтой из-за распада белков и продуктов жизнедеятельности.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20urine%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=330534&nologo=true"
+    "text": "🌟 Ты буквально светишься в темноте. Тело человека испускает слабое биолюминесцентное свечение — в 1 000 раз слабее, чем видит глаз. Максимум — около 4 вечера, минимум — ночью.",
+    "image_url": null
   },
   {
-    "id": 44,
+    "id": 136,
     "scheduled_at": "2026-07-08T08:00:00+00:00",
-    "text": "👀 Человек видит лицо и узнаёт его за 13 миллисекунд.",
-    "image_url": "https://image.pollinations.ai/prompt/Human%20face%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=145493&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 45,
+    "id": 91,
     "scheduled_at": "2026-07-08T10:00:00+00:00",
-    "text": "💔 Сердечная недостаточность может быть вызвана одиночеством — социальная изоляция увеличивает риск сердечно-сосудистых заболеваний.",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20disease%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=538513&nologo=true"
+    "text": "🎵 Прилипчивая песня — это ошибка памяти. Мозг пытается «дополнить» незаконченный музыкальный цикл. Она застревает потому, что ты не можешь мысленно её «закончить». Способ убрать: дослушать песню до конца.",
+    "image_url": null
   },
   {
-    "id": 46,
+    "id": 92,
     "scheduled_at": "2026-07-08T13:00:00+00:00",
-    "text": "🚽 Запах пота может сигнализировать о проблемах со здоровьем — некоторые заболевания имеют характерный запах пота.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20sweat%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=970331&nologo=true"
+    "text": "🌙 Лунатики во сне могут ходить, готовить еду и выходить из дома абсолютно без сознания. Их мозг одновременно спит и бодрствует: двигательная кора активна, но осознанность полностью отключена.",
+    "image_url": null
   },
   {
-    "id": 47,
+    "id": 93,
     "scheduled_at": "2026-07-08T15:00:00+00:00",
-    "text": "🌟 В организме человека находится примерно 60 000 миль кровеносных сосудов.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20blood%20vessels%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=564133&nologo=true"
+    "text": "🥱 Зевота заразна — даже через текст. Психопаты и люди с нарушением эмпатии не «заражаются» зевотой: это рефлекс социального подражания. Чем выше твоя эмпатия — тем чаще ты зеваешь в ответ.",
+    "image_url": null
   },
   {
-    "id": 48,
+    "id": 137,
     "scheduled_at": "2026-07-08T19:00:00+00:00",
-    "text": "🏃‍♀️ Регулярные занятия спортом увеличивают продолжительность жизни на 3-7 лет, даже при отсутствии других здоровых привычек.",
-    "image_url": "https://image.pollinations.ai/prompt/jogging%20woman%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=998736&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 49,
+    "id": 138,
     "scheduled_at": "2026-07-09T04:00:00+00:00",
-    "text": "🚽 Человек за свою жизнь произведёт около 25 тонн слюны.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20saliva%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=568652&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 50,
+    "id": 139,
     "scheduled_at": "2026-07-09T08:00:00+00:00",
-    "text": "🚽 Человеческие шейные позвонки содержат больше нервных окончаний, чем весь мозг.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20spine%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=920875&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 51,
-    "scheduled_at": "2026-07-09T10:00:00+00:00",
-    "text": "🚽 Люди тратят в среднем 3 года жизни на туалете — и это не самый ужасный факт о нашей жизни в ванной.",
-    "image_url": "https://image.pollinations.ai/prompt/toilet%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=384207&nologo=true"
-  },
-  {
-    "id": 52,
+    "id": 122,
     "scheduled_at": "2026-07-09T13:00:00+00:00",
-    "text": "💀 Каждый день наш мозг теряет около 10 000 нейронов.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20brain%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=555530&nologo=true"
+    "text": "🧠 Мозг не хранит воспоминания как файлы — он реконструирует их заново при каждом обращении. Каждый раз немного изменяя. Все твои воспоминания — это слегка искажённые копии прошлого.",
+    "image_url": null
   },
   {
-    "id": 53,
-    "scheduled_at": "2026-07-09T15:00:00+00:00",
-    "text": "🔥 Каждый день мы теряем около 1-2 литров воды через кожу, дыхание и мочеиспускание.",
-    "image_url": "https://image.pollinations.ai/prompt/Human%20body%20water%20loss%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=988162&nologo=true"
-  },
-  {
-    "id": 54,
+    "id": 100,
     "scheduled_at": "2026-07-09T19:00:00+00:00",
-    "text": "💔 Сердечные приступы часто начинаются с боли в челюсти.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20jaw%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=91880&nologo=true"
+    "text": "😂 Смех — нейрологический рефлекс, которым ты не управляешь. Когда смешно по-настоящему, смех вырывается как чихание. Засмеяться убедительно «по команде» физически невозможно.",
+    "image_url": null
   },
   {
     "id": 86,
@@ -240,201 +228,141 @@
     "image_url": null
   },
   {
-    "id": 55,
-    "scheduled_at": "2026-07-10T04:00:00+00:00",
-    "text": "🌊 Человеческий организм может выжить без почки, но не без воды — даже при отсутствии одной почки, человека можно спасти с помощью диализа.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20kidney%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=840755&nologo=true"
-  },
-  {
     "id": 87,
     "scheduled_at": "2026-07-10T06:00:00+00:00",
     "text": "",
     "image_url": null
   },
   {
-    "id": 56,
-    "scheduled_at": "2026-07-10T08:00:00+00:00",
-    "text": "💔 Сердечные приступы могут быть спровоцированы сильным стрессом или эмоциональным потрясением.",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=758108&nologo=true"
-  },
-  {
-    "id": 88,
-    "scheduled_at": "2026-07-10T10:00:00+00:00",
-    "text": "",
-    "image_url": null
-  },
-  {
-    "id": 57,
-    "scheduled_at": "2026-07-10T10:00:00+00:00",
-    "text": "💀 \"💀 Похожий на человека зомби нашелся в Индии в 2018 году. Раковина черепа выглядела так, словно была высверлена циркулярной пилой, а глаза были вырваны. Это было всего лишь обычная добыча дятла-ворона.",
-    "image_url": "https://image.pollinations.ai/prompt/Woodpecker%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=659593&nologo=true"
-  },
-  {
-    "id": 85,
-    "scheduled_at": "2026-07-10T12:05:11+00:00",
-    "text": "",
-    "image_url": null
-  },
-  {
-    "id": 58,
-    "scheduled_at": "2026-07-10T13:00:00+00:00",
-    "text": "💔 Сердечные приступы чаще случаются по понедельникам.",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=199336&nologo=true"
-  },
-  {
-    "id": 59,
-    "scheduled_at": "2026-07-10T15:00:00+00:00",
-    "text": "🎯 Высохшие черепица и другие покрытия кровельные могут быть источником цилиндрической диффузной легочной эмболии, которая может быть смертельной.",
-    "image_url": "https://image.pollinations.ai/prompt/Asbestos%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=827098&nologo=true"
-  },
-  {
-    "id": 60,
-    "scheduled_at": "2026-07-10T19:00:00+00:00",
-    "text": "🤕 Человек, который слишком долго хранит молоко, рискует получить токсическое действие из-за образования ботулизма — бактерия может вызвать серьезное воспаление кишечника и даже летальный исход в течение двух часов после попадания в организм.",
-    "image_url": "https://image.pollinations.ai/prompt/interesting%20fact%20illustration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=878031&nologo=true"
-  },
-  {
-    "id": 61,
-    "scheduled_at": "2026-07-11T04:00:00+00:00",
-    "text": "💔 Сердечные приступы чаще случаются в понедельник — из-за стресса после выходных.",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=628969&nologo=true"
-  },
-  {
-    "id": 62,
+    "id": 101,
     "scheduled_at": "2026-07-11T08:00:00+00:00",
-    "text": "🚽 Человек производит около 25 тысяч литров слюны за жизнь.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20saliva%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=199712&nologo=true"
+    "text": "🫦 Кожа весит 4–5 кг и полностью обновляется каждые 27 дней. Каждую минуту ты теряешь 30 000 клеток кожи. За год — почти 4 кг «старой кожи».",
+    "image_url": null
   },
   {
-    "id": 63,
+    "id": 102,
     "scheduled_at": "2026-07-11T10:00:00+00:00",
-    "text": "🚽 Объём календарных дней с симптомами ПМС у средней женщины равен почти 13 лет жизни.",
-    "image_url": "https://image.pollinations.ai/prompt/Premenstrual%20syndrome%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=331779&nologo=true"
+    "text": "🧬 В каждой клетке — 2 метра ДНК. Если вытянуть все ДНК из всех клеток человека, получится нить в 200 миллиардов километров. Это расстояние до Плутона и обратно больше 1 000 раз.",
+    "image_url": null
   },
   {
-    "id": 64,
+    "id": 103,
     "scheduled_at": "2026-07-11T13:00:00+00:00",
-    "text": "💔 Люди, которые долго не общаются со своими любимыми, могут испытывать симптомы, похожие на болезнь отмены наркотиков.",
-    "image_url": "https://image.pollinations.ai/prompt/Broken%20Heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=654535&nologo=true"
+    "text": "👁️ Глаза двигаются быстрее любой мышцы тела. Мозг «отключает» зрение во время этих скачков — иначе ты видел бы постоянный смазанный вихрь. Ты буквально слепнешь сотни раз в секунду.",
+    "image_url": null
   },
   {
-    "id": 65,
+    "id": 104,
     "scheduled_at": "2026-07-11T15:00:00+00:00",
-    "text": "💔 Каждый день сердце бьётся около 100 тысяч раз, перекачивая более 7500 литров крови.",
-    "image_url": "https://image.pollinations.ai/prompt/Human%20Heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=200967&nologo=true"
+    "text": "⚡ Нервный импульс движется до 120 м/с — 432 км/ч. От пальца до мозга — 1,8 метра. Боль достигает сознания примерно за 15 миллисекунд. Это быстро — но замедляется с возрастом.",
+    "image_url": null
   },
   {
-    "id": 66,
+    "id": 105,
     "scheduled_at": "2026-07-11T19:00:00+00:00",
-    "text": "🚽 Утренний кофе может повысить риск инфаркта на 50% в течение часа после употребления у чувствительных людей.",
-    "image_url": "https://image.pollinations.ai/prompt/coffee%20cup%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=75213&nologo=true"
+    "text": "🌊 Мозг на 73% состоит из воды, лёгкие — на 83%. Потеря даже 2% воды снижает концентрацию и физическую форму на 20%. Жажда — уже признак обезвоживания.",
+    "image_url": null
   },
   {
-    "id": 67,
+    "id": 106,
     "scheduled_at": "2026-07-12T04:00:00+00:00",
-    "text": "🚽 Частое мытье рук может сделать кожу более склонной к аллергическим реакциям.",
-    "image_url": "https://image.pollinations.ai/prompt/hand%20washing%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=462886&nologo=true"
+    "text": "😴 Во время сна мозг сжимается: межклеточное пространство расширяется, и спинномозговая жидкость вымывает токсины. Это «глимфатическая система» — работает только в покое и это одна из главных функций сна.",
+    "image_url": null
   },
   {
-    "id": 68,
+    "id": 107,
     "scheduled_at": "2026-07-12T08:00:00+00:00",
-    "text": "💔 Сердце бьётся неправильно у 1% людей, что может привести к внезапной смерти.",
-    "image_url": "https://image.pollinations.ai/prompt/irregular%20heartbeat%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=803305&nologo=true"
+    "text": "🔬 Митохондрии — «энергостанции клетки» — когда-то были свободными бактериями. Примерно 1,5 миллиарда лет назад другая клетка поглотила их. У митохондрий до сих пор своя ДНК.",
+    "image_url": null
   },
   {
-    "id": 69,
-    "scheduled_at": "2026-07-12T10:00:00+00:00",
-    "text": "💔 Сердечные приступы чаще случаются по понедельникам утром.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=99878&nologo=true"
-  },
-  {
-    "id": 70,
+    "id": 140,
     "scheduled_at": "2026-07-12T13:00:00+00:00",
-    "text": "💣 Каждое третье убийство совершается человеком, знакомым жертве.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/crime%20scene%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=68360&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 71,
+    "id": 141,
     "scheduled_at": "2026-07-12T15:00:00+00:00",
-    "text": "🌟 Во время оргазма мозг женщины вырабатывает такое же количество эндорфинов, как при беге на 10 километров.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/female%20orgasm%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=252555&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 72,
+    "id": 142,
     "scheduled_at": "2026-07-12T19:00:00+00:00",
-    "text": "💔 Сердце бьётся 3 миллиарда раз за жизнь человека.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/human%20heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=332460&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 73,
+    "id": 143,
     "scheduled_at": "2026-07-13T04:00:00+00:00",
-    "text": "🚽 Человек вырабатывает до 1,5 литров слюны в день.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/human%20saliva%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=704474&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 74,
+    "id": 144,
     "scheduled_at": "2026-07-13T08:00:00+00:00",
-    "text": "🚽 Мыльная пена может вызывать аллергию и раздражение кожи даже у здоровых людей.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/soap%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=633111&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 75,
+    "id": 145,
     "scheduled_at": "2026-07-13T10:00:00+00:00",
-    "text": "💔 Сердце бьётся сильнее во время просмотра страшного фильма, чем во время спорта.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/scary%20movie%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=991249&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 76,
+    "id": 108,
     "scheduled_at": "2026-07-13T13:00:00+00:00",
-    "text": "🌟 Большинство людей могут видеть около 10 миллионов разных цветов благодаря уникальной структуре глаза.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/Human%20Eye%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=296661&nologo=true"
+    "text": "🧪 Адреналин при страхе буквально делает тебя сильнее. Зафиксированы случаи, когда люди в панике поднимали автомобили. Гормон блокирует боль и увеличивает мышечную силу на 60–70%.",
+    "image_url": null
   },
   {
-    "id": 77,
+    "id": 109,
     "scheduled_at": "2026-07-13T15:00:00+00:00",
-    "text": "💔 Сердечные приступы чаще случаются в понедельник утром.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/heart%20attack%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=861224&nologo=true"
+    "text": "🌿 Запах свежескошенной травы — это химический сигнал тревоги. Растения выделяют вещества при повреждении, предупреждая соседей. Нам он кажется приятным — хотя для травы это крик о помощи.",
+    "image_url": null
   },
   {
-    "id": 78,
+    "id": 110,
     "scheduled_at": "2026-07-13T19:00:00+00:00",
-    "text": "🤝 \"🤝 Технологии меняют наш мозг: исследование показало, что постоянное использование социальных сетей связано с изменением структуры мозга и снижением внимания\".\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/Neural%20plasticity%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=593347&nologo=true"
+    "text": "🔋 Мозг потребляет 20% энергии тела при весе 2%. При интенсивной умственной работе потребление глюкозы растёт незначительно — мозг практически всегда на полной мощности, даже во сне.",
+    "image_url": null
   },
   {
-    "id": 79,
+    "id": 111,
     "scheduled_at": "2026-07-14T04:00:00+00:00",
-    "text": "💔 Сердце бьётся неправильно у 1 из 5 людей — аритмия обнаружена у каждого пятого взрослого человека.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/human%20heart%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=508034&nologo=true"
+    "text": "🎯 Твой мозг принимает решение за 7 секунд до того, как ты его осознаёшь. МРТ фиксирует активность нейронов задолго до момента «я решил». Свобода воли — возможно, иллюзия.",
+    "image_url": null
   },
   {
-    "id": 80,
+    "id": 112,
     "scheduled_at": "2026-07-14T08:00:00+00:00",
-    "text": "🚨 \"🔴 Злоупотребление кофеиной может привести к судорожным припадкам и даже смерти. В США каждый год умирает до 20 тысяч человек из-за превышения норма кофеина в организме.\"\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/Caffeine%20Overdose%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=784965&nologo=true"
+    "text": "🌡️ Нормальная температура тела 36,6°C — это миф. Средняя — 36,1°C, и она снижалась последние 150 лет. Учёные связывают это со снижением хронического воспаления в популяции.",
+    "image_url": null
   },
   {
-    "id": 81,
+    "id": 113,
     "scheduled_at": "2026-07-14T10:00:00+00:00",
-    "text": "🦠 \"🦠 Токсические пары не доживают до 65 лет - люди, находившие вместе всю жизнь, обычно погибают примерно через 3 года после смерти одного из партнеров, из-за эмоционального шока и разрушения совместной жизни.\"\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/Long-term%20couple%20death%20rate%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=399604&nologo=true"
+    "text": "🦠 Бактерий в твоём теле примерно столько же, сколько собственных клеток — 38 триллионов. Кишечные бактерии производят нейромедиаторы, влияющие на настроение. Ось «кишечник-мозг» меняет нейронауку.",
+    "image_url": null
   },
   {
-    "id": 82,
+    "id": 146,
     "scheduled_at": "2026-07-14T13:00:00+00:00",
-    "text": "🔪 Люди, которые не испытывают страха, умирают раньше — отсутствие страха нарушает реакцию организма на реальную опасность.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/fearless%20person%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=104329&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 83,
+    "id": 147,
     "scheduled_at": "2026-07-14T15:00:00+00:00",
-    "text": "✨ \"✨ Больше 70% людей, которые бросают курить, снова начинают курить через 3-5 лет после первого броска.\"\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/Smoking%20relapse%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=720018&nologo=true"
+    "text": "",
+    "image_url": null
   },
   {
-    "id": 84,
+    "id": 148,
     "scheduled_at": "2026-07-14T19:00:00+00:00",
-    "text": "🌫️ Солнце может высвободить энергию, превышающую годовой потребление всех людей планеты.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": "https://image.pollinations.ai/prompt/interesting%20fact%20illustration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=906314&nologo=true"
+    "text": "",
+    "image_url": null
   }
 ]

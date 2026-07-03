@@ -150,5 +150,29 @@
     "best_post_id": 310,
     "avg_rate": 200.0,
     "last_updated": "2026-07-03T07:19:44.071166+03:00"
+  },
+  "Бостона": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 313,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-03T16:27:02.225301+03:00"
+  },
+  "Погибли": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 313,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-03T16:27:02.225351+03:00"
+  },
+  "1919": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 313,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-03T16:27:02.225370+03:00"
   }
 }

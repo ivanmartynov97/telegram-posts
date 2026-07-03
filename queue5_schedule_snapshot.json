@@ -9,7 +9,7 @@
     "id": 8,
     "scheduled_at": "2026-07-03T08:00:00+00:00",
     "text": "🧠 🪳 Таракан без головы живёт до 9 дней и умирает только от жажды. Голова при этом продолжает шевелить усами ещё несколько часов.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Snodgrass_common_household_roaches.png/960px-Snodgrass_common_household_roaches.png"
+    "image_url": null
   },
   {
     "id": 9,
@@ -225,7 +225,7 @@
     "id": 50,
     "scheduled_at": "2026-07-09T08:00:00+00:00",
     "text": "🚽 Человеческие шейные позвонки содержат больше нервных окончаний, чем весь мозг.",
-    "image_url": "https://image.pollinations.ai/prompt/human%20spine%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=920875&nologo=true"
+    "image_url": null
   },
   {
     "id": 51,

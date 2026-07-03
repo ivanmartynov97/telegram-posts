@@ -231,7 +231,7 @@
     "id": 111,
     "scheduled_at": "2026-07-09T13:00:00+00:00",
     "text": "📜 Стефани Сеймур - американская супермодель и актриса, знаменитая своей яркой карьерой в 80-х и 90-х годах. \nОна была одной из самых популярных моделей своего времени.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Stephanie_Seymour.jpg/960px-Stephanie_Seymour.jpg"
+    "image_url": null
   },
   {
     "id": 112,
@@ -411,7 +411,7 @@
     "id": 141,
     "scheduled_at": "2026-07-14T13:00:00+00:00",
     "text": "🎬 Мадхубала, звезда индийского кино 1950-1960-х годов, оставила неизгладимый след в мировом кинематографе 🌟.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Madhubala_on_2008_stamp.jpg"
+    "image_url": null
   },
   {
     "id": 142,
@@ -453,7 +453,7 @@
     "id": 150,
     "scheduled_at": "2026-07-15T15:00:00+00:00",
     "text": "🌊🏴 Пираты Карибского моря: Джек Воробей завоевал кинематограф в 2000-х годах.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Jack_Sparrow.JPG"
   },
   {
     "id": 148,
@@ -513,7 +513,7 @@
     "id": 158,
     "scheduled_at": "2026-07-17T04:00:00+00:00",
     "text": "Деми Myp нa шоу Дэвида Лeттермана дeмонстрирует бeльё из фильма \"Стриптиз\", 1995 гoд.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3095.jpg"
   },
   {
     "id": 159,
@@ -555,7 +555,7 @@
     "id": 165,
     "scheduled_at": "2026-07-18T08:00:00+00:00",
     "text": "В.И.Ленин в последние недели жизни, 1924 год.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3104.jpg"
+    "image_url": null
   },
   {
     "id": 166,

@@ -1,17 +1,5 @@
 [
   {
-    "id": 8,
-    "scheduled_at": "2026-07-03T08:00:00+00:00",
-    "text": "🧠 🪳 Таракан без головы живёт до 9 дней и умирает только от жажды. Голова при этом продолжает шевелить усами ещё несколько часов.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Snodgrass_common_household_roaches.png/960px-Snodgrass_common_household_roaches.png"
-  },
-  {
-    "id": 9,
-    "scheduled_at": "2026-07-03T10:00:00+00:00",
-    "text": "🤔 ⚔️ Чингисхан убил столько людей, что концентрация CO₂ в атмосфере упала. Его завоевания уничтожили 40 миллионов человек — 10% населения планеты. Леса выросли на опустевших полях.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Batu_Khan_on_the_Throne_by_Rashid_al-Din.jpg/960px-Batu_Khan_on_the_Throne_by_Rashid_al-Din.jpg"
-  },
-  {
     "id": 10,
     "scheduled_at": "2026-07-03T13:00:00+00:00",
     "text": "🧠 🧪 Каждый атом железа в твоей крови был рождён в ядре умирающей звезды. Ты буквально сделан из звёздной пыли. Карл Саган был прав.",
@@ -123,13 +111,13 @@
     "id": 34,
     "scheduled_at": "2026-07-06T13:00:00+00:00",
     "text": "🤓 ⏱️ В момент смертельной опасности время в голове замедляется — но не потому что мозг ускоряется. Просто страх активирует амигдалу, которая записывает воспоминания детальнее. Потом кажется, что прошло больше времени.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Time_Perception_experiment_%28iss065e048413%29.jpg/960px-Time_Perception_experiment_%28iss065e048413%29.jpg"
   },
   {
     "id": 35,
     "scheduled_at": "2026-07-06T15:00:00+00:00",
     "text": "😣 Боль — это наполовину интерпретация мозга. Солдаты в бою часто не чувствуют ранений часами. Хроническая боль существует у людей без видимых повреждений. Мозг буквально решает: «больно тебе или нет».",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Wrist_pain.jpg/960px-Wrist_pain.jpg"
   },
   {
     "id": 36,
@@ -423,6 +411,6 @@
     "id": 84,
     "scheduled_at": "2026-07-14T19:00:00+00:00",
     "text": "🌫️ Солнце может высвободить энергию, превышающую годовой потребление всех людей планеты.\n\nСтавьте лайк 👍, если не знали. Кря! 🦆",
-    "image_url": null
+    "image_url": "https://image.pollinations.ai/prompt/interesting%20fact%20illustration%2C%20vivid%2C%20eye-catching%2C%20high%20quality%20illustration%2C%20vibrant%20colors?width=800&height=800&seed=906314&nologo=true"
   }
 ]

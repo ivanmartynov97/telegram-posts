@@ -87,7 +87,7 @@
     "id": 67,
     "scheduled_at": "2026-07-06T08:00:00+00:00",
     "text": "🧬💡 Микробы вокруг нас! Показав микробиологическую сущность брожения, микробиолог Луи Пастер стал одним из основоположников микробиологии. Его имя известно благодаря технологии пастеризации.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg/960px-Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg"
   },
   {
     "id": 68,
@@ -147,7 +147,7 @@
     "id": 76,
     "scheduled_at": "2026-07-07T19:00:00+00:00",
     "text": "🛰️ Простой сигнал «бип-бип» услышал весь мир — его передавал первый искусственный спутник Земли.\n\nСпутник-1 запустили в СССР 4 октября 1957 года. Весил всего 83.6 кг, а сигнал можно было поймать обычным радиоприёмником — что и сделали миллионы людей по всей планете.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg/960px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%B2_%D0%BC%D0%B8%D1%80%D0%B5_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8.jpg"
+    "image_url": null
   },
   {
     "id": 77,
@@ -369,7 +369,7 @@
     "id": 138,
     "scheduled_at": "2026-07-14T04:00:00+00:00",
     "text": "🎬 Ава Гарднер, звезда 1940-1950-х годов, одна из ярчайших актрис Голливуда 🌟. Занимает почетное 25-е место в списке величайших кинозвезд 💫",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ava_Gardner_Show_Boat_1951.jpg"
+    "image_url": null
   },
   {
     "id": 139,
@@ -507,7 +507,7 @@
     "id": 163,
     "scheduled_at": "2026-07-17T19:00:00+00:00",
     "text": "Cepж Лифapь с пиcтoлeтoм, из кoтoрoгo был yбит Пyшкин. Этo былa пара кленoвых дуэльных пистoлетoв калибра 12 мм фpaнцyзскoй фирмы Le Page.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3102.jpg"
+    "image_url": null
   },
   {
     "id": 164,
@@ -586,5 +586,17 @@
     "scheduled_at": "2026-07-20T04:00:00+00:00",
     "text": "🚢 Mapшрут cлeдования «Титaника» 10-15 апреля 1912 годa.",
     "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3159.jpg"
+  },
+  {
+    "id": 177,
+    "scheduled_at": "2026-07-20T08:00:00+00:00",
+    "text": "🌊 Зaмepзший Ниагарский водопад, 1911 гoд",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3160.jpg"
+  },
+  {
+    "id": 178,
+    "scheduled_at": "2026-07-20T10:00:00+00:00",
+    "text": "🏰 Камиль Муллашев «B пycтыне бyдyщeго» (из циклa «Kaзахстан. Земля и время»), 1978 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3163.jpg"
   }
 ]

@@ -3,19 +3,19 @@
     "id": 11,
     "scheduled_at": "2026-07-03T15:00:00+00:00",
     "text": "💀 Каждую ночь во сне ты несколько раз перестаёшь дышать на секунды — мозг «перезагружается». Это апноэ есть у каждого третьего, большинство даже не подозревает.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Obstruction_ventilation_apn%C3%A9e_sommeil.svg/330px-Obstruction_ventilation_apn%C3%A9e_sommeil.svg.png"
   },
   {
     "id": 12,
     "scheduled_at": "2026-07-03T19:00:00+00:00",
     "text": "🤓 🦈 Гренландская акула живёт 400+ лет и становится взрослой только в 150. Сейчас в океане плавают акулы, рождённые до эпохи Колумба.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Somniosus_microcephalus_okeanos.jpg/330px-Somniosus_microcephalus_okeanos.jpg"
   },
   {
     "id": 14,
     "scheduled_at": "2026-07-04T04:00:00+00:00",
     "text": "😎 🦠 Тихоходки (водяные медведи) — единственные существа, переживающие открытый космос. -272°C, +150°C, вакуум, смертельные дозы радиации — для них это просто стресс.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/330px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png"
   },
   {
     "id": 16,
@@ -27,139 +27,133 @@
     "id": 18,
     "scheduled_at": "2026-07-04T10:00:00+00:00",
     "text": "😎 🐙 У осьминога 9 мозгов и 3 сердца. 2 сердца перекачивают кровь к жабрам, третье — к телу. Когда осьминог плывёт — третье сердце останавливается. Именно поэтому они так не любят плавать.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Octopus2.jpg/960px-Octopus2.jpg"
   },
   {
     "id": 130,
     "scheduled_at": "2026-07-04T13:00:00+00:00",
-    "text": "🎯 [Квиз] 😳 Человек в среднем видит около 40 000 слов в день, но осознаёт только часть",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 22,
     "scheduled_at": "2026-07-04T15:00:00+00:00",
     "text": "🌚 🔬 Оргазм и боль обрабатываются одними и теми же нейронными путями в мозге. Исследования МРТ показали: мозг почти не отличает их — только интенсивность и контекст разные.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Anatomy_posture_and_body_mechanics_08.jpg"
   },
   {
     "id": 131,
     "scheduled_at": "2026-07-04T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🎯 Кошки умеют видеть в абсолютной темноте — там, где нет ни единого фотона",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 25,
     "scheduled_at": "2026-07-05T04:00:00+00:00",
     "text": "🤯 🧬 Ты — не человек, ты суперорганизм. В твоём теле 39 триллионов бактерий — больше, чем собственных клеток. Они управляют твоим настроением, иммунитетом и весом.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/E._coli_Bacteria_%287316101966%29.jpg/330px-E._coli_Bacteria_%287316101966%29.jpg"
   },
   {
     "id": 132,
     "scheduled_at": "2026-07-05T08:00:00+00:00",
-    "text": "🎯 [Квиз] 🧠 Полное лишение сна убивает человека быстрее, чем голод",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 27,
     "scheduled_at": "2026-07-05T10:00:00+00:00",
     "text": "🤯 🔥 Самое горячее место во Вселенной создали люди. В Большом адронном коллайдере при столкновении частиц температура достигает 5,5 триллиона °C — в 350 000 раз горячее ядра Солнца.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/LHC.svg/960px-LHC.svg.png"
   },
   {
     "id": 133,
     "scheduled_at": "2026-07-05T13:00:00+00:00",
-    "text": "🎯 [Квиз] 😎 Человек использует только 10% своего мозга — остальные 90% молчат",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 29,
     "scheduled_at": "2026-07-05T15:00:00+00:00",
     "text": "🎯 💉 Первое переливание крови человеку сделали от ягнёнка в 1667 году. Пациент выжил. Следующий умер. Метод запретили на 150 лет.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Erythrozytenkonzentrat_neu.jpg"
   },
   {
     "id": 30,
     "scheduled_at": "2026-07-05T19:00:00+00:00",
     "text": "😎 🍌 Ты на 60% генетически совпадаешь с бананом. На 85% с мышью. На 98% с шимпанзе. То, что делает тебя человеком — это всего 2% уникального ДНК.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Chromosome_DNA_Gene_unannotated.svg/330px-Chromosome_DNA_Gene_unannotated.svg.png"
   },
   {
     "id": 31,
     "scheduled_at": "2026-07-06T04:00:00+00:00",
     "text": "😵 Токсоплазмоз — паразит в мозге каждого третьего человека — меняет твою личность. Заражённые люди менее осторожны, чаще попадают в аварии и имеют более рискованное поведение. Кошки — основной переносчик.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Toxoplasma_gondii_tachy.jpg"
   },
   {
     "id": 32,
     "scheduled_at": "2026-07-06T08:00:00+00:00",
     "text": "😴 Полное лишение сна убьёт тебя за 11 дней — быстрее, чем голод. Уже после 3 суток без сна начинаются галлюцинации. Мозг засыпает «по кускам» — ты уверен что не спишь, но целые регионы мозга уже отключились.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2023_CDC_recommendations_for_amount_of_sleep_needed%2C_by_age.svg/330px-2023_CDC_recommendations_for_amount_of_sleep_needed%2C_by_age.svg.png"
   },
   {
     "id": 33,
     "scheduled_at": "2026-07-06T10:00:00+00:00",
     "text": "🤓 📱 Экран твоего телефона содержит в 10 раз больше бактерий, чем сиденье унитаза. Люди проверяют телефон 150+ раз в день — и каждый раз переносят микробы на лицо и обратно.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mobile_Phone_Evolution_1992_-_2014.jpg/330px-Mobile_Phone_Evolution_1992_-_2014.jpg"
   },
   {
     "id": 34,
     "scheduled_at": "2026-07-06T13:00:00+00:00",
     "text": "🤓 ⏱️ В момент смертельной опасности время в голове замедляется — но не потому что мозг ускоряется. Просто страх активирует амигдалу, которая записывает воспоминания детальнее. Потом кажется, что прошло больше времени.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Time_Perception_experiment_%28iss065e048413%29.jpg/960px-Time_Perception_experiment_%28iss065e048413%29.jpg"
   },
   {
     "id": 35,
     "scheduled_at": "2026-07-06T15:00:00+00:00",
     "text": "😣 Боль — это наполовину интерпретация мозга. Солдаты в бою часто не чувствуют ранений часами. Хроническая боль существует у людей без видимых повреждений. Мозг буквально решает: «больно тебе или нет».",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Wrist_pain.jpg/960px-Wrist_pain.jpg"
   },
   {
     "id": 36,
     "scheduled_at": "2026-07-06T19:00:00+00:00",
     "text": "🌚 😤 Когда ты злишься, префронтальная кора — отвечающая за логику — буквально отключается. Ты физически не можешь думать рационально в ярости. Это не метафора: МРТ показывает снижение активности на 30%.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Le_Col%C3%A8re_m%C3%AAl%C3%A9e_de_crainte_%28from_Caract%C3%A8res_des_passions%2C_grav%C3%A9s_sur_les_desseins_de_l%27illustre_Monsieur_le_Brun%29_MET_DP854052.jpg/960px-Le_Col%C3%A8re_m%C3%AAl%C3%A9e_de_crainte_%28from_Caract%C3%A8res_des_passions%2C_grav%C3%A9s_sur_les_desseins_de_l%27illustre_Monsieur_le_Brun%29_MET_DP854052.jpg"
   },
   {
     "id": 37,
     "scheduled_at": "2026-07-07T04:00:00+00:00",
     "text": "🤔 💋 Один поцелуй передаёт до 80 миллионов бактерий за 10 секунд. Некоторые из них остаются с тобой навсегда — и меняют состав твоей микрофлоры. Так люди буквально обмениваются частью себя.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_plant_microbiome.jpg/330px-The_plant_microbiome.jpg"
   },
   {
     "id": 38,
     "scheduled_at": "2026-07-07T08:00:00+00:00",
     "text": "🤓 🌈 Сны у людей, выросших при чёрно-белом телевизоре, чёрно-белые. У тех, кто с детства видел цветное ТВ — цветные. Это единственное доказанное внешнее влияние на содержание снов.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A_dream_%28BM_1868%2C0808.9057%29.jpg/330px-A_dream_%28BM_1868%2C0808.9057%29.jpg"
   },
   {
     "id": 39,
     "scheduled_at": "2026-07-07T10:00:00+00:00",
     "text": "😎 🦵 Фантомные боли в ампутированных конечностях лечат зеркалом: пациент смотрит на отражение здоровой руки — мозг «верит», что больная рука существует и движется. Боль исчезает. Это работает в 70% случаев.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg/960px-US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg"
   },
   {
     "id": 40,
     "scheduled_at": "2026-07-07T13:00:00+00:00",
     "text": "🌚 💊 Плацебо работает даже когда люди ЗНАЮТ, что принимают сахарную таблетку. 59% пациентов с хронической болью почувствовали улучшение от «открытого плацебо». Мозг лечит себя сам — просто нужно разрешение.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/330px-Cebocap.jpg"
   },
   {
     "id": 134,
     "scheduled_at": "2026-07-07T15:00:00+00:00",
-    "text": "🎯 [Квиз] 😵 Когда ты злишься, мозг физически не может думать логично",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 135,
     "scheduled_at": "2026-07-07T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🤔 Мы моргаем 15–20 раз в минуту, но мозг вырезает эти моменты из восприятия",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 181,
@@ -170,9 +164,8 @@
   {
     "id": 136,
     "scheduled_at": "2026-07-08T08:00:00+00:00",
-    "text": "🎯 [Квиз] 😂 Плацебо не работает, если человек знает, что принимает пустышку",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 182,
@@ -195,30 +188,26 @@
   {
     "id": 137,
     "scheduled_at": "2026-07-08T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🌚 Мы знаем о поверхности Марса больше, чем о дне собственного океана",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 138,
     "scheduled_at": "2026-07-09T04:00:00+00:00",
-    "text": "🎯 [Квиз] 😮 ДНК человека совпадает с ДНК банана примерно на 50–60%",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 139,
     "scheduled_at": "2026-07-09T08:00:00+00:00",
-    "text": "🎯 [Квиз] 🤯 В момент смертельной опасности мозг ускоряется и время реально замедляется",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 159,
     "scheduled_at": "2026-07-09T10:00:00+00:00",
-    "text": "🎯 [Квиз] 😵 Ты никогда не видел собственное лицо — только зеркало или фото",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 185,
@@ -229,9 +218,8 @@
   {
     "id": 160,
     "scheduled_at": "2026-07-09T15:00:00+00:00",
-    "text": "🎯 [Квиз] 😂 Смех — единственная эмоция, которую невозможно изобразить произвольно",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 186,
@@ -242,65 +230,56 @@
   {
     "id": 86,
     "scheduled_at": "2026-07-10T02:00:00+00:00",
-    "text": "🎯 [Квиз] 🐱 Кошки умеют видеть в абсолютной темноте — там, где нет ни единого фотона света",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 161,
     "scheduled_at": "2026-07-10T04:00:00+00:00",
-    "text": "🎯 [Квиз] 😳 Средний человек проводит во сне треть своей жизни",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 87,
     "scheduled_at": "2026-07-10T06:00:00+00:00",
-    "text": "🎯 [Квиз] 🧠 Человек использует только 10% своего мозга — остальные 90% молчат",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 162,
     "scheduled_at": "2026-07-10T08:00:00+00:00",
-    "text": "🎯 [Квиз] 🤪 Дальтонизм — это видение мира в чёрно-белом цвете",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 163,
     "scheduled_at": "2026-07-10T10:00:00+00:00",
-    "text": "🎯 [Квиз] 💡 Самая высокая температура в истории Вселенной была создана людьми",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 164,
     "scheduled_at": "2026-07-10T13:00:00+00:00",
-    "text": "🎯 [Квиз] 🔈 В глубоком сне мозг полностью отключается от внешних звуков",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 165,
     "scheduled_at": "2026-07-10T15:00:00+00:00",
-    "text": "🎯 [Квиз] 😮 Человек — единственное животное, которое плачет от эмоций",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 166,
     "scheduled_at": "2026-07-10T19:00:00+00:00",
-    "text": "🎯 [Квиз] 😒 Средний человек думает более 6 000 мыслей в день",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 167,
     "scheduled_at": "2026-07-11T04:00:00+00:00",
-    "text": "🎯 [Квиз] 🤗 Объятие длиной более 20 секунд снижает уровень стресса физически",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 187,
@@ -347,51 +326,44 @@
   {
     "id": 168,
     "scheduled_at": "2026-07-12T10:00:00+00:00",
-    "text": "🎯 [Квиз] 😍 Первое впечатление о человеке формируется за 7 секунд",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 140,
     "scheduled_at": "2026-07-12T13:00:00+00:00",
-    "text": "🎯 [Квиз] 🎧 Человек не может задержать дыхание и умереть от этого намеренно",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 141,
     "scheduled_at": "2026-07-12T15:00:00+00:00",
-    "text": "🎯 [Квиз] 😒 Зевота заразна даже при чтении слова «зевота» — без видео и фото",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 142,
     "scheduled_at": "2026-07-12T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🤨 Люди с высоким IQ засыпают позже и спят меньше",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 143,
     "scheduled_at": "2026-07-13T04:00:00+00:00",
-    "text": "🎯 [Квиз] ⚡ Нервный импульс в теле человека движется быстрее звука",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 144,
     "scheduled_at": "2026-07-13T08:00:00+00:00",
-    "text": "🎯 [Квиз] 😍 Мозг влюблённого человека работает как мозг наркомана",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 145,
     "scheduled_at": "2026-07-13T10:00:00+00:00",
-    "text": "🎯 [Квиз] 😌 Человеческое тело содержит достаточно углерода для 900 карандашей",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 194,
@@ -432,22 +404,19 @@
   {
     "id": 146,
     "scheduled_at": "2026-07-14T13:00:00+00:00",
-    "text": "🎯 [Квиз] 👌 Человек единственный примат, у которого белки глаз видны постоянно",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 147,
     "scheduled_at": "2026-07-14T15:00:00+00:00",
-    "text": "🎯 [Квиз] 🙂 Мышцы для улыбки задействуют меньше мышц, чем для хмурого выражения",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   },
   {
     "id": 148,
     "scheduled_at": "2026-07-14T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🎯 Мозг продолжает работать ещё несколько секунд после остановки сердца",
-    "image_url": null,
-    "is_poll": true
+    "text": "",
+    "image_url": null
   }
 ]

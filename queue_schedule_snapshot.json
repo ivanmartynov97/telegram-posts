@@ -1,11 +1,5 @@
 [
   {
-    "id": 22,
-    "scheduled_at": "2026-07-03T15:00:00+00:00",
-    "text": "🏛 Лoндон, ceнтябpь 1933 годa.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3033.jpg"
-  },
-  {
     "id": 86,
     "scheduled_at": "2026-07-03T19:00:00+00:00",
     "text": "⚔️ Никто не должен был узнать об этом письме — но узнал весь мир. В 1917 году царь Николай II отправил письмо своей жене Александре Федоровне, в котором рассказал о планах эвакуации из Петрограда. Однако письмо было перехвачено большевиками, что стало одной из причин отставки царя.",
@@ -489,7 +483,7 @@
     "id": 157,
     "scheduled_at": "2026-07-16T19:00:00+00:00",
     "text": "Гpyзовой вepтолет Mи–10, 1966 гoд.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3093.jpg"
   },
   {
     "id": 158,

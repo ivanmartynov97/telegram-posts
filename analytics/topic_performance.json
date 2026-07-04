@@ -80,12 +80,12 @@
     "last_updated": "2026-06-23T22:14:41.251689+03:00"
   },
   "Однако": {
-    "posts": 1,
-    "total_rate": 200.0,
+    "posts": 2,
+    "total_rate": 400.0,
     "best_rate": 200.0,
     "best_post_id": 255,
     "avg_rate": 200.0,
-    "last_updated": "2026-06-23T22:14:41.251718+03:00"
+    "last_updated": "2026-07-04T07:18:49.480953+03:00"
   },
   "1932": {
     "posts": 1,
@@ -182,5 +182,21 @@
     "best_post_id": 314,
     "avg_rate": 200.0,
     "last_updated": "2026-07-03T18:19:57.907939+03:00"
+  },
+  "Иван": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 316,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-04T07:18:49.480849+03:00"
+  },
+  "Грозный": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 316,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-04T07:18:49.480885+03:00"
   }
 }

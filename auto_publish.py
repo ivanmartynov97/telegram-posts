@@ -25,6 +25,7 @@ from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetScheduledHistoryRequest
+from telethon.tl.types import MessageMediaPoll
 
 BASE         = os.path.dirname(os.path.abspath(__file__))
 CONFIG       = os.path.join(BASE, "config.json")
@@ -110,13 +111,16 @@ def get_thumbnail(article: str) -> str:
             return src
     return ""
 
-def make_slots(n: int, taken: set) -> list:
-    """Генерирует n будущих слотов, пропуская уже занятые (taken — set unix timestamps)."""
+def make_slots(n: int, taken: set, slot_times=None) -> list:
+    """Генерирует n будущих слотов, пропуская уже занятые (taken — set unix timestamps).
+    slot_times — список [(hour, minute), ...]; если None — используется POST_HOURS с минутой :00."""
+    if slot_times is None:
+        slot_times = [(h, 0) for h in POST_HOURS]
     now = datetime.now(RIGA_TZ)
     slots, day = [], now.date()
     while len(slots) < n:
-        for h in POST_HOURS:
-            dt = datetime(day.year, day.month, day.day, h, 0, 0, tzinfo=RIGA_TZ)
+        for (h, m) in slot_times:
+            dt = datetime(day.year, day.month, day.day, h, m, 0, tzinfo=RIGA_TZ)
             ts = int(dt.timestamp())
             if dt > now + timedelta(minutes=10) and ts not in taken:
                 slots.append(ts)
@@ -218,7 +222,7 @@ def gh_put_analytics(path, obj, gh_token, gh_repo, msg):
         return json.loads(r.read())
 
 
-async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analytics_dir, dry_run=False, max_per_run=None, schedule_target=None):
+async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analytics_dir, dry_run=False, max_per_run=None, schedule_target=None, slot_times=None):
     print(f"\n=== Канал {channel} (папка {queue_dir}/) ===")
     try:
         entity = await client.get_entity(channel)
@@ -290,11 +294,19 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
                     image_url = rec.get("image_url")
                 except Exception:
                     pass
+                is_poll = isinstance(getattr(m, "media", None), MessageMediaPoll)
+                poll_question = ""
+                if is_poll:
+                    try:
+                        poll_question = m.media.poll.question.text
+                    except Exception:
+                        pass
                 snapshot.append({
                     "id": m.id,
                     "scheduled_at": m.date.isoformat(),
-                    "text": (getattr(m, "message", None) or "").strip()[:500],
+                    "text": f"🎯 [Квиз] {poll_question}" if is_poll else (getattr(m, "message", None) or "").strip()[:500],
                     "image_url": image_url,
+                    **({"is_poll": True} if is_poll else {}),
                 })
             snapshot.sort(key=lambda x: x["scheduled_at"])
             gh_put_analytics(f"{queue_dir}_schedule_snapshot.json", snapshot, gh_token, gh_repo,
@@ -403,7 +415,7 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
         except Exception:
             return True
     auto_slots_needed = sum(1 for _, post, _ in loaded if _needs_auto_slot(post))
-    auto_slots = make_slots(max(auto_slots_needed, 1), taken) if auto_slots_needed else []
+    auto_slots = make_slots(max(auto_slots_needed, 1), taken, slot_times=slot_times) if auto_slots_needed else []
     auto_idx = 0
 
     # claimed_times — живое множество "уже занято в ЭТОМ запуске", растёт по ходу публикации.
@@ -432,6 +444,17 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
         if not text:
             if not dry_run:
                 try: gh_delete_file_retry(gh_repo, it["path"], sha, gh_token, f"Remove empty: {it['name']}")
+                except Exception: pass
+            continue
+
+        # Защита от мусорных постов из Граблей: обрезанный текст (содержит "[…]" или "Listverse"),
+        # слишком короткий текст без смысла, или текст-заглушка из зарубежного скрейпинга.
+        JUNK_MARKERS = ["[…]", "Listverse", "Сообщение «", "впервые появилось на"]
+        if any(m in text for m in JUNK_MARKERS):
+            print(f"  🗑 {it['name']} — мусорный пост из Граблей, удаляю")
+            logging.warning(f"Junk Grably post removed: {it['name']}")
+            if not dry_run:
+                try: gh_delete_file_retry(gh_repo, it["path"], sha, gh_token, f"Remove junk Grably: {it['name']}")
                 except Exception: pass
             continue
 
@@ -470,7 +493,7 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
                 ts = manual_ts
                 claimed_times.add(ts)
             else:
-                fresh = make_slots(1, claimed_times)
+                fresh = make_slots(1, claimed_times, slot_times=slot_times)
                 ts = fresh[0]
                 claimed_times.add(ts)
                 print(f"  ⚠️ {it['name']}: слот {datetime.fromtimestamp(manual_ts, tz=RIGA_TZ).strftime('%d.%m %H:%M')} уже занят — переношу на {datetime.fromtimestamp(ts, tz=RIGA_TZ).strftime('%d.%m %H:%M')}")
@@ -494,8 +517,8 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
             if image_url:
                 photo_file = fetch_image_for_telegram(image_url)
                 if photo_file is None:
-                    # Картинка не скачалась — пропускаем для queue3/4/5 (require картинку)
-                    if queue_dir in ("queue3", "queue4", "queue5"):
+                    # Картинка не скачалась — пропускаем для queue3/4 (require картинку)
+                    if queue_dir in ("queue3", "queue4"):
                         print(f"  ⛔ Картинка недоступна — пропускаю пост (queue {queue_dir} требует картинку)")
                         logging.warning(f"Skipped (no image): {it['name']}")
                         fail += 1
@@ -506,7 +529,7 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
                         msg = await client.send_message(entity, text, schedule=schedule_dt, parse_mode="html")
                 else:
                     msg = await client.send_file(entity, file=photo_file, caption=text, schedule=schedule_dt, parse_mode="html", force_document=False)
-            elif queue_dir in ("queue3", "queue4", "queue5"):
+            elif queue_dir in ("queue3", "queue4"):
                 # Нет image_url вообще — пропустить для этих каналов
                 print(f"  ⛔ Нет картинки — пропускаю пост (queue {queue_dir} требует картинку)")
                 logging.warning(f"Skipped (no image_url): {it['name']}")
@@ -629,9 +652,13 @@ async def main(dry_run=False, max_per_run=None, schedule_target=None, only_queue
             print(f"\n=== Пропускаю {ch['channel_id']} ({qdir}/) — не входит в --only {only_queue} ===")
             continue
         try:
+            ch_slot_times = ch.get("slot_times")  # [[h,m], ...] или None → fallback на POST_HOURS
+            if ch_slot_times:
+                ch_slot_times = [tuple(x) for x in ch_slot_times]
             await process_channel(client, gh_token, gh_repo, ch["channel_id"],
                                    qdir, ch.get("analytics_dir", "analytics"),
-                                   dry_run=dry_run, max_per_run=max_per_run, schedule_target=schedule_target)
+                                   dry_run=dry_run, max_per_run=max_per_run, schedule_target=schedule_target,
+                                   slot_times=ch_slot_times)
         except Exception as e:
             print(f"❌ Ошибка обработки канала {ch.get('channel_id')}: {e}")
             logging.error(f"process_channel {ch.get('channel_id')}: {e}")

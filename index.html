@@ -183,10 +183,11 @@ body > * { position: relative; z-index: 1; }
 .post-card {
   display: flex; gap: 11px; align-items: flex-start;
   background: rgba(255,255,255,0.03);
-  border-radius: var(--card-radius); padding: 12px;
+  border-radius: var(--card-radius); padding: 12px 12px 12px 10px;
   cursor: pointer; border: 1px solid rgba(255,255,255,0.06);
+  border-left-width: 3px;
   animation: slideUp 0.35s ease both; position: relative; overflow: hidden;
-  transition: border-color var(--transition), transform var(--transition);
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
 }
 .post-card::before {
   content: ''; position: absolute; inset: 0; border-radius: var(--card-radius);
@@ -217,6 +218,16 @@ body > * { position: relative; z-index: 1; }
   font-size: 9px; font-weight: 800; text-transform: uppercase;
   background: linear-gradient(135deg,var(--accent),var(--accent2));
   color:#fff; border-radius: 5px; padding: 2px 5px; letter-spacing: 0.5px;
+}
+.quiz-badge {
+  font-size: 9px; font-weight: 800; text-transform: uppercase;
+  background: linear-gradient(135deg,#FF9500,#FF6B35);
+  color:#fff; border-radius: 5px; padding: 2px 5px; letter-spacing: 0.5px;
+}
+.tg-snap-badge {
+  font-size: 9px; font-weight: 700; text-transform: uppercase;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+  color:rgba(255,255,255,0.4); border-radius: 5px; padding: 2px 5px;
 }
 
 .post-thumb { width: 56px; height: 56px; border-radius: 12px; object-fit: cover; flex-shrink: 0; }
@@ -1056,8 +1067,18 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
 
 <script>
 const REPO      = "ivanmartynov97/telegram-posts";
-const HOURS     = [7, 11, 13, 16, 18, 22];
+const HOURS     = [7, 11, 13, 16, 18, 22];  // fallback для каналов без slot_times
 const RIGA      = 3;
+// Возвращает слоты текущего канала в виде [{h, m}]
+function getChSlots() {
+  const ch = CH();
+  if (ch && ch.slot_times) return ch.slot_times.map(([h,m]) => ({h,m}));
+  return HOURS.map(h => ({h, m:0}));
+}
+// Уникальный ключ слота с учётом минут
+function slotKey(dt) {
+  return `${dt.getFullYear()}-${dt.getMonth()}-${dt.getDate()}_${dt.getHours()}_${dt.getMinutes()}`;
+}
 function getBotToken() { return localStorage.getItem("bot_token") || ""; }
 
 // ── МУЛЬТИКАНАЛЬНОСТЬ ──
@@ -1067,14 +1088,16 @@ function getBotToken() { return localStorage.getItem("bot_token") || ""; }
 // без редеплоя кода.
 function getChannels() {
   return [
-    { id: 0, name: 'History+', channel: '@history_plus_facts', prefix: '', theme: 'history' },
-    { id: 1, name: localStorage.getItem('ch2_name') || 'Канал 2', channel: localStorage.getItem('ch2_username') || '@ricar_telegrama', prefix: '2', theme: 'history' },
+    { id: 0, name: 'History+', channel: '@history_plus_facts', prefix: '', theme: 'history', slot_times: [[6,2],[11,19],[13,19],[16,19],[18,19],[22,19]] },
+    { id: 1, name: localStorage.getItem('ch2_name') || 'Канал 2', channel: localStorage.getItem('ch2_username') || '@ricar_telegrama', prefix: '2', theme: 'history', slot_times: [[6,3],[11,20],[13,20],[16,20],[18,20],[22,20]] },
     // Каналы 3-4 (добавлены 22.06 по явной просьбе) — другая тематика: короткие факты
     // (а не история), формат "эмодзи + факт-утверждение + 1-2 предложения объяснения".
     // Свой бот уже админ в обоих, своя GitHub-папка queue3/queue4 — без редеплоя кода.
-    { id: 2, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts' },
-    { id: 3, name: 'Умная утка', channel: '@umnaya_utka', prefix: '4', theme: 'facts' },
-    { id: 4, name: 'Умным вход разрешён', channel: '@umnim_vhod', prefix: '5', theme: 'facts' },
+    { id: 2, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts', slot_times: [[6,4],[11,21],[13,21],[16,21],[18,21],[22,21]] },
+    { id: 3, name: 'Умная утка', channel: '@umnaya_utka', prefix: '4', theme: 'facts', slot_times: [[6,5],[11,22],[13,22],[16,22],[18,22],[22,22]] },
+    { id: 4, name: 'Умнейший вход', channel: '@umnim_vhod', prefix: '5', theme: 'facts', slot_times: [[6,6],[11,23],[13,23],[16,23],[18,23],[22,23]] },
+    // Канал 6 — @umnim_stat, схема как у 5-го (50% квизов + 50% текст). Слоты: 6:07 11:24 13:24 16:24 18:24 22:24 Riga
+    { id: 5, name: 'Умная статистика', channel: '@umnim_stat', prefix: '6', theme: 'facts', slot_times: [[6,7],[11,24],[13,24],[16,24],[18,24],[22,24]] },
   ];
 }
 let currentChannelIdx = parseInt(localStorage.getItem('current_channel') || '0', 10) || 0;
@@ -1168,10 +1191,11 @@ function rigaNow() {
 }
 function makeSlots(n) {
   const slots = []; const now = rigaNow();
+  const chSlots = getChSlots();
   const day = new Date(now); day.setHours(0,0,0,0);
   while (slots.length < n) {
-    for (const h of HOURS) {
-      const dt = new Date(day); dt.setHours(h,0,0,0);
+    for (const {h, m} of chSlots) {
+      const dt = new Date(day); dt.setHours(h, m, 0, 0);
       if (dt > new Date(now.getTime() + 3*60000)) { slots.push(new Date(dt)); if (slots.length===n) break; }
     }
     day.setDate(day.getDate()+1);
@@ -1288,7 +1312,7 @@ async function init() {
       .filter(s => s.scheduled_at && new Date(s.scheduled_at).getTime() > nowMs)
       .filter(s => !queueTexts.has((s.text || '').trim().slice(0, 200)))
       .map(s => ({
-        post: { text: s.text || '', image_url: s.image_url || null, scheduled_at: s.scheduled_at },
+        post: { text: s.text || '', image_url: s.image_url || null, scheduled_at: s.scheduled_at, is_poll: s.is_poll || false },
         file: null, sha: null,
         tg_snapshot: true, tg_id: s.id,
         slot: new Date(s.scheduled_at),
@@ -1413,11 +1437,21 @@ function renderList(list, query) {
   const allTags = [...new Set(posts.map(p=>p.post.ai_tag).filter(Boolean))];
 
   // Stats bar
-  let statsHtml = `<div class="stat-chip accent">📝 ${posts.length} постов</div>
+  const queueCount = posts.filter(p => !p.tg_snapshot).length;
+  const tgCount = posts.filter(p => p.tg_snapshot).length;
+  const quizCount = posts.filter(p => p.post.is_poll || (p.post.text||'').startsWith('🎯 [Квиз]')).length;
+  const withImgCount = posts.filter(p => p.post.image_url && !p.post.is_poll).length;
+  const imgPct = posts.length ? Math.round(withImgCount / posts.length * 100) : 0;
+
+  let statsHtml = `
+    <div class="stat-chip accent" title="Всего постов в расписании">📝 ${posts.length} постов</div>
+    ${tgCount > 0 ? `<div class="stat-chip" style="background:rgba(0,229,160,0.08);border-color:rgba(0,229,160,0.2);color:#00E5A0" title="${tgCount} уже в Telegram · ${queueCount} в очереди GitHub">📌 ${tgCount} в TG · ${queueCount} в очереди</div>` : `<div class="stat-chip" title="${queueCount} постов в очереди GitHub">📂 ${queueCount} в очереди</div>`}
+    ${quizCount > 0 ? `<div class="stat-chip" style="background:rgba(255,149,0,0.1);border-color:rgba(255,149,0,0.25);color:#FF9500" title="${quizCount} квизов из ${posts.length} постов">🎯 ${quizCount} квиз${quizCount===1?'':'а'} (${Math.round(quizCount/posts.length*100)}%)</div>` : ''}
     ${last ? `<div class="stat-chip">📆 до ${fmtDayShort(last)}</div>` : ''}
     <div class="stat-chip" style="cursor:pointer;background:rgba(108,99,255,0.12);color:#c4bfff" onclick="toggleCalView()" title="Календарный вид">📅 ${calView?'Список':'Календарь'}</div>
     ${emptyToday > 0 ? `<div class="stat-chip" style="background:rgba(255,184,0,0.14);border-color:rgba(255,184,0,0.3);color:#FFB800">⚠️ ${emptyToday} слот${emptyToday===1?'':'а'} свободно сегодня</div>` : '<div class="stat-chip" style="color:#00E5A0">✅ Сегодня заполнено</div>'}
-    <div class="stat-chip" style="cursor:pointer;background:rgba(255,77,109,0.12);border-color:rgba(255,77,109,0.3);color:#FF8FA3" onclick="checkDuplicatesUI()" title="Найти похожие/повторяющиеся посты в очереди и среди опубликованных (включая другой канал)">🧬 Проверить дубли</div>
+    <div class="stat-chip" title="Фото у ${imgPct}% постов">🖼 ${imgPct}% с фото</div>
+    <div class="stat-chip" style="cursor:pointer;background:rgba(255,77,109,0.12);border-color:rgba(255,77,109,0.3);color:#FF8FA3" onclick="checkDuplicatesUI()" title="Найти похожие/повторяющиеся посты">🧬 Дубли</div>
     ${lenBreakdownChip()}
     ${autoFillStatusChip()}`;
 
@@ -1427,11 +1461,17 @@ function renderList(list, query) {
   const filtered2 = (activeTagFilter && !query) ? list.filter(p=>p.post.ai_tag===activeTagFilter) : list;
 
   if (!filtered2 || !filtered2.length) {
+    const isEmpty = !query && !activeTagFilter;
     document.getElementById("list-content").innerHTML = `
-      <div class="empty-wrap"><div class="empty-icon">${query||activeTagFilter?'🔍':'📭'}</div>
-      <div class="empty-title">${query?'Ничего не найдено':activeTagFilter?`Нет постов «${activeTagFilter}»`:'Очередь пуста'}</div>
-      <div class="empty-sub">${query?`По запросу «${esc(query)}» постов нет`:activeTagFilter?'Попробуй другой тег':'Добавьте посты через вкладку Новый'}</div></div>
-      ${(!query&&!activeTagFilter)?'<button class="refresh-btn" onclick="init()">🔄 Обновить</button>':''}`;
+      <div class="empty-wrap">
+        <div class="empty-icon">${query||activeTagFilter?'🔍':'📭'}</div>
+        <div class="empty-title">${query?'Ничего не найдено':activeTagFilter?`Нет постов «${activeTagFilter}»`:'Расписание пусто'}</div>
+        <div class="empty-sub">${query?`По запросу «${esc(query)}» постов нет`:activeTagFilter?'Попробуй другой тег':'Нет предстоящих постов в очереди — добавьте через вкладку «Новый» или воспользуйтесь авто-пополнением'}</div>
+        ${isEmpty ? `<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px">
+          <button onclick="showTab('newpost')" style="background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;border-radius:12px;padding:10px 20px;color:#fff;font-size:13px;font-weight:700;cursor:pointer">✏️ Новый пост</button>
+          <button onclick="init()" style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:12px;padding:10px 20px;color:#fff;font-size:13px;cursor:pointer">🔄 Обновить</button>
+        </div>` : ''}
+      </div>`;
     return;
   }
 
@@ -1465,18 +1505,29 @@ function renderList(list, query) {
     // или случайный ведущий пробел рушили матч целиком → пустой результат → 📝 у постов,
     // где реальный эмодзи на месте. Extended_Pictographic шире/надёжнее + допускаем
     // variation selector и пропускаем случайный ведущий пробел.
-    const emoji = (p.post.text||"").match(/^\s*(\p{Extended_Pictographic}️?)/u)?.[1] || "📝";
-      const thumb = p.post.image_url
-        ? `<img class="post-thumb" src="${p.post.image_url}" loading="lazy" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src=this.src.replace(/seed=\d+/,'seed='+Math.floor(Math.random()*999999));}else{this.style.display='none';}">`
+    const isQuiz = p.post.is_poll || (p.post.text||'').startsWith('🎯 [Квиз]');
+      const isTgSnap = p.tg_snapshot || false;
+      const emoji = isQuiz ? '🎯' : ((p.post.text||"").match(/^\s*(\p{Extended_Pictographic}️?)/u)?.[1] || "📝");
+      const thumbEmoji = JSON.stringify(emoji);
+      const thumb = (p.post.image_url && !isQuiz)
+        ? `<img class="post-thumb" src="${p.post.image_url}" loading="lazy" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src=this.src.replace(/seed=\\d+/,'seed='+Math.floor(Math.random()*999999));}else{this.outerHTML='<div class=\\'thumb-ph\\'>${emoji}</div>';}">`
         : `<div class="thumb-ph">${emoji}</div>`;
-      const rawText = (p.post.text||"").replace(/^[\p{Emoji}\s]+/u,"").trim();
+      const rawText = isQuiz
+        ? (p.post.text||"").replace(/^🎯\s*\[Квиз\]\s*/,'').trim()
+        : (p.post.text||"").replace(/^[\p{Emoji}\s]+/u,"").trim();
       const displayText = query ? highlight(rawText, query) : esc(rawText);
       const nextBadge = isNext ? `<div class="next-badge">NEXT</div>` : '';
+      const quizBadge = isQuiz ? `<div class="quiz-badge">🎯 КВИЗ</div>` : '';
+      const tgSnapBadge = isTgSnap ? `<div class="tg-snap-badge">📌 TG</div>` : '';
+      const replaceBtn = isTgSnap
+        ? `<button class="preview-icon-btn" style="position:static;opacity:0.35;font-size:15px;width:32px;height:32px;border-radius:8px;background:rgba(108,99,255,0.08);border:1px solid rgba(108,99,255,0.15);display:flex;align-items:center;justify-content:center;cursor:not-allowed" title="Пост уже в Telegram" onclick="event.stopPropagation();toast('📌 Пост в Telegram — замена недоступна')">♻️</button>`
+        : `<button class="preview-icon-btn" style="position:static;opacity:0.85;font-size:15px;width:32px;height:32px;border-radius:8px;background:rgba(108,99,255,0.18);border:1px solid rgba(108,99,255,0.3);display:flex;align-items:center;justify-content:center" onclick="event.stopPropagation();replacePost(${globalI})" title="Заменить пост">♻️</button>`;
+      const cardAccent = isQuiz ? '#FF9500' : isTgSnap ? 'rgba(255,255,255,0.15)' : 'var(--accent)';
       html += `
-        <div class="post-card${isNext?' is-next':''}" style="animation-delay:${delay}ms" onclick="openPost(${globalI})">
+        <div class="post-card${isNext?' is-next':''}" style="animation-delay:${delay}ms;border-left:3px solid ${cardAccent}" onclick="openPost(${globalI})">
           <div class="time-col">
             <div class="time-badge">${fmtTime(p.slot)}</div>
-            ${nextBadge}
+            ${nextBadge}${quizBadge}${tgSnapBadge}
             <div class="slot-num">#${p.idx}</div>
           </div>
           ${thumb}
@@ -1485,7 +1536,7 @@ function renderList(list, query) {
               <div class="post-preview" style="flex:1">${emoji} ${displayText}</div>
               <div style="display:flex;flex-direction:column;gap:5px;flex-shrink:0">
                 <button class="preview-icon-btn" style="position:static;opacity:0.85;font-size:16px;width:32px;height:32px;border-radius:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center" onclick="event.stopPropagation();openPreview(${globalI})">👁</button>
-                <button class="preview-icon-btn" style="position:static;opacity:0.85;font-size:15px;width:32px;height:32px;border-radius:8px;background:rgba(108,99,255,0.18);border:1px solid rgba(108,99,255,0.3);display:flex;align-items:center;justify-content:center" onclick="event.stopPropagation();replacePost(${globalI})" title="Заменить пост">♻️</button>
+                ${replaceBtn}
               </div>
             </div>
           </div>
@@ -1507,9 +1558,15 @@ function setTagFilter(tag) {
 // ── DETAIL ──
 function openPost(i) { currentIdx = i; renderDetail(); showScreen("detail"); autoTagPost(i); }
 function renderDetail() {
-  const {post, slot, idx} = posts[currentIdx];
+  const {post, slot, idx, tg_snapshot} = posts[currentIdx];
+  const isQuiz = post.is_poll || (post.text||'').startsWith('🎯 [Квиз]');
   document.getElementById("detail-nav-title").textContent = `${fmtDay(slot)}, ${fmtTime(slot)}`;
-  const imgHtml = post.image_url ? `<img class="detail-img" src="${post.image_url}" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src=this.src.replace(/seed=\d+/,'seed='+Math.floor(Math.random()*999999));}else{this.style.display='none';}">` : '';
+  const imgHtml = (post.image_url && !isQuiz) ? `<img class="detail-img" src="${post.image_url}" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src=this.src.replace(/seed=\\d+/,'seed='+Math.floor(Math.random()*999999));}else{this.style.display='none';}">` : '';
+  const quizDetailBadge = isQuiz ? `<div style="background:linear-gradient(135deg,#FF9500,#FF6B35);color:#fff;border-radius:8px;font-size:11px;font-weight:800;padding:4px 12px;text-transform:uppercase;letter-spacing:0.5px">🎯 Квиз</div>` : '';
+  const tgSnapNote = tg_snapshot ? `<div style="margin-top:6px;font-size:11px;color:rgba(255,255,255,0.3)">📌 Пост уже в Telegram-расписании</div>` : '';
+  const detailText = isQuiz
+    ? (post.text||"").replace(/^🎯\s*\[Квиз\]\s*/,'')
+    : (post.text||"");
   document.getElementById("detail-body").innerHTML = `
     ${imgHtml}
     <div class="detail-content">
@@ -1517,8 +1574,10 @@ function renderDetail() {
         <div class="detail-time-pill">${fmtTime(slot)}</div>
         <div class="detail-day">${fmtDay(slot)}</div>
         <div class="detail-num">#${idx}</div>
+        ${quizDetailBadge}
       </div>
-      <div class="detail-text">${esc(post.text||"")}</div>
+      ${tgSnapNote}
+      <div class="detail-text">${esc(detailText)}</div>
       ${post.ai_tag ? `<div style="margin-top:14px">
         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:8px">
           <span style="${tagStyle(post.ai_tag)}border-radius:8px;font-size:12px;font-weight:800;padding:4px 10px">${post.ai_tag}</span>
@@ -1536,6 +1595,7 @@ function renderDetail() {
 // ── EDIT ──
 function showEdit() {
   if (!getToken()) { toast("⚙️ Сначала добавь GitHub токен"); return; }
+  if (posts[currentIdx].tg_snapshot) { toast("📌 Этот пост уже в Telegram — редактирование недоступно"); return; }
   document.getElementById("edit-textarea").value = posts[currentIdx].post.text || "";
   updateCharCount(); showScreen("edit");
 }
@@ -1564,7 +1624,12 @@ async function savePost() {
 // ── DELETE ──
 function confirmDelete() {
   if (!getToken()) { toast("⚙️ Сначала добавь GitHub токен"); return; }
-  const {post, slot, idx} = posts[currentIdx];
+  const p = posts[currentIdx];
+  if (p.tg_snapshot) {
+    toast("📌 Этот пост уже в Telegram — удалите его прямо в канале");
+    return;
+  }
+  const {post, slot, idx} = p;
   document.getElementById("confirm-desc").textContent =
     `#${idx} · ${fmtDay(slot)}, ${fmtTime(slot)}\n\n${(post.text||"").substring(0,80)}...`;
   document.getElementById("delete-overlay").classList.remove("hidden");
@@ -1577,7 +1642,8 @@ async function deletePost() {
   const btn = document.getElementById("confirm-del-btn");
   btn.disabled=true; btn.textContent="Удаляю...";
   try {
-    const {file} = posts[currentIdx];
+    const {file, tg_snapshot} = posts[currentIdx];
+    if (tg_snapshot) { closeDeleteConfirm(); toast("📌 Пост в Telegram — удалите его в канале"); return; }
     const info = await ghGet(file.path);
     await ghDel(file.path, info.sha, `Delete: ${file.name}`);
     let replaced = false;
@@ -1777,7 +1843,7 @@ async function loadReserve() {
       const res = await fetch(f.download_url+"?t="+Date.now());
       return { data: await res.json(), file: f };
     }));
-    document.getElementById("reserve-count").textContent = `${reservePosts.length} постов`;
+    const rcEl = document.getElementById("reserve-count"); if (rcEl) rcEl.textContent = `${reservePosts.length} постов`;
     if (!reservePosts.length) {
       container.innerHTML = '<div class="empty-wrap"><div class="empty-icon">📦</div><div class="empty-title">Резерв пуст</div><div class="empty-sub">Добавьте посты через форму ниже</div></div>';
       return;
@@ -2292,6 +2358,8 @@ async function ghPut(path, content, sha, msg) {
   });
   if (!r.ok) { const e=await r.json(); throw new Error(e.message||r.status); }
 }
+// Алиас с другим порядком аргументов (path, sha, content, msg) — используется в autoFillWeek и autoTagPost
+async function ghUpdate(path, sha, content, msg) { return ghPut(path, content, sha, msg); }
 // "sha wasn't supplied" — GitHub отвечает так, когда PUT идёт на путь, где файл уже
 // СУЩЕСТВУЕТ (для обновления существующего файла API требует его текущий sha, а это —
 // создание нового). Раньше это просто падало ошибкой в лицо пользователю (баг "в очередь"
@@ -3905,21 +3973,19 @@ async function findFreshImage(terms, excludeUrl) {
 // Найти N ближайших свободных слотов в будущем
 function getFreeSlots(count) {
   const now = rigaNow();
-  const occupied = new Set(posts.map(p => {
-    const s = p.slot;
-    return `${s.getFullYear()}-${s.getMonth()}-${s.getDate()}_${s.getHours()}`;
-  }));
+  const chSlots = getChSlots();
+  const occupied = new Set(posts.map(p => slotKey(p.slot)));
   const result = [];
-  const d = new Date(now); d.setMinutes(0,0,0);
+  const d = new Date(now); d.setSeconds(0,0);
   for (let day = 0; day < 30 && result.length < count; day++) {
-    for (const h of HOURS) {
+    for (const {h, m} of chSlots) {
       if (result.length >= count) break;
-      const slotTime = new Date(d); slotTime.setHours(h,0,0,0);
+      const slotTime = new Date(d); slotTime.setHours(h, m, 0, 0);
       if (slotTime <= now) continue;
-      const key = `${slotTime.getFullYear()}-${slotTime.getMonth()}-${slotTime.getDate()}_${h}`;
+      const key = slotKey(slotTime);
       if (!occupied.has(key)) {
         const dateStr = `${slotTime.getFullYear()}-${String(slotTime.getMonth()+1).padStart(2,'0')}-${String(slotTime.getDate()).padStart(2,'0')}`;
-        result.push({ dateStr, hour: h, slotTime: new Date(slotTime) });
+        result.push({ dateStr, hour: h, minute: m, slotTime: new Date(slotTime) });
       }
     }
     d.setDate(d.getDate()+1);
@@ -4708,7 +4774,7 @@ function initTheme() {
 // ── AUTO FILL WEEK ──
 async function autoFillWeek() {
   if (!getToken()) { toast("⚙️ Нужен GitHub токен"); return; }
-  const HOURS_LIST = [7,11,13,16,18,22];
+  const chSlots = getChSlots();
   // Собираем занятые слоты из очереди
   // (баг был тут: проверялось p.data, а у элементов posts[] это поле всегда называется
   // p.post — из-за этого occupied всегда оставался пустым, а unscheduled ниже — тоже,
@@ -4716,26 +4782,19 @@ async function autoFillWeek() {
   // Используем p.slot напрямую (а не p.post.scheduled_at) — оно есть у всех записей,
   // включая авто-присвоенные последовательные слоты без явного scheduled_at.
   const occupied = new Set();
-  posts.forEach(p => {
-    if (p.slot) {
-      const d = p.slot;
-      const key = `${d.toISOString().slice(0,10)}_${d.getUTCHours()+RIGA}`;
-      occupied.add(key);
-    }
-  });
+  posts.forEach(p => { if (p.slot) occupied.add(slotKey(p.slot)); });
   // Находим пустые слоты на 7 дней вперёд
   const emptySlots = [];
-  const now = new Date();
+  const now = rigaNow();
   for (let day = 0; day < 7; day++) {
     const d = new Date(now);
     d.setDate(d.getDate() + day);
-    const dateStr = d.toISOString().slice(0,10);
-    for (const h of HOURS_LIST) {
-      const key = `${dateStr}_${h}`;
+    for (const {h, m} of chSlots) {
+      const slotTime = new Date(d); slotTime.setHours(h, m, 0, 0);
+      if (slotTime <= now) continue;
+      const key = slotKey(slotTime);
       if (!occupied.has(key)) {
-        // Пропускаем прошедшие слоты сегодня
-        if (day === 0 && h <= now.getUTCHours() + RIGA) continue;
-        emptySlots.push({ date: dateStr, hour: h });
+        emptySlots.push({ date: slotTime.toISOString().slice(0,10), hour: h, minute: m, slotTime });
       }
     }
   }
@@ -4880,7 +4939,8 @@ function renderCalendar(list) {
           const isPast = new Date(d).setHours(h) < now;
           if (p) {
             const globalI = posts.indexOf(p);
-            const emoji = (p.post.text||'').match(/^(\p{Emoji})/u)?.[1] || '📝';
+            const isQuiz = p.post.is_poll || (p.post.text||'').startsWith('🎯 [Квиз]');
+            const emoji = isQuiz ? '🎯' : ((p.post.text||'').match(/^\s*(\p{Extended_Pictographic}️?)/u)?.[1] || '📝');
             const isNext = globalI === nextPostIdx;
             // БАГ-ФИКС "слот с песочными часами пугает — пост же не вышел!": раньше для
             // прошедшего времени со старым кэшем поста рисовали яркую оранжевую плашку
@@ -5250,6 +5310,7 @@ async function replacePost(i) {
   if (!getToken()) { toast("⚙️ Нужен GitHub токен"); return; }
   const p = posts[i];
   if (!p) return;
+  if (p.tg_snapshot) { toast("📌 Этот пост уже в Telegram — замена недоступна"); return; }
   // Показываем спиннер на кнопке
   const card = document.querySelectorAll('.post-card')[i];
   toast("♻️ Ищу замену в Wikipedia…");
@@ -5525,21 +5586,22 @@ async function topUpChannelTo42(idx, ch, apiKey) {
   let seqIdx = 0;
   for (const it of existing) {
     const slot = it.post?.scheduled_at ? new Date(it.post.scheduled_at) : (seqSlots[seqIdx++] || new Date());
-    occupied.add(`${slot.getFullYear()}-${slot.getMonth()}-${slot.getDate()}_${slot.getHours()}`);
+    occupied.add(slotKey(slot));
   }
   const need = TARGET - existing.length;
   const freeSlots = [];
   const now = rigaNow();
-  const d = new Date(now); d.setMinutes(0,0,0);
+  const chSlots2 = getChSlots();
+  const d = new Date(now); d.setSeconds(0,0);
   for (let day = 0; day < 30 && freeSlots.length < need; day++) {
-    for (const h of HOURS) {
+    for (const {h, m} of chSlots2) {
       if (freeSlots.length >= need) break;
-      const slotTime = new Date(d); slotTime.setHours(h,0,0,0);
+      const slotTime = new Date(d); slotTime.setHours(h, m, 0, 0);
       if (slotTime <= now) continue;
-      const key = `${slotTime.getFullYear()}-${slotTime.getMonth()}-${slotTime.getDate()}_${h}`;
+      const key = slotKey(slotTime);
       if (!occupied.has(key)) {
         const dateStr = `${slotTime.getFullYear()}-${String(slotTime.getMonth()+1).padStart(2,'0')}-${String(slotTime.getDate()).padStart(2,'0')}`;
-        freeSlots.push({ dateStr, hour: h, slotTime: new Date(slotTime) });
+        freeSlots.push({ dateStr, hour: h, minute: m, slotTime: new Date(slotTime) });
       }
     }
     d.setDate(d.getDate()+1);
@@ -5872,7 +5934,7 @@ function renderHeatmapTab() {
     return;
   }
   const days = ['Пн','Вт','Ср','Чт','Пт','Сб','Вс'];
-  const hours = [7,11,13,16,18,22];
+  const hours = getChSlots().map(s => s.h);
   // Собираем данные по день+час — совокупный скор (охват 15 мин + реакции + репосты),
   // не только реакции, чтобы хитмап честно показывал что реально лучше "заходит"
   const grid = {}; // "day_hour" → {sum,count}

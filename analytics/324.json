@@ -1,0 +1,22 @@
+{
+  "message_id": 324,
+  "text": "Первый пылесос, сконструированный Хьюбертом Сесилом Бутом, 1901. \nПылесос представлял собой большую тележку с двигателем, который создавал тягу для всасывания пыли.",
+  "scheduled_at": "2026-07-05T11:05:26+03:00",
+  "hour": 11,
+  "has_image": true,
+  "char_count": 164,
+  "views_history": [
+    {
+      "ts": "2026-07-06T01:10:23.744807+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 14.1,
+  "views_updated_at": "2026-07-06T01:10:23.744807+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

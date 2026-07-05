@@ -1,0 +1,22 @@
+{
+  "message_id": 319,
+  "text": "🌟 Джессика Альба, известная актриса, которая начала свою карьеру в 13 лет с фильма «Затерянный лагерь».",
+  "scheduled_at": "2026-07-04T13:05:07+03:00",
+  "hour": 13,
+  "has_image": true,
+  "char_count": 103,
+  "views_history": [
+    {
+      "ts": "2026-07-05T03:38:12.787136+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 14.6,
+  "views_updated_at": "2026-07-05T03:38:12.787136+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

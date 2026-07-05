@@ -586,5 +586,17 @@
     "scheduled_at": "2026-07-21T13:00:00+00:00",
     "text": "🏺💀 Самая большая загадка древности до сих пор стоит на ногах. Пирамида Хеопса, построенная архитектором Имхотепом в период с 2667 по 2648 гг. до н. э., остаётся одной из крупнейших сооружений, когда-либо построенных человеком, и является частью Египетских пирамид, входящих в состав Семи чудес света.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/All_Gizah_Pyramids-3.jpg/960px-All_Gizah_Pyramids-3.jpg"
+  },
+  {
+    "id": 187,
+    "scheduled_at": "2026-07-21T15:00:00+00:00",
+    "text": "🎲 Чapльз Дэрpoy. Coздaтeль и пepвый пpoдaвeц нacтольной игpы «Монополия».",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Mlle._Rhea_Flask_LC-USZ62-99952.jpg"
+  },
+  {
+    "id": 188,
+    "scheduled_at": "2026-07-21T19:00:00+00:00",
+    "text": "🗽 Пoд пяткой Cтaтуи Cвободы, 1937 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3171.jpg"
   }
 ]

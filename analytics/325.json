@@ -1,0 +1,22 @@
+{
+  "message_id": 325,
+  "text": "💪 Фридрих Ницше был солдатом!\nОн воевал в прусской армии.",
+  "scheduled_at": "2026-07-05T13:04:40+03:00",
+  "hour": 13,
+  "has_image": false,
+  "char_count": 57,
+  "views_history": [
+    {
+      "ts": "2026-07-06T01:10:23.744807+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 12.1,
+  "views_updated_at": "2026-07-06T01:10:23.744807+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

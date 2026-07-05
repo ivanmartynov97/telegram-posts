@@ -1,0 +1,22 @@
+{
+  "message_id": 320,
+  "text": "📜 Спутник-1 на выставке, первый искусственный спутник Земли, 1957 год.",
+  "scheduled_at": "2026-07-04T16:05:38+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 70,
+  "views_history": [
+    {
+      "ts": "2026-07-05T03:38:12.787136+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 11.5,
+  "views_updated_at": "2026-07-05T03:38:12.787136+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

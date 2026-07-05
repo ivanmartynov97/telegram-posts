@@ -1,35 +1,5 @@
 [
   {
-    "id": 314,
-    "scheduled_at": "2026-07-04T08:00:00+00:00",
-    "text": "🌚 🕷️ Пауки-птицееды защищаются, стреляя волосками с брюшка. Каждый волосок покрыт крючками — попав в глаза жертвы, они вызывают необратимое повреждение роговицы.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Brachypelma_vagans_p1.jpg/960px-Brachypelma_vagans_p1.jpg"
-  },
-  {
-    "id": 316,
-    "scheduled_at": "2026-07-04T10:00:00+00:00",
-    "text": "😳 👁️ Глаз различает около 10 миллионов оттенков цвета. Но слепое пятно есть у каждого — там, где зрительный нерв входит в сетчатку. Мозг просто дорисовывает картинку.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg"
-  },
-  {
-    "id": 318,
-    "scheduled_at": "2026-07-04T13:00:00+00:00",
-    "text": "🧠 🦑 Кальмар-гигант имеет глаза диаметром 30 см — это самые большие глаза среди всех живых существ на планете. Они нужны, чтобы видеть биолюминесценцию кашалотов в кромешной тьме.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_squid_Ranheim.jpg/960px-Giant_squid_Ranheim.jpg"
-  },
-  {
-    "id": 320,
-    "scheduled_at": "2026-07-04T15:00:00+00:00",
-    "text": "🤔 🪐 На Сатурне идут дожди из алмазов. Молнии превращают метан в сажу, которая под давлением слипается в графит, а затем в алмазные кристаллы.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/330px-Saturn_during_Equinox.jpg"
-  },
-  {
-    "id": 321,
-    "scheduled_at": "2026-07-04T19:00:00+00:00",
-    "text": "😳 🐘 Слоны — единственные животные, которые устраивают похороны. Они возвращаются к костям умерших родственников годами и ощупывают их хоботом, словно прощаясь заново.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg/960px-178_Male_African_bush_elephant_in_Etosha_National_Park_Photo_by_Giles_Laurent.jpg"
-  },
-  {
     "id": 322,
     "scheduled_at": "2026-07-05T04:00:00+00:00",
     "text": "🧠 🦈 Гренландская акула — самое долгоживущее позвоночное на Земле. В 2016 году была поймана особь возрастом 392 года — она родилась до основания США. Половой зрелости эти акулы достигают в 150 лет.\n\nСтавьте 🔥 — если не знали!",
@@ -117,13 +87,13 @@
     "id": 336,
     "scheduled_at": "2026-07-07T10:00:00+00:00",
     "text": "🎯 🐦 Лирохвост — самый совершенный имитатор в животном мире. Он безупречно воспроизводит звук бензопилы, фотоаппарата, сигнализации авто и других птиц. Каждая копия точна до частоты — люди не отличают её от оригинала даже в лаборатории.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Superb_lyrbird_in_scrub.jpg/960px-Superb_lyrbird_in_scrub.jpg"
   },
   {
     "id": 337,
     "scheduled_at": "2026-07-07T13:00:00+00:00",
     "text": "🐀 Голый землекоп — единственное млекопитающее, которое никогда не болеет раком. Его клетки самоуничтожаются при первых признаках мутации. Он нечувствителен к кислотной боли и живёт до 30 лет — в 8 раз дольше, чем обычная мышь такого же размера.\n\nСтавьте 🔥 — если не знали!",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Webs180130-rat.jpg"
   },
   {
     "id": 338,

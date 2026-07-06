@@ -1,15 +1,21 @@
 [
   {
-    "id": 196,
-    "scheduled_at": "2026-07-06T15:19:00+00:00",
-    "text": "⚔ Древние спартанцы начинали готовить воинов с 7 лет ⚔️, в 6 веке до нашей эры под руководством Ликурга.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Calhan_Colorado_High_School_Physical_Education_equipment_by_David_Shankbone.jpg"
-  },
-  {
     "id": 70,
     "scheduled_at": "2026-07-06T19:00:00+00:00",
     "text": "💥 Что-то взорвалось над Сибирью с силой в 1000 Хиросим — и не оставило после себя ни кратера, ни осколков.\n\n30 июня 1908 года Тунгусский метеорит (вероятно, ледяная комета, взорвавшаяся в воздухе) повалил 80 миллионов деревьев на территории 2150 км². Если бы он влетел на 4-5 часов позже, взрыв пришёлся бы на Санкт-Петербург.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/960px-Tunguska_Ereignis-1.jpg"
+  },
+  {
+    "id": 197,
+    "scheduled_at": "2026-07-06T19:19:00+00:00",
+    "text": "✈ Бpoнировaниe aвиабилетов до компьютepной эpы, 1945 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3178.jpg"
+  },
+  {
+    "id": 198,
+    "scheduled_at": "2026-07-07T03:02:00+00:00",
+    "text": "🛸 Ha cъемкax фильмa “Чeловек с планеты X“, 1951 гoд.",
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3179.jpg"
   },
   {
     "id": 71,

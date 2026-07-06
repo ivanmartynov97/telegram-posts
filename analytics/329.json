@@ -1,0 +1,22 @@
+{
+  "message_id": 329,
+  "text": "📜 Пишущая машинка Ремингтон, первая коммерчески успешная модель, 1873 год.",
+  "scheduled_at": "2026-07-06T07:02:09+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 74,
+  "views_history": [
+    {
+      "ts": "2026-07-06T17:09:44.994523+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 10.1,
+  "views_updated_at": "2026-07-06T17:09:44.994523+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

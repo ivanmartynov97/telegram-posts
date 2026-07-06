@@ -198,5 +198,29 @@
     "best_post_id": 316,
     "avg_rate": 200.0,
     "last_updated": "2026-07-04T07:18:49.480885+03:00"
+  },
+  "Англией": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 332,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T16:21:04.265712+03:00"
+  },
+  "Термин": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 332,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T16:21:04.265744+03:00"
+  },
+  "Битва": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 332,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T16:21:04.265753+03:00"
   }
 }

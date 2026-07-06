@@ -16,5 +16,16 @@
   "early_rate": 200.0,
   "early_snapshot_at": "2026-07-06T22:16:47.628533+03:00",
   "subscribers_at_early": 5,
-  "reactions_breakdown": {}
+  "reactions_breakdown": {},
+  "views_history": [
+    {
+      "ts": "2026-07-06T22:25:09.200159+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_updated_at": "2026-07-06T22:25:09.200159+03:00",
+  "hours_since_pub": 0.3,
+  "views_1h": 1,
+  "spike_score": 1
 }

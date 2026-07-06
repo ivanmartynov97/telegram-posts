@@ -238,5 +238,13 @@
     "best_post_id": 333,
     "avg_rate": 200.0,
     "last_updated": "2026-07-06T18:16:12.070578+03:00"
+  },
+  "Ликурга": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 334,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T18:31:39.448547+03:00"
   }
 }

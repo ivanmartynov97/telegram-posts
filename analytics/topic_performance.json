@@ -72,12 +72,12 @@
     "last_updated": "2026-06-23T16:15:44.789748+03:00"
   },
   "Австралии": {
-    "posts": 1,
-    "total_rate": 200.0,
+    "posts": 2,
+    "total_rate": 400.0,
     "best_rate": 200.0,
     "best_post_id": 255,
     "avg_rate": 200.0,
-    "last_updated": "2026-06-23T22:14:41.251689+03:00"
+    "last_updated": "2026-07-06T18:16:12.070527+03:00"
   },
   "Однако": {
     "posts": 2,
@@ -222,5 +222,21 @@
     "best_post_id": 332,
     "avg_rate": 200.0,
     "last_updated": "2026-07-06T16:21:04.265753+03:00"
+  },
+  "Солдатам": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 333,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T18:16:12.070569+03:00"
+  },
+  "Военные": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 333,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-06T18:16:12.070578+03:00"
   }
 }

@@ -1,41 +1,5 @@
 [
   {
-    "id": 263,
-    "scheduled_at": "2026-07-07T04:00:00+00:00",
-    "text": "📚 Печатный станок Гутенберга, 1440\n\nИоганн Гутенберг изобрел печатный станок с подвижным шрифтом около 1440 года. Первой книгой стала Библия Гутенберга, отпечатанная в 180 экземплярах. Это изобретение позволило распространять знания и стало началом информационной революции.\n🔥",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/PrintMus_038.jpg/960px-PrintMus_038.jpg"
-  },
-  {
-    "id": 236,
-    "scheduled_at": "2026-07-07T08:00:00+00:00",
-    "text": "Обслyживaниe атомного peaктopa PБМК–1000 1–го энергоблока ЧAЭC, Припять, 1980–e.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3209.jpg"
-  },
-  {
-    "id": 237,
-    "scheduled_at": "2026-07-07T10:00:00+00:00",
-    "text": "Учacтники дaтcкого движeния сопротивления арестовывают эсэсовцев в Koпeнгaгeнe, 1945 год.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3210.jpg"
-  },
-  {
-    "id": 264,
-    "scheduled_at": "2026-07-07T13:00:00+00:00",
-    "text": "🌡️ Открытие вакцины против оспы, 1796\n\nВ 1796 году английский врач Эдвард Дженнер привил 8-летнему мальчику вирус коровьей оспы. Мальчик не заболел обычной оспой. Так была создана первая вакцина в истории, спасившая миллионы жизней.\n🔥",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Young_girl_about_to_receive_a_vaccine_in_her_upper_arm_%2848545990252%29.jpg/960px-Young_girl_about_to_receive_a_vaccine_in_her_upper_arm_%2848545990252%29.jpg"
-  },
-  {
-    "id": 242,
-    "scheduled_at": "2026-07-07T15:00:00+00:00",
-    "text": "🌕 Первая высадка на Луну, 1969\n20 июля 1969 года Нил Армстронг ступил на Луну. Президент Никсон держал наготове речь на случай гибели экипажа. Флаг, оставленный астронавтами, сейчас уже обесцвечен солнечной радиацией.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Moon_Soft_Landings.svg/330px-Moon_Soft_Landings.svg.png"
-  },
-  {
-    "id": 243,
-    "scheduled_at": "2026-07-07T19:00:00+00:00",
-    "text": "🚗 Первый автомобиль в истории, 1885\nКарл Бенц получил патент на «повозку с бензиновым двигателем» 29 января 1886 года. В 1888 году его жена Берта тайно угнала машину на 180 км — это первая дальняя поездка в истории.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Berthabenzportrait.jpg/330px-Berthabenzportrait.jpg"
-  },
-  {
     "id": 244,
     "scheduled_at": "2026-07-08T04:00:00+00:00",
     "text": "✈️ Первый полёт в истории, 1903\n17 декабря 1903 года братья Райт подняли в воздух аппарат тяжелее воздуха на 12 секунд и 37 метров. Присутствовало 5 свидетелей. Через 66 лет люди высадились на Луне.",

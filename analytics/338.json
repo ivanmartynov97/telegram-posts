@@ -1,0 +1,22 @@
+{
+  "message_id": 338,
+  "text": "🎬📡 Хеди Ламарр — голливудская звезда 1940-х, которая в свободное время изобрела технологию, ставшую основой Wi-Fi и Bluetooth (частотное скакание сигнала для торпед).",
+  "scheduled_at": "2026-07-07T07:02:41+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 166,
+  "views_history": [
+    {
+      "ts": "2026-07-08T01:34:20.021000+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 18.5,
+  "views_updated_at": "2026-07-08T01:34:20.021000+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

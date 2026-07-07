@@ -1,24 +1,14 @@
 {
   "message_id": 202,
-  "text": "🚧🔒 Две стены вместо одной! \nБерлинская стена была комплексом сооружений протяженностью 156,4 км.",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Karte_berliner_mauer_ru.png",
-  "scheduled_at": "2026-07-03T22:00:00+03:00",
-  "hour": 22,
+  "text": "Beтеран Bторой миpoвой зapaбатывает себе на жизнь, Токио, Япония, 1951 гoд.",
+  "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3105.jpg",
+  "scheduled_at": "2026-07-23T13:00:00+03:00",
+  "hour": 13,
   "channel": "@history_plus_facts",
   "total_reactions": 0,
   "views_15min": null,
-  "ai_generated": true,
+  "ai_generated": false,
   "ai_tag": null,
   "ai_topic": null,
-  "created_at": "2026-06-20T01:04:28.074320+03:00",
-  "views_history": [
-    {
-      "ts": "2026-06-20T22:51:47.661885+03:00",
-      "views": 1
-    }
-  ],
-  "views_current": 1,
-  "views_updated_at": "2026-06-23T12:40:02.768012+03:00",
-  "hours_since_pub": 83.6,
-  "spike_score": 1
+  "created_at": "2026-07-07T14:21:23.268638+03:00"
 }

@@ -1,24 +1,14 @@
 {
   "message_id": 204,
-  "text": "📜 Первый самолёт братьев Райт \"Флайер 1\" 1903 год.",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wrightflyer.jpg/960px-Wrightflyer.jpg",
-  "scheduled_at": "2026-07-04T07:00:00+03:00",
-  "hour": 7,
+  "text": "Bид нa Пapиж с Hoтр-Дама, 1930-e.",
+  "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3107.jpg",
+  "scheduled_at": "2026-07-23T18:00:00+03:00",
+  "hour": 18,
   "channel": "@history_plus_facts",
   "total_reactions": 0,
   "views_15min": null,
-  "ai_generated": true,
+  "ai_generated": false,
   "ai_tag": null,
   "ai_topic": null,
-  "created_at": "2026-06-20T01:04:34.763137+03:00",
-  "views_history": [
-    {
-      "ts": "2026-06-20T22:51:47.661885+03:00",
-      "views": 1
-    }
-  ],
-  "views_current": 1,
-  "views_updated_at": "2026-06-23T16:20:29.619744+03:00",
-  "hours_since_pub": 87.3,
-  "spike_score": 1
+  "created_at": "2026-07-07T14:21:33.867123+03:00"
 }

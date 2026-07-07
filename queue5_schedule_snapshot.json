@@ -1,43 +1,5 @@
 [
   {
-    "id": 37,
-    "scheduled_at": "2026-07-07T04:00:00+00:00",
-    "text": "🤔 💋 Один поцелуй передаёт до 80 миллионов бактерий за 10 секунд. Некоторые из них остаются с тобой навсегда — и меняют состав твоей микрофлоры. Так люди буквально обмениваются частью себя.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/The_plant_microbiome.jpg/330px-The_plant_microbiome.jpg"
-  },
-  {
-    "id": 38,
-    "scheduled_at": "2026-07-07T08:00:00+00:00",
-    "text": "🤓 🌈 Сны у людей, выросших при чёрно-белом телевизоре, чёрно-белые. У тех, кто с детства видел цветное ТВ — цветные. Это единственное доказанное внешнее влияние на содержание снов.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A_dream_%28BM_1868%2C0808.9057%29.jpg/330px-A_dream_%28BM_1868%2C0808.9057%29.jpg"
-  },
-  {
-    "id": 39,
-    "scheduled_at": "2026-07-07T10:00:00+00:00",
-    "text": "😎 🦵 Фантомные боли в ампутированных конечностях лечат зеркалом: пациент смотрит на отражение здоровой руки — мозг «верит», что больная рука существует и движется. Боль исчезает. Это работает в 70% случаев.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg/960px-US_Navy_110613-N-YM336-079_Lynn_Boulanger%2C_an_occupational_therapy_assistant_and_certified_hand_therapist%2C_uses_mirror_therapy_to_help_address_phan.jpg"
-  },
-  {
-    "id": 40,
-    "scheduled_at": "2026-07-07T13:00:00+00:00",
-    "text": "🌚 💊 Плацебо работает даже когда люди ЗНАЮТ, что принимают сахарную таблетку. 59% пациентов с хронической болью почувствовали улучшение от «открытого плацебо». Мозг лечит себя сам — просто нужно разрешение.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cebocap.jpg/330px-Cebocap.jpg"
-  },
-  {
-    "id": 134,
-    "scheduled_at": "2026-07-07T15:00:00+00:00",
-    "text": "🎯 [Квиз] 😵 Когда ты злишься, мозг физически не может думать логично",
-    "image_url": null,
-    "is_poll": true
-  },
-  {
-    "id": 135,
-    "scheduled_at": "2026-07-07T19:00:00+00:00",
-    "text": "🎯 [Квиз] 🤔 Мы моргаем 15–20 раз в минуту, но мозг вырезает эти моменты из восприятия",
-    "image_url": null,
-    "is_poll": true
-  },
-  {
     "id": 181,
     "scheduled_at": "2026-07-08T04:00:00+00:00",
     "text": "🌟 Ты буквально светишься в темноте. Тело человека испускает слабое биолюминесцентное свечение — в 1 000 раз слабее, чем видит глаз. Максимум — около 4 вечера, минимум — ночью.",

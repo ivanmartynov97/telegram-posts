@@ -1,0 +1,22 @@
+{
+  "message_id": 349,
+  "text": "📜 Жестокое нашествие изменит Европу! Аттила, лидер гуннов, начал свое стремительное завоевание в 5 веке. В 451 году его орды достигли Галлии.",
+  "scheduled_at": "2026-07-08T18:01:24+03:00",
+  "hour": 18,
+  "has_image": false,
+  "char_count": 141,
+  "views_history": [
+    {
+      "ts": "2026-07-08T22:45:09.608655+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 4.7,
+  "views_updated_at": "2026-07-08T22:45:09.608655+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

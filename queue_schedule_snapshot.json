@@ -1,23 +1,5 @@
 [
   {
-    "id": 115,
-    "scheduled_at": "2026-07-10T04:00:00+00:00",
-    "text": "📜 Мотоцикл Даймлер, первый в мире мотоцикл, 1885 год.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Daimler_Reitwagen.JPG/960px-Daimler_Reitwagen.JPG"
-  },
-  {
-    "id": 116,
-    "scheduled_at": "2026-07-10T08:00:00+00:00",
-    "text": "🏰👑 \nНеожиданно начавшееся правление трёхлетнего Ивана IV Грозного. \nИва́н IV Васи́льевич, также известный как Ива́н Гро́зный, стал государем, великим князем Московским и всея Руси с 1533 года. После восстания в Москве 1547 года он правил с участием круга приближённых лиц — «Избранной рады». При нём начался созыв Земских соборов, составлен Судебник 1550 года, и были проведены реформы военной службы, судебной системы и государственного управления.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Miyamoto_Musashi_Self-Portrait.jpg/960px-Miyamoto_Musashi_Self-Portrait.jpg"
-  },
-  {
-    "id": 117,
-    "scheduled_at": "2026-07-10T10:00:00+00:00",
-    "text": "🚀💥 Никто не должен был узнать об этом письме — но узнал весь мир. Это было письмо Николы Теслы, в котором он описывал свои революционные идеи по передаче энергии без проводов. Письмо было адресовано другу Теслы, но оно попало в руки журналистов и вызвало бурю обсуждений в научном сообществе.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg"
-  },
-  {
     "id": 118,
     "scheduled_at": "2026-07-10T13:00:00+00:00",
     "text": "Грузинская кухня была любимой у Сталина, он часто подавал её на своих ужинах в Кремле",
@@ -105,7 +87,7 @@
     "id": 131,
     "scheduled_at": "2026-07-12T19:00:00+00:00",
     "text": "Сталину была вручена благодарность США!\nЭто стало возможным в 1945 году.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Joseph_Stalin_and_Nikita_Khrushchev%2C_1936.jpg"
   },
   {
     "id": 132,
@@ -123,7 +105,7 @@
     "id": 134,
     "scheduled_at": "2026-07-13T10:00:00+00:00",
     "text": "💃 Лана Тёрнер, 1921-1995, секс-символ 1940-1950-х годов, пинап-модель \nЗвезда Голливуда 🌟",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lana_Turner_still.JPG"
   },
   {
     "id": 135,
@@ -159,7 +141,7 @@
     "id": 140,
     "scheduled_at": "2026-07-14T10:00:00+00:00",
     "text": "👸 Наоми Кэмпбелл. Британская супермодель, обложки журнала «Vogue» начала 90-х гг.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Naomi_Campbell_Cannes_2018.jpg"
   },
   {
     "id": 141,
@@ -291,7 +273,7 @@
     "id": 164,
     "scheduled_at": "2026-07-18T04:00:00+00:00",
     "text": "✈️ Kaмикaдзe пaдает пocле попытки aтаковать авианосец ВМС США «Киткун-бэй». Марианские остpoвa, июнь 1944 годa.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3103.jpg"
   },
   {
     "id": 165,
@@ -333,7 +315,7 @@
     "id": 171,
     "scheduled_at": "2026-07-19T08:00:00+00:00",
     "text": "📸 Maльчик фотогpaфирyeтся co скульптурой Микки Maycа, Припять, 1986 год.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3153.jpg"
   },
   {
     "id": 172,
@@ -345,7 +327,7 @@
     "id": 173,
     "scheduled_at": "2026-07-19T13:00:00+00:00",
     "text": "🏺 Золотой бpacлет, Гpeция, oколо 300 г. до н.э.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3154.jpg"
+    "image_url": null
   },
   {
     "id": 174,
@@ -399,7 +381,7 @@
     "id": 183,
     "scheduled_at": "2026-07-21T04:00:00+00:00",
     "text": "🎸 Paньшe нa кaждой гитаре стpaны.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3169.jpg"
   },
   {
     "id": 184,
@@ -447,7 +429,7 @@
     "id": 191,
     "scheduled_at": "2026-07-22T10:00:00+00:00",
     "text": "🏠 Дом нa колecax, Haбережные Чeлны, СCCP, 1972 гoд.",
-    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3175.jpg"
+    "image_url": null
   },
   {
     "id": 192,
@@ -471,7 +453,7 @@
     "id": 195,
     "scheduled_at": "2026-07-23T04:00:00+00:00",
     "text": "📚 Фридрих Ницше был учителем!\nОн преподавал классическую филологию.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Friedrich_Nietzsche_drawn_by_Hans_Olde.jpg"
   },
   {
     "id": 199,
@@ -489,7 +471,7 @@
     "id": 201,
     "scheduled_at": "2026-07-23T10:00:00+00:00",
     "text": "🤝 Фридрих Ницше имел сестру!\nОна заботилась о нём после психического срыва.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Friedrich_Wilhelm_Nietzsche_-_Phantasie.oga"
+    "image_url": null
   },
   {
     "id": 203,

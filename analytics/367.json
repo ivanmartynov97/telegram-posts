@@ -1,0 +1,22 @@
+{
+  "message_id": 367,
+  "text": "🚗 Пишущая машинка Ремингтон, одна из первых коммерческих моделей, 1873 год. \nПредшественник современного офисного оборудования",
+  "scheduled_at": "2026-07-11T18:02:11+03:00",
+  "hour": 18,
+  "has_image": true,
+  "char_count": 126,
+  "views_history": [
+    {
+      "ts": "2026-07-12T01:46:19.936454+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 7.7,
+  "views_updated_at": "2026-07-12T01:46:19.936454+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

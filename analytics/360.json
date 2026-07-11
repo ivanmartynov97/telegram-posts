@@ -1,0 +1,22 @@
+{
+  "message_id": 360,
+  "text": "Грузинская кухня была любимой у Сталина, он часто подавал её на своих ужинах в Кремле",
+  "scheduled_at": "2026-07-10T16:05:03+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 85,
+  "views_history": [
+    {
+      "ts": "2026-07-12T01:46:19.936454+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 33.7,
+  "views_updated_at": "2026-07-12T01:46:19.936454+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

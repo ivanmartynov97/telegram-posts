@@ -278,5 +278,29 @@
     "best_post_id": 336,
     "avg_rate": 200.0,
     "last_updated": "2026-07-06T22:32:21.239139+03:00"
+  },
+  "Екатерина": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 373,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-12T18:17:32.778049+03:00"
+  },
+  "Медичи": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 373,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-12T18:17:32.778110+03:00"
+  },
+  "Святого": {
+    "posts": 1,
+    "total_rate": 200.0,
+    "best_rate": 200.0,
+    "best_post_id": 373,
+    "avg_rate": 200.0,
+    "last_updated": "2026-07-12T18:17:32.778128+03:00"
   }
 }

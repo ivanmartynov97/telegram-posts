@@ -1,0 +1,22 @@
+{
+  "message_id": 379,
+  "text": "🍽️ Первый телефон Александра Грейама Белла, устройство для передачи голоса на расстояние. 1876 год. 📞💬",
+  "scheduled_at": "2026-07-13T18:03:20+03:00",
+  "hour": 18,
+  "has_image": true,
+  "char_count": 102,
+  "views_history": [
+    {
+      "ts": "2026-07-13T22:48:24.845845+03:00",
+      "views": 1
+    }
+  ],
+  "views_current": 1,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 4.8,
+  "views_updated_at": "2026-07-13T22:48:24.845845+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

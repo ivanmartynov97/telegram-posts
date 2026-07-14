@@ -1,11 +1,5 @@
 [
   {
-    "id": 138,
-    "scheduled_at": "2026-07-14T04:00:00+00:00",
-    "text": "🎬 Ава Гарднер, звезда 1940-1950-х годов, одна из ярчайших актрис Голливуда 🌟. Занимает почетное 25-е место в списке величайших кинозвезд 💫",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ava_Gardner_Show_Boat_1951.jpg"
-  },
-  {
     "id": 139,
     "scheduled_at": "2026-07-14T08:00:00+00:00",
     "text": "🔥 Стефани Сеймур, обаятельная американская супермодель и талантливая актриса кино и телевидения, родившаяся 23 июля 1968 года в Сан-Диего, США \nС ней всегда ассоциируется эпоха гламура 90-х 🌟",
@@ -21,7 +15,7 @@
     "id": 141,
     "scheduled_at": "2026-07-14T13:00:00+00:00",
     "text": "🎬 Мадхубала, звезда индийского кино 1950-1960-х годов, оставила неизгладимый след в мировом кинематографе 🌟.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Madhubala_on_2008_stamp.jpg"
   },
   {
     "id": 142,
@@ -81,7 +75,7 @@
     "id": 153,
     "scheduled_at": "2026-07-16T08:00:00+00:00",
     "text": "Цecapeвич Aлeкceй на прогулке, Санкт-Петербург, 1906 год.",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3082.jpg"
   },
   {
     "id": 154,
@@ -267,7 +261,7 @@
     "id": 185,
     "scheduled_at": "2026-07-21T10:00:00+00:00",
     "text": "😂 Эйнштейн был официантом!\nВ 1902 году он действительно работал в ресторане.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Albert_Einstein_photo_1920.jpg"
   },
   {
     "id": 186,
@@ -297,7 +291,7 @@
     "id": 190,
     "scheduled_at": "2026-07-22T08:00:00+00:00",
     "text": "💫 У людей может начать расти **третий набор зубов**, в связи с...",
-    "image_url": null
+    "image_url": "https://raw.githubusercontent.com/ivanmartynov97/telegram-posts/main/foreign/images/istorian_3174.jpg"
   },
   {
     "id": 191,
@@ -321,13 +315,13 @@
     "id": 194,
     "scheduled_at": "2026-07-22T19:00:00+00:00",
     "text": "🏹 Испанский конкистадор Франсиско Писарро 🏹 завоевал империю Инков в 1533 году.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Anglo_saxon_jute_575ad.jpg"
   },
   {
     "id": 195,
     "scheduled_at": "2026-07-23T04:00:00+00:00",
     "text": "📚 Фридрих Ницше был учителем!\nОн преподавал классическую филологию.",
-    "image_url": null
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Friedrich_Nietzsche_drawn_by_Hans_Olde.jpg"
   },
   {
     "id": 199,

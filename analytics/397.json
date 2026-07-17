@@ -1,0 +1,22 @@
+{
+  "message_id": 397,
+  "text": "Самое длинное животное на Земле — не голубой кит, а медуза львиная грива, её щупальца достигают 37 метров в длину.",
+  "scheduled_at": "2026-07-16T17:22:45+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 114,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 132
+    }
+  ],
+  "views_current": 132,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 12.9,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

@@ -1,0 +1,22 @@
+{
+  "message_id": 387,
+  "text": "💻✈️ Первое радиопередачу передал Гульельмо Маркони с подводной лодки «Эринио» в Энглзуорте (Великобритания) в конце 1895 года.",
+  "scheduled_at": "2026-07-15T07:02:52+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 126,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 16
+    }
+  ],
+  "views_current": 16,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 47.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

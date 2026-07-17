@@ -1,0 +1,22 @@
+{
+  "message_id": 392,
+  "text": "🚀 Британский танк Марк I, один из первых массовых танков в истории, 1916 год \nТанк изображён в боевых условиях Первой мировой войны",
+  "scheduled_at": "2026-07-15T22:04:03+03:00",
+  "hour": 22,
+  "has_image": true,
+  "char_count": 131,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 16
+    }
+  ],
+  "views_current": 16,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 32.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

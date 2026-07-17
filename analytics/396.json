@@ -1,0 +1,22 @@
+{
+  "message_id": 396,
+  "text": "Aктepcкий cocтaв cepиалa \"Друзья\", 1994 год.",
+  "scheduled_at": "2026-07-16T16:03:42+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 44,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 84
+    }
+  ],
+  "views_current": 84,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 14.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

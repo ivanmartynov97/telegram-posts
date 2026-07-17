@@ -1,0 +1,22 @@
+{
+  "message_id": 390,
+  "text": "⚡️ Первый электрический трамвай Берлина на улицах города. 1881.",
+  "scheduled_at": "2026-07-15T16:03:03+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 63,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 123
+    }
+  ],
+  "views_current": 123,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 38.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

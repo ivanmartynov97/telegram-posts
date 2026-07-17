@@ -302,5 +302,13 @@
     "best_post_id": 373,
     "avg_rate": 200.0,
     "last_updated": "2026-07-12T18:17:32.778128+03:00"
+  },
+  "1885": {
+    "posts": 1,
+    "total_rate": 28.99,
+    "best_rate": 28.99,
+    "best_post_id": 404,
+    "avg_rate": 28.99,
+    "last_updated": "2026-07-17T11:17:21.963242+03:00"
   }
 }

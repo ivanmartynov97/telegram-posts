@@ -1,0 +1,22 @@
+{
+  "message_id": 399,
+  "text": "🦐 Самое шумное существо в океане — креветка. Шум большой стаи креветок способен «ослепить» сонар подводной лодки.",
+  "scheduled_at": "2026-07-16T17:22:45+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 113,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 190
+    }
+  ],
+  "views_current": 190,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 12.9,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

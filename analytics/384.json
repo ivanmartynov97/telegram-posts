@@ -1,0 +1,22 @@
+{
+  "message_id": 384,
+  "text": "🎬 Мадхубала, звезда индийского кино 1950-1960-х годов, оставила неизгладимый след в мировом кинематографе 🌟.",
+  "scheduled_at": "2026-07-14T16:05:10+03:00",
+  "hour": 16,
+  "has_image": true,
+  "char_count": 108,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 10
+    }
+  ],
+  "views_current": 10,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 62.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

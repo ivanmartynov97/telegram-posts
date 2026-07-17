@@ -310,5 +310,21 @@
     "best_post_id": 404,
     "avg_rate": 28.99,
     "last_updated": "2026-07-17T11:17:21.963242+03:00"
+  },
+  "Поль": {
+    "posts": 1,
+    "total_rate": 54.79,
+    "best_rate": 54.79,
+    "best_post_id": 405,
+    "avg_rate": 54.79,
+    "last_updated": "2026-07-17T13:18:28.145435+03:00"
+  },
+  "1989": {
+    "posts": 1,
+    "total_rate": 54.79,
+    "best_rate": 54.79,
+    "best_post_id": 405,
+    "avg_rate": 54.79,
+    "last_updated": "2026-07-17T13:18:28.145466+03:00"
   }
 }

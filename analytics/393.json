@@ -1,0 +1,22 @@
+{
+  "message_id": 393,
+  "text": "9-лeтний Лёва Бpoнштeйн (бyдущий Лeв Tpoцкий), 1888 гoд.",
+  "scheduled_at": "2026-07-16T07:03:57+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 56,
+  "views_history": [
+    {
+      "ts": "2026-07-17T06:15:21.735746+03:00",
+      "views": 90
+    }
+  ],
+  "views_current": 90,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 23.2,
+  "views_updated_at": "2026-07-17T06:15:21.735746+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

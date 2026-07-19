@@ -1,0 +1,22 @@
+{
+  "message_id": 430,
+  "text": "Активный курильщик, в среднем, теряет 22 года из жизни.",
+  "scheduled_at": "2026-07-19T17:29:00+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 55,
+  "views_history": [
+    {
+      "ts": "2026-07-20T01:04:23.872632+03:00",
+      "views": 170
+    }
+  ],
+  "views_current": 170,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 7.6,
+  "views_updated_at": "2026-07-20T01:04:23.872632+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

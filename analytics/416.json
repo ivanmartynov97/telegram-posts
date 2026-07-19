@@ -1,0 +1,22 @@
+{
+  "message_id": 416,
+  "text": "Задача для гениев 😳 \n\nЭто забор или озеро?",
+  "scheduled_at": "2026-07-18T17:17:04+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 42,
+  "views_history": [
+    {
+      "ts": "2026-07-19T04:31:42.509517+03:00",
+      "views": 30
+    }
+  ],
+  "views_current": 30,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 11.2,
+  "views_updated_at": "2026-07-19T04:31:42.509517+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

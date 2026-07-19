@@ -1,0 +1,22 @@
+{
+  "message_id": 426,
+  "text": "😎 Лукашенко любит Копатыча?",
+  "scheduled_at": "2026-07-19T12:17:10+03:00",
+  "hour": 12,
+  "has_image": true,
+  "char_count": 27,
+  "views_history": [
+    {
+      "ts": "2026-07-20T01:04:23.872632+03:00",
+      "views": 222
+    }
+  ],
+  "views_current": 222,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 12.8,
+  "views_updated_at": "2026-07-20T01:04:23.872632+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

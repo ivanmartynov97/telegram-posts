@@ -1,0 +1,22 @@
+{
+  "message_id": 413,
+  "text": "😳 **Гитлер или Трамп?! У кого больше денег** ?",
+  "scheduled_at": "2026-07-18T12:18:01+03:00",
+  "hour": 12,
+  "has_image": true,
+  "char_count": 46,
+  "views_history": [
+    {
+      "ts": "2026-07-19T04:31:42.509517+03:00",
+      "views": 50
+    }
+  ],
+  "views_current": 50,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 16.2,
+  "views_updated_at": "2026-07-19T04:31:42.509517+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

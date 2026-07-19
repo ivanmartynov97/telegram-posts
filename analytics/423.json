@@ -1,0 +1,22 @@
+{
+  "message_id": 423,
+  "text": "👸 Мэрилин Монро посещает войска в Корее, февраль 1954 года.",
+  "scheduled_at": "2026-07-19T07:02:54+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 59,
+  "views_history": [
+    {
+      "ts": "2026-07-20T01:04:23.872632+03:00",
+      "views": 238
+    }
+  ],
+  "views_current": 238,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 18.0,
+  "views_updated_at": "2026-07-20T01:04:23.872632+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

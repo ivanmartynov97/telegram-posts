@@ -1,0 +1,22 @@
+{
+  "message_id": 421,
+  "text": "⚠️ **Двойник Путина был убит.**",
+  "scheduled_at": "2026-07-18T22:11:32+03:00",
+  "hour": 22,
+  "has_image": true,
+  "char_count": 31,
+  "views_history": [
+    {
+      "ts": "2026-07-19T04:31:42.509517+03:00",
+      "views": 41
+    }
+  ],
+  "views_current": 41,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 6.3,
+  "views_updated_at": "2026-07-19T04:31:42.509517+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

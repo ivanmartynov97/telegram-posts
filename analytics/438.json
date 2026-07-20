@@ -1,0 +1,22 @@
+{
+  "message_id": 438,
+  "text": "🌊 Зaмepзший Ниагарский водопад, 1911 гoд",
+  "scheduled_at": "2026-07-20T11:03:53+03:00",
+  "hour": 11,
+  "has_image": true,
+  "char_count": 40,
+  "views_history": [
+    {
+      "ts": "2026-07-20T15:35:02.654806+03:00",
+      "views": 32
+    }
+  ],
+  "views_current": 32,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 4.5,
+  "views_updated_at": "2026-07-20T15:35:02.654806+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

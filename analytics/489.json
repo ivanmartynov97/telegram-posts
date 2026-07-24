@@ -18,5 +18,16 @@
   "views_updated_at": "2026-07-24T16:14:14.504765+03:00",
   "reactions": {},
   "total_reactions": 0,
-  "reactions_updated_at": null
+  "reactions_updated_at": null,
+  "early_views": 10,
+  "early_reactions": 0,
+  "early_comments": 0,
+  "early_forwards": 0,
+  "early_rate": 18.94,
+  "early_snapshot_at": "2026-07-24T16:27:13.237441+03:00",
+  "subscribers_at_early": 528,
+  "reactions_breakdown": {},
+  "topics": [
+    "Солнца"
+  ]
 }

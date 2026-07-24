@@ -334,5 +334,29 @@
     "best_post_id": 443,
     "avg_rate": 11.98,
     "last_updated": "2026-07-20T16:14:13.093746+03:00"
+  },
+  "Призы": {
+    "posts": 1,
+    "total_rate": 3.83,
+    "best_rate": 3.83,
+    "best_post_id": 487,
+    "avg_rate": 3.83,
+    "last_updated": "2026-07-24T14:27:46.476381+03:00"
+  },
+  "Электронная": {
+    "posts": 1,
+    "total_rate": 3.83,
+    "best_rate": 3.83,
+    "best_post_id": 487,
+    "avg_rate": 3.83,
+    "last_updated": "2026-07-24T14:27:46.476420+03:00"
+  },
+  "Яндекс": {
+    "posts": 1,
+    "total_rate": 3.83,
+    "best_rate": 3.83,
+    "best_post_id": 487,
+    "avg_rate": 3.83,
+    "last_updated": "2026-07-24T14:27:46.476428+03:00"
   }
 }

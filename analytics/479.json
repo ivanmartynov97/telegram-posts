@@ -1,0 +1,22 @@
+{
+  "message_id": 479,
+  "text": "**Кто лишний?**",
+  "scheduled_at": "2026-07-23T17:07:07+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 15,
+  "views_history": [
+    {
+      "ts": "2026-07-24T14:33:01.044588+03:00",
+      "views": 121
+    }
+  ],
+  "views_current": 121,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 21.4,
+  "views_updated_at": "2026-07-24T14:33:01.044588+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

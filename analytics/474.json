@@ -1,0 +1,22 @@
+{
+  "message_id": 474,
+  "text": "🩸 Кто совершил убийство?",
+  "scheduled_at": "2026-07-23T11:35:32+03:00",
+  "hour": 11,
+  "has_image": true,
+  "char_count": 24,
+  "views_history": [
+    {
+      "ts": "2026-07-24T14:33:01.044588+03:00",
+      "views": 361
+    }
+  ],
+  "views_current": 361,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 27.0,
+  "views_updated_at": "2026-07-24T14:33:01.044588+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

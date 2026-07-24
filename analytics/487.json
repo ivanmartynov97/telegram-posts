@@ -21,10 +21,14 @@
     {
       "ts": "2026-07-24T20:47:03.147689+03:00",
       "views": 16
+    },
+    {
+      "ts": "2026-07-24T23:01:55.143641+03:00",
+      "views": 21
     }
   ],
-  "views_current": 16,
-  "views_updated_at": "2026-07-24T20:47:03.147689+03:00",
-  "hours_since_pub": 6.5,
+  "views_current": 21,
+  "views_updated_at": "2026-07-24T23:01:55.143641+03:00",
+  "hours_since_pub": 8.8,
   "spike_score": 16
 }

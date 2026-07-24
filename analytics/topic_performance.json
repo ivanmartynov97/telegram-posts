@@ -358,5 +358,13 @@
     "best_post_id": 487,
     "avg_rate": 3.83,
     "last_updated": "2026-07-24T14:27:46.476428+03:00"
+  },
+  "Более": {
+    "posts": 1,
+    "total_rate": 15.3,
+    "best_rate": 15.3,
+    "best_post_id": 488,
+    "avg_rate": 15.3,
+    "last_updated": "2026-07-24T15:13:28.928191+03:00"
   }
 }

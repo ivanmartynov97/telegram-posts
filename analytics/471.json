@@ -1,0 +1,22 @@
+{
+  "message_id": 471,
+  "text": "📚 Фридрих Ницше был учителем!\nОн преподавал классическую филологию.",
+  "scheduled_at": "2026-07-23T07:02:52+03:00",
+  "hour": 7,
+  "has_image": true,
+  "char_count": 67,
+  "views_history": [
+    {
+      "ts": "2026-07-24T14:33:01.044588+03:00",
+      "views": 281
+    }
+  ],
+  "views_current": 281,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 31.5,
+  "views_updated_at": "2026-07-24T14:33:01.044588+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

@@ -1,0 +1,22 @@
+{
+  "message_id": 455,
+  "text": "Хер — это мат?",
+  "scheduled_at": "2026-07-21T17:52:08+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 14,
+  "views_history": [
+    {
+      "ts": "2026-07-24T14:33:01.044588+03:00",
+      "views": 171
+    }
+  ],
+  "views_current": 171,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 68.7,
+  "views_updated_at": "2026-07-24T14:33:01.044588+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

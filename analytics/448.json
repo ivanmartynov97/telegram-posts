@@ -1,0 +1,22 @@
+{
+  "message_id": 448,
+  "text": "😡 Путин ненавидит Telegram?",
+  "scheduled_at": "2026-07-20T22:22:00+03:00",
+  "hour": 22,
+  "has_image": true,
+  "char_count": 27,
+  "views_history": [
+    {
+      "ts": "2026-07-24T14:33:01.044588+03:00",
+      "views": 121
+    }
+  ],
+  "views_current": 121,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 88.2,
+  "views_updated_at": "2026-07-24T14:33:01.044588+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

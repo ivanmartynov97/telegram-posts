@@ -390,5 +390,21 @@
     "best_post_id": 500,
     "avg_rate": 67.21,
     "last_updated": "2026-07-25T17:33:32.985497+03:00"
+  },
+  "Масахиро": {
+    "posts": 1,
+    "total_rate": 19.54,
+    "best_rate": 19.54,
+    "best_post_id": 501,
+    "avg_rate": 19.54,
+    "last_updated": "2026-07-25T18:19:42.251161+03:00"
+  },
+  "Хара": {
+    "posts": 1,
+    "total_rate": 19.54,
+    "best_rate": 19.54,
+    "best_post_id": 501,
+    "avg_rate": 19.54,
+    "last_updated": "2026-07-25T18:19:42.251225+03:00"
   }
 }

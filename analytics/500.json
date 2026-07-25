@@ -18,5 +18,16 @@
   "views_updated_at": "2026-07-25T17:23:05.867785+03:00",
   "reactions": {},
   "total_reactions": 0,
-  "reactions_updated_at": null
+  "reactions_updated_at": null,
+  "early_views": 41,
+  "early_reactions": 0,
+  "early_comments": 0,
+  "early_forwards": 0,
+  "early_rate": 67.21,
+  "early_snapshot_at": "2026-07-25T17:33:28.240921+03:00",
+  "subscribers_at_early": 610,
+  "reactions_breakdown": {},
+  "topics": [
+    "Зачем"
+  ]
 }

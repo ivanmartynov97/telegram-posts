@@ -1,0 +1,22 @@
+{
+  "message_id": 500,
+  "text": "Зачем миллиардеры скрывают лекарство от рака? 🤬",
+  "scheduled_at": "2026-07-25T17:21:05+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 47,
+  "views_history": [
+    {
+      "ts": "2026-07-25T17:23:05.867785+03:00",
+      "views": 13
+    }
+  ],
+  "views_current": 13,
+  "views_1h": 13,
+  "spike_score": 13,
+  "hours_since_pub": 0.0,
+  "views_updated_at": "2026-07-25T17:23:05.867785+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

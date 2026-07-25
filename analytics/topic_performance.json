@@ -406,5 +406,13 @@
     "best_post_id": 501,
     "avg_rate": 19.54,
     "last_updated": "2026-07-25T18:19:42.251225+03:00"
+  },
+  "Гладя": {
+    "posts": 1,
+    "total_rate": 19.39,
+    "best_rate": 19.39,
+    "best_post_id": 502,
+    "avg_rate": 19.39,
+    "last_updated": "2026-07-25T20:22:57.776100+03:00"
   }
 }

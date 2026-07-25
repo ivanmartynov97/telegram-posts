@@ -1,0 +1,22 @@
+{
+  "message_id": 494,
+  "text": "Самый опасный смерч - огненный. Редкое природное явление, высотой порядка 30 метров.",
+  "scheduled_at": "2026-07-25T15:05:06+03:00",
+  "hour": 15,
+  "has_image": true,
+  "char_count": 84,
+  "views_history": [
+    {
+      "ts": "2026-07-25T17:23:05.867785+03:00",
+      "views": 73
+    }
+  ],
+  "views_current": 73,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 2.3,
+  "views_updated_at": "2026-07-25T17:23:05.867785+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

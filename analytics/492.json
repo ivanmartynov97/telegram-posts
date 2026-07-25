@@ -1,0 +1,22 @@
+{
+  "message_id": 492,
+  "text": "Путин упоминался а Смешариках",
+  "scheduled_at": "2026-07-25T12:08:05+03:00",
+  "hour": 12,
+  "has_image": true,
+  "char_count": 29,
+  "views_history": [
+    {
+      "ts": "2026-07-25T17:23:05.867785+03:00",
+      "views": 88
+    }
+  ],
+  "views_current": 88,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 5.3,
+  "views_updated_at": "2026-07-25T17:23:05.867785+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

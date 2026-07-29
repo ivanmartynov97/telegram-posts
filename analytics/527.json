@@ -1,0 +1,22 @@
+{
+  "message_id": 527,
+  "text": "**Эмоции могут быть заразительными**. Например, увидев человека, который улыбается, наше лицо также начинает улыбаться на автоматическом уровне.",
+  "scheduled_at": "2026-07-28T15:02:01+03:00",
+  "hour": 15,
+  "has_image": true,
+  "char_count": 144,
+  "views_history": [
+    {
+      "ts": "2026-07-29T21:14:39.829676+03:00",
+      "views": 82
+    }
+  ],
+  "views_current": 82,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 30.2,
+  "views_updated_at": "2026-07-29T21:14:39.829676+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

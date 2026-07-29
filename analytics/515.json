@@ -1,0 +1,22 @@
+{
+  "message_id": 515,
+  "text": "Это оливковое дерево пережило написание Илиады, золотой век Афин, подъем Римской империи и рождение Христа, а затем прожило 2000 лет после этого. Считается, что ему около 2900 лет.",
+  "scheduled_at": "2026-07-27T13:02:10+03:00",
+  "hour": 13,
+  "has_image": true,
+  "char_count": 180,
+  "views_history": [
+    {
+      "ts": "2026-07-29T21:14:39.829676+03:00",
+      "views": 136
+    }
+  ],
+  "views_current": 136,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 56.2,
+  "views_updated_at": "2026-07-29T21:14:39.829676+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

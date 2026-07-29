@@ -1,0 +1,22 @@
+{
+  "message_id": 546,
+  "text": "💸Каждый **24-ый** житель Нью-Йорка **– миллионер\n\nЗнал - 🔥, не знал - 🤩**",
+  "scheduled_at": "2026-07-29T23:02:04+03:00",
+  "hour": 23,
+  "has_image": true,
+  "char_count": 73,
+  "views_history": [
+    {
+      "ts": "2026-07-29T23:54:03.508003+03:00",
+      "views": 17
+    }
+  ],
+  "views_current": 17,
+  "views_1h": 17,
+  "spike_score": 17,
+  "hours_since_pub": 0.9,
+  "views_updated_at": "2026-07-29T23:54:03.508003+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

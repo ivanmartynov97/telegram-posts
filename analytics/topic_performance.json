@@ -414,5 +414,13 @@
     "best_post_id": 502,
     "avg_rate": 19.39,
     "last_updated": "2026-07-25T20:22:57.776100+03:00"
+  },
+  "Знал": {
+    "posts": 1,
+    "total_rate": 20.78,
+    "best_rate": 20.78,
+    "best_post_id": 544,
+    "avg_rate": 20.78,
+    "last_updated": "2026-07-29T20:22:44.321374+03:00"
   }
 }

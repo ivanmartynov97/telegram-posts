@@ -1,0 +1,22 @@
+{
+  "message_id": 552,
+  "text": "**КТО ИЗ НИХ НЕ МОЖЕТ ДЫШАТЬ РТОМ?**",
+  "scheduled_at": "2026-07-30T17:39:12+03:00",
+  "hour": 17,
+  "has_image": true,
+  "char_count": 36,
+  "views_history": [
+    {
+      "ts": "2026-07-30T17:40:06.472804+03:00",
+      "views": 60
+    }
+  ],
+  "views_current": 60,
+  "views_1h": 60,
+  "spike_score": 60,
+  "hours_since_pub": 0.0,
+  "views_updated_at": "2026-07-30T17:40:06.472804+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

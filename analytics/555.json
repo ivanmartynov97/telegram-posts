@@ -1,0 +1,22 @@
+{
+  "message_id": 555,
+  "text": "**🏳️‍🌈 Путин ненавидит геев?**",
+  "scheduled_at": "2026-07-30T22:40:08+03:00",
+  "hour": 22,
+  "has_image": true,
+  "char_count": 30,
+  "views_history": [
+    {
+      "ts": "2026-07-30T17:40:06.472804+03:00",
+      "views": 36
+    }
+  ],
+  "views_current": 36,
+  "views_1h": 36,
+  "spike_score": 36,
+  "hours_since_pub": -5.0,
+  "views_updated_at": "2026-07-30T17:40:06.472804+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

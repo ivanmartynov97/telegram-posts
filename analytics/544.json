@@ -16,5 +16,15 @@
   "subscribers_at_early": 770,
   "reactions_breakdown": {
     "🤩": 1
-  }
+  },
+  "views_history": [
+    {
+      "ts": "2026-07-30T16:32:34.247830+03:00",
+      "views": 95
+    }
+  ],
+  "views_current": 95,
+  "views_updated_at": "2026-07-30T16:32:34.247830+03:00",
+  "hours_since_pub": 20.4,
+  "spike_score": 95
 }

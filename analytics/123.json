@@ -5,7 +5,7 @@
   "scheduled_at": "2026-07-11T13:00:00+03:00",
   "hour": 13,
   "channel": "@history_plus_facts",
-  "total_reactions": 6,
+  "total_reactions": 7,
   "views_15min": null,
   "ai_generated": true,
   "ai_tag": null,
@@ -14,8 +14,8 @@
   "reactions": {
     "👍": 2,
     "🍌": 2,
-    "😢": 1,
+    "😢": 2,
     "🔥": 1
   },
-  "reactions_updated_at": "2026-08-02T02:17:29.955861+03:00"
+  "reactions_updated_at": "2026-08-02T02:17:46.204265+03:00"
 }

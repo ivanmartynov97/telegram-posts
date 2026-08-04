@@ -1,0 +1,22 @@
+{
+  "message_id": 586,
+  "text": "**Зеленский лично убил человека**",
+  "scheduled_at": "2026-08-02T22:34:31+03:00",
+  "hour": 22,
+  "has_image": true,
+  "char_count": 33,
+  "views_history": [
+    {
+      "ts": "2026-08-04T06:07:36.153508+03:00",
+      "views": 75
+    }
+  ],
+  "views_current": 75,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 31.6,
+  "views_updated_at": "2026-08-04T06:07:36.153508+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

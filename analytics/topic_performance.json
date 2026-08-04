@@ -422,5 +422,13 @@
     "best_post_id": 544,
     "avg_rate": 20.78,
     "last_updated": "2026-07-29T20:22:44.321374+03:00"
+  },
+  "Динозавры": {
+    "posts": 1,
+    "total_rate": 10.1,
+    "best_rate": 10.1,
+    "best_post_id": 605,
+    "avg_rate": 10.1,
+    "last_updated": "2026-08-04T08:39:02.624034+03:00"
   }
 }

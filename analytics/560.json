@@ -9,13 +9,17 @@
     {
       "ts": "2026-08-02T02:21:54.806609+03:00",
       "views": 84
+    },
+    {
+      "ts": "2026-08-04T07:12:24.880883+03:00",
+      "views": 109
     }
   ],
-  "views_current": 84,
+  "views_current": 109,
   "views_1h": null,
-  "spike_score": 0,
-  "hours_since_pub": 37.0,
-  "views_updated_at": "2026-08-02T02:21:54.806609+03:00",
+  "spike_score": null,
+  "hours_since_pub": 89.8,
+  "views_updated_at": "2026-08-04T07:12:24.880883+03:00",
   "reactions": {},
   "total_reactions": 0,
   "reactions_updated_at": null

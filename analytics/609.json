@@ -1,0 +1,22 @@
+{
+  "message_id": 609,
+  "text": "Японские имперские солдаты поднимаются на Великую Китайскую стену, 1937 год.",
+  "scheduled_at": "2026-08-04T15:01:16+03:00",
+  "hour": 15,
+  "has_image": true,
+  "char_count": 76,
+  "views_history": [
+    {
+      "ts": "2026-08-04T16:10:00.064007+03:00",
+      "views": 14
+    }
+  ],
+  "views_current": 14,
+  "views_1h": 14,
+  "spike_score": 14,
+  "hours_since_pub": 1.1,
+  "views_updated_at": "2026-08-04T16:10:00.064007+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

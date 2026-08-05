@@ -1,0 +1,22 @@
+{
+  "message_id": 621,
+  "text": "1912 год, женщина заряжает свой электромобиль.\n\nВсе еще не верите что история идет по спирали?",
+  "scheduled_at": "2026-08-05T15:07:07+03:00",
+  "hour": 15,
+  "has_image": true,
+  "char_count": 94,
+  "views_history": [
+    {
+      "ts": "2026-08-06T00:56:41.821029+03:00",
+      "views": 75
+    }
+  ],
+  "views_current": 75,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 9.8,
+  "views_updated_at": "2026-08-06T00:56:41.821029+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

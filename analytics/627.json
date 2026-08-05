@@ -1,0 +1,22 @@
+{
+  "message_id": 627,
+  "text": "Мужское сердце бьётся медленнее, чем женское.",
+  "scheduled_at": "2026-08-05T23:05:09+03:00",
+  "hour": 23,
+  "has_image": true,
+  "char_count": 45,
+  "views_history": [
+    {
+      "ts": "2026-08-06T00:56:41.821029+03:00",
+      "views": 29
+    }
+  ],
+  "views_current": 29,
+  "views_1h": 29,
+  "spike_score": 29,
+  "hours_since_pub": 1.9,
+  "views_updated_at": "2026-08-06T00:56:41.821029+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

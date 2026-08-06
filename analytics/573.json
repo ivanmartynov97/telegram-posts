@@ -17,13 +17,17 @@
     {
       "ts": "2026-08-06T00:56:41.821029+03:00",
       "views": 111
+    },
+    {
+      "ts": "2026-08-06T15:38:51.878751+03:00",
+      "views": 114
     }
   ],
-  "views_current": 111,
+  "views_current": 114,
   "views_1h": null,
   "spike_score": null,
-  "hours_since_pub": 102.9,
-  "views_updated_at": "2026-08-06T00:56:41.821029+03:00",
+  "hours_since_pub": 117.6,
+  "views_updated_at": "2026-08-06T15:38:51.878751+03:00",
   "reactions": {},
   "total_reactions": 0,
   "reactions_updated_at": null

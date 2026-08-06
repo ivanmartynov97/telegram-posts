@@ -1,0 +1,22 @@
+{
+  "message_id": 630,
+  "text": "🥳 От **Coca-Cola растет грудь?**",
+  "scheduled_at": "2026-08-06T12:06:04+03:00",
+  "hour": 12,
+  "has_image": true,
+  "char_count": 32,
+  "views_history": [
+    {
+      "ts": "2026-08-06T15:38:51.878751+03:00",
+      "views": 31
+    }
+  ],
+  "views_current": 31,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 3.5,
+  "views_updated_at": "2026-08-06T15:38:51.878751+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

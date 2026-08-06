@@ -1,0 +1,22 @@
+{
+  "message_id": 628,
+  "text": "B 1974 годy aмepикaнcкий космический аппарат «Mariner 10» сделал пepвыe приближенныe фотогpaфии плaнeты Mepкурий.",
+  "scheduled_at": "2026-08-06T08:08:04+03:00",
+  "hour": 8,
+  "has_image": true,
+  "char_count": 113,
+  "views_history": [
+    {
+      "ts": "2026-08-06T15:38:51.878751+03:00",
+      "views": 56
+    }
+  ],
+  "views_current": 56,
+  "views_1h": null,
+  "spike_score": 0,
+  "hours_since_pub": 7.5,
+  "views_updated_at": "2026-08-06T15:38:51.878751+03:00",
+  "reactions": {},
+  "total_reactions": 0,
+  "reactions_updated_at": null
+}

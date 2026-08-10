@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": 1,
+    "scheduled_at": "2026-08-12T22:50:18+00:00",
+    "text": "🎯 [Квиз] ТЕСТ канал, СО schedule",
+    "image_url": null,
+    "is_poll": true
+  }
+]

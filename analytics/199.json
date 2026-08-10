@@ -10,5 +10,15 @@
   "ai_generated": false,
   "ai_tag": null,
   "ai_topic": null,
-  "created_at": "2026-07-06T22:12:32.830460+03:00"
+  "created_at": "2026-07-06T22:12:32.830460+03:00",
+  "views_history": [
+    {
+      "ts": "2026-08-11T01:31:30.675652+03:00",
+      "views": 122
+    }
+  ],
+  "views_current": 122,
+  "views_updated_at": "2026-08-11T01:31:30.675652+03:00",
+  "hours_since_pub": 79.5,
+  "spike_score": 122
 }

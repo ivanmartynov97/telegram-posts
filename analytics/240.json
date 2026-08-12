@@ -15,11 +15,15 @@
     {
       "ts": "2026-06-20T22:51:47.661885+03:00",
       "views": 2
+    },
+    {
+      "ts": "2026-08-13T02:16:24.460577+03:00",
+      "views": 304
     }
   ],
-  "views_current": 2,
-  "views_updated_at": "2026-06-26T03:30:58.983709+03:00",
-  "hours_since_pub": 146.4,
+  "views_current": 304,
+  "views_updated_at": "2026-08-13T02:16:24.460577+03:00",
+  "hours_since_pub": 35.3,
   "spike_score": 2,
   "reactions": {
     "🔥": 6,

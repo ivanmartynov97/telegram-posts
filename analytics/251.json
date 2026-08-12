@@ -18,5 +18,16 @@
   "views_updated_at": "2026-07-01T04:53:03.281529+03:00",
   "reactions": {},
   "total_reactions": 0,
-  "reactions_updated_at": null
+  "reactions_updated_at": null,
+  "early_views": 13,
+  "early_reactions": 0,
+  "early_comments": 0,
+  "early_forwards": 0,
+  "early_rate": 15.42,
+  "early_snapshot_at": "2026-08-12T15:17:23.841459+03:00",
+  "subscribers_at_early": 843,
+  "reactions_breakdown": {},
+  "topics": [
+    "Знал"
+  ]
 }

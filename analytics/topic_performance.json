@@ -438,5 +438,13 @@
     "best_post_id": 632,
     "avg_rate": 17.33,
     "last_updated": "2026-08-06T15:38:35.882611+03:00"
+  },
+  "Путин": {
+    "posts": 1,
+    "total_rate": 17.84,
+    "best_rate": 17.84,
+    "best_post_id": 278,
+    "avg_rate": 17.84,
+    "last_updated": "2026-08-15T01:47:38.345732+03:00"
   }
 }

@@ -19,10 +19,14 @@
     {
       "ts": "2026-08-13T02:16:24.460577+03:00",
       "views": 186
+    },
+    {
+      "ts": "2026-08-16T17:23:16.064593+03:00",
+      "views": 305
     }
   ],
-  "views_current": 186,
-  "views_updated_at": "2026-08-13T02:16:24.460577+03:00",
-  "hours_since_pub": 32.2,
+  "views_current": 305,
+  "views_updated_at": "2026-08-16T17:23:16.064593+03:00",
+  "hours_since_pub": 119.3,
   "spike_score": 3
 }

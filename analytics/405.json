@@ -29,5 +29,13 @@
   "views_current": 272,
   "views_updated_at": "2026-07-20T01:04:23.872632+03:00",
   "hours_since_pub": 60.0,
-  "spike_score": 199
+  "spike_score": 199,
+  "reactions": {
+    "😁": 4,
+    "😱": 4,
+    "❤": 3,
+    "😢": 2
+  },
+  "total_reactions": 13,
+  "reactions_updated_at": "2026-09-04T12:12:47.959737+03:00"
 }

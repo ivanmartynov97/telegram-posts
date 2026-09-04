@@ -20,7 +20,13 @@
   "spike_score": null,
   "hours_since_pub": 36.8,
   "views_updated_at": "2026-07-20T01:04:23.872632+03:00",
-  "reactions": {},
-  "total_reactions": 0,
-  "reactions_updated_at": null
+  "reactions": {
+    "😁": 12,
+    "🌚": 6,
+    "😱": 4,
+    "🔥": 1,
+    "💅": 1
+  },
+  "total_reactions": 24,
+  "reactions_updated_at": "2026-09-04T12:12:38.657109+03:00"
 }

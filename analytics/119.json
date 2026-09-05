@@ -5,10 +5,24 @@
   "scheduled_at": "2026-07-10T18:00:00+03:00",
   "hour": 18,
   "channel": "@history_plus_facts",
-  "total_reactions": 0,
+  "total_reactions": 946,
   "views_15min": null,
   "ai_generated": true,
   "ai_tag": null,
   "ai_topic": null,
-  "created_at": "2026-06-24T13:30:26.692831+03:00"
+  "created_at": "2026-06-24T13:30:26.692831+03:00",
+  "reactions": {
+    "👍": 662,
+    "🔥": 146,
+    "😨": 56,
+    "🥰": 15,
+    "😁": 15,
+    "👎": 13,
+    "🤣": 9,
+    "❤": 9,
+    "🌚": 8,
+    "🤯": 8,
+    "🤷‍♀": 5
+  },
+  "reactions_updated_at": "2026-09-06T02:05:44.346221+03:00"
 }

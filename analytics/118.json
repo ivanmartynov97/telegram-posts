@@ -5,10 +5,20 @@
   "scheduled_at": "2026-07-10T16:00:00+03:00",
   "hour": 16,
   "channel": "@history_plus_facts",
-  "total_reactions": 0,
+  "total_reactions": 1101,
   "views_15min": null,
   "ai_generated": true,
   "ai_tag": null,
   "ai_topic": "Сталин и грузинская кухня",
-  "created_at": "2026-06-24T13:30:22.480095+03:00"
+  "created_at": "2026-06-24T13:30:22.480095+03:00",
+  "reactions": {
+    "👍": 769,
+    "🔥": 260,
+    "👎": 24,
+    "❤": 24,
+    "😱": 15,
+    "😢": 6,
+    "🍌": 3
+  },
+  "reactions_updated_at": "2026-09-06T02:05:42.451264+03:00"
 }

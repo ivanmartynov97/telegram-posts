@@ -1087,17 +1087,30 @@ function getBotToken() { return localStorage.getItem("bot_token") || ""; }
 // а переключение происходит мгновенно. Канал 2 настраивается прямо в Настройках (имя + @username),
 // без редеплоя кода.
 function getChannels() {
+  // 11.09.26: полностью заменён старый список (History+/Канал 2/Умная утка и т.д. —
+  // это заброшенные каналы, которых больше нет в реальном config.json). Список ниже
+  // взят напрямую из config.json["channels"], который реально использует auto_publish.py
+  // (крутится на Mac через launchd каждые 30 мин и пишет {queue}_schedule_snapshot.json —
+  // именно его читает loadScheduleSnapshot()). prefix ниже = хвост queue_dir из config.json
+  // (queue9 → prefix "9" и т.д.), это то, что QDIR()/ADIR() используют для путей в GitHub.
+  // ВАЖНО: pravda_nepravda/pravdailihren/danet_ki/zombiCartoshka — квиз-каналы (Правда/Ложь
+  // опросы с премиум-эмодзи), их посты сейчас создаются отдельными .command-скриптами
+  // (Telethon SendMediaRequest+InputMediaPoll), НЕ через "Новый пост" в мини-аппе — раздел
+  // "Очередь" их корректно покажет (снимок расписания читает любые посты, включая опросы),
+  // но кнопка "Добавить в очередь" создаст для них обычный текстовый пост, а не опрос.
   return [
-    { id: 0, name: 'History+', channel: '@history_plus_facts', prefix: '', theme: 'history', slot_times: [[6,2],[11,19],[13,19],[16,19],[18,19],[22,19]] },
-    { id: 1, name: localStorage.getItem('ch2_name') || 'Канал 2', channel: localStorage.getItem('ch2_username') || '@ricar_telegrama', prefix: '2', theme: 'history', slot_times: [[6,3],[11,20],[13,20],[16,20],[18,20],[22,20]] },
-    // Каналы 3-4 (добавлены 22.06 по явной просьбе) — другая тематика: короткие факты
-    // (а не история), формат "эмодзи + факт-утверждение + 1-2 предложения объяснения".
-    // Свой бот уже админ в обоих, своя GitHub-папка queue3/queue4 — без редеплоя кода.
-    { id: 2, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts', slot_times: [[6,4],[11,21],[13,21],[16,21],[18,21],[22,21]] },
-    { id: 3, name: 'Умная утка', channel: '@umnaya_utka', prefix: '4', theme: 'facts', slot_times: [[6,5],[11,22],[13,22],[16,22],[18,22],[22,22]] },
-    { id: 4, name: 'Умнейший вход', channel: '@umnim_vhod', prefix: '5', theme: 'facts', slot_times: [[6,6],[11,23],[13,23],[16,23],[18,23],[22,23]] },
-    // Канал 6 — @umnim_stat, схема как у 5-го (50% квизов + 50% текст). Слоты: 6:07 11:24 13:24 16:24 18:24 22:24 Riga
-    { id: 5, name: 'Умная статистика', channel: '@umnim_stat', prefix: '6', theme: 'facts', slot_times: [[6,7],[11,24],[13,24],[16,24],[18,24],[22,24]] },
+    { id: 0, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts', slot_times: [[6,4],[11,21],[13,21],[16,21],[18,21],[22,21]] },
+    { id: 1, name: 'Правда или Хрен', channel: '@pravdailihren', prefix: '7', theme: 'facts', slot_times: [[8,10],[13,10],[13,11],[18,10],[18,11],[23,10]] },
+    { id: 2, name: 'Взрослые факты', channel: '@vzroslie_fakti', prefix: '8', theme: 'facts', slot_times: [[8,18],[13,18],[15,18],[18,18],[20,18],[23,18]] },
+    { id: 3, name: 'Правда или Неправда', channel: '@pravda_nepravda', prefix: '9', theme: 'facts', slot_times: [[7,16],[10,16],[12,16],[15,10],[16,10],[19,6],[20,6],[23,16]] },
+    { id: 4, name: 'ZombiCartoshka', channel: '@zombiCartoshka', prefix: '10', theme: 'facts', slot_times: [[7,21],[10,21],[12,21],[15,8],[16,8],[19,10],[20,10],[23,21]] },
+    { id: 5, name: 'Данетки', channel: '@danet_ki', prefix: '11', theme: 'facts', slot_times: [[7,33],[10,33],[12,33],[15,3],[16,14],[19,13],[20,19],[23,33]] },
+    { id: 6, name: 'Это перчик', channel: '@etoperchik', prefix: '12', theme: 'facts', slot_times: [[8,23],[13,23],[15,23],[18,23],[20,23],[23,23]] },
+    { id: 7, name: 'Факто Кота', channel: '@faktokota', prefix: '13', theme: 'facts', slot_times: [[8,10],[13,10],[15,10],[18,10],[20,10],[23,10]] },
+    { id: 8, name: 'Факто Кролика', channel: '@faktokrolika', prefix: '14', theme: 'facts', slot_times: [[8,4],[13,4],[15,4],[18,4],[20,4],[23,4]] },
+    { id: 9, name: 'Познаватель', channel: '@poznavatel_gavan', prefix: '15', theme: 'facts', slot_times: [[8,5],[13,5],[15,5],[18,5],[20,5],[23,5]] },
+    { id: 10, name: 'Собака Удивляка', channel: '@sobakaudivlaka', prefix: '16', theme: 'facts', slot_times: [[8,6],[13,6],[15,6],[18,6],[20,6],[23,6]] },
+    { id: 11, name: 'Прикормка мозга', channel: '@prikormka_mozga', prefix: '17', theme: 'facts', slot_times: [[8,7],[13,7],[15,7],[18,7],[20,7],[23,7]] },
   ];
 }
 let currentChannelIdx = parseInt(localStorage.getItem('current_channel') || '0', 10) || 0;

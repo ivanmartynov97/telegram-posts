@@ -21,13 +21,13 @@ echo ""
 echo "╔══════════════════════════════════════╗"
 echo "║  Шаг 2: Генерация фактов для queue3  ║"
 echo "╚══════════════════════════════════════╝"
-python3 ai_fill.py 60 queue3 facts
+python3 ai_fill.py 15 queue3 facts
 echo ""
 
 echo "╔══════════════════════════════════════╗"
 echo "║  Шаг 3: Генерация фактов для queue4  ║"
 echo "╚══════════════════════════════════════╝"
-python3 ai_fill.py 60 queue4 facts
+python3 ai_fill.py 15 queue4 facts
 echo ""
 
 echo "╔══════════════════════════════════════════════════════╗"

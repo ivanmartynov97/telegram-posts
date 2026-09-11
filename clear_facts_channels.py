@@ -3,14 +3,18 @@
 clear_facts_channels.py — удаляет ВСЕ отложенные посты из Telegram (queue3/queue4)
 и все файлы из этих папок на GitHub. Запускать перед перегенерацией фактов.
 """
-import asyncio, json, os, base64, ssl, time, urllib.request
+import asyncio, json, os, base64, ssl, time, urllib.request, shutil
 
 from telethon import TelegramClient
 from telethon.tl.functions.messages import GetScheduledHistoryRequest, DeleteScheduledMessagesRequest
 
-BASE    = os.path.dirname(os.path.abspath(__file__))
-CONFIG  = os.path.join(BASE, "config.json")
-SESSION = os.path.join(BASE, "tg_user_session")
+BASE         = os.path.dirname(os.path.abspath(__file__))
+CONFIG       = os.path.join(BASE, "config.json")
+SESSION_ORIG = os.path.join(BASE, "tg_user_session")
+SESSION      = os.path.join(BASE, f"tg_clear_session_{os.getpid()}")
+
+if os.path.exists(SESSION_ORIG + ".session"):
+    shutil.copy2(SESSION_ORIG + ".session", SESSION + ".session")
 API_ID  = 39578814
 API_HASH = "18f9ab304c0119a6ab28ff913f02f192"
 
@@ -110,6 +114,11 @@ async def main():
         clear_github_queue(qdir)
 
     await client.disconnect()
+    for ext in (".session", ".session-journal"):
+        p = SESSION + ext
+        if os.path.exists(p):
+            try: os.remove(p)
+            except Exception: pass
     print("\n✅ Всё очищено. Теперь запускай генерацию новых постов.")
 
 if __name__ == "__main__":

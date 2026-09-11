@@ -24,6 +24,7 @@ import urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient
+from telethon.sessions import StringSession
 from telethon.tl.functions.messages import (GetScheduledHistoryRequest, SendMediaRequest,
                                              SearchCustomEmojiRequest, GetCustomEmojiDocumentsRequest)
 from telethon.tl.types import (MessageMediaPoll, MessageEntityCustomEmoji, DocumentAttributeCustomEmoji,
@@ -738,11 +739,20 @@ async def main(dry_run=False, max_per_run=None, schedule_target=None, only_queue
         logging.error("github_token не задан")
         return
 
-    if not os.path.exists(SESSION + ".session"):
-        print("❌ Telethon сессия не найдена. Запусти auth_phone.command")
-        return
-
-    client = TelegramClient(SESSION, API_ID, API_HASH)
+    # 11.09.26: файловая сессия (tg_user_session.session) словила AuthKeyDuplicatedError —
+    # этот конкретный auth key Telegram считает скомпрометированным навсегда (используется
+    # 12 раз в сутки launchd'ом + одновременно куча ручных .command-скриптов создавали
+    # конкурентные подключения под одним и тем же ключом). Переходим на StringSession —
+    # тот же самый ключ, что уже месяцами стабильно используют все .command-скрипты этой
+    # сессии без единого разрыва. config.json в .gitignore — секрет никогда не уйдёт в git.
+    string_session = cfg.get("string_session")
+    if string_session:
+        client = TelegramClient(StringSession(string_session), API_ID, API_HASH)
+    else:
+        if not os.path.exists(SESSION + ".session"):
+            print("❌ Telethon сессия не найдена. Запусти auth_phone.command")
+            return
+        client = TelegramClient(SESSION, API_ID, API_HASH)
     await client.connect()
     if not await client.is_user_authorized():
         print("❌ Сессия не авторизована. Запусти auth_phone.command")

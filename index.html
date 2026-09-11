@@ -801,7 +801,7 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
       <div class="tg-post" style="max-width:100%">
         <div class="tg-post-header">
           <div class="tg-avatar">📅</div>
-          <div class="tg-channel-name">History+</div>
+          <div class="tg-channel-name" id="np-preview-channel-name">History+</div>
         </div>
         <img id="np-preview-img" style="width:100%;max-height:340px;object-fit:contain;background:#0c0c1a;display:none">
         <div class="tg-post-text" id="np-preview-text" style="min-height:40px;color:rgba(255,255,255,0.85)"></div>
@@ -1063,7 +1063,7 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
     <div class="tg-post">
       <div class="tg-post-header">
         <div class="tg-avatar">📅</div>
-        <div class="tg-channel-name">History+</div>
+        <div class="tg-channel-name" id="preview-channel-name">History+</div>
       </div>
       <img class="tg-post-img" id="preview-img" style="display:none">
       <div class="tg-post-text" id="preview-text"></div>
@@ -2523,6 +2523,7 @@ async function ghDel(path, sha, msg) {
 function openPreview(i) {
   const {post, slot} = posts[i];
   document.getElementById("preview-slot-label").textContent = `${fmtDay(slot)}, ${fmtTime(slot)}`;
+  document.getElementById("preview-channel-name").textContent = CH().name;
   const img = document.getElementById("preview-img");
   if (post.image_url) {
     img.src = post.image_url; img.style.display = "block";
@@ -5874,6 +5875,7 @@ function updateNpPreview() {
   const text = document.getElementById("np-text").value;
   const img  = document.getElementById("np-image").value.trim();
   const date = document.getElementById("np-date").value;
+  document.getElementById("np-preview-channel-name").textContent = CH().name;
   document.getElementById("np-preview-text").textContent = text || "";
   const pImg = document.getElementById("np-preview-img");
   if (img) { pImg.src = img; pImg.style.display = "block"; pImg.onerror = ()=>pImg.style.display="none"; }

@@ -790,6 +790,8 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
     <button onclick="toggleNpPreview()" id="np-preview-toggle" style="background:rgba(255,255,255,0.08);border:none;border-radius:8px;padding:5px 10px;color:rgba(255,255,255,0.7);font-size:12px;font-weight:600;cursor:pointer">👁 Превью</button>
   </div>
   <div class="form-body">
+    <!-- Обычный пост (текст/фото) — для facts-каналов -->
+    <div id="np-normal-fields">
     <div class="form-label">Текст поста</div>
     <textarea class="form-textarea" id="np-text" placeholder="✍️ Введи текст..." oninput="updateNpPreview()"></textarea>
 
@@ -813,6 +815,33 @@ body.light .ai-key-save-btn { background: rgba(0,0,0,0.06); border-color: rgba(0
     <div class="form-label">URL-кнопки <span style="font-size:11px;color:rgba(255,255,255,0.35);font-weight:400">(для рекламных постов, необязательно)</span></div>
     <div id="np-buttons-list"></div>
     <button onclick="addNpButton()" style="background:rgba(255,255,255,0.06);border:1px dashed rgba(255,255,255,0.15);border-radius:10px;padding:8px 14px;color:rgba(255,255,255,0.5);font-size:13px;cursor:pointer;width:100%;margin-bottom:14px">+ Добавить кнопку-ссылку</button>
+    </div>
+
+    <!-- Опрос Правда/Ложь — для квиз-каналов (format:'quiz' в getChannels()) -->
+    <div id="np-quiz-fields" style="display:none">
+      <div class="form-label">Текст вопроса <span style="font-size:11px;color:rgba(255,255,255,0.35);font-weight:400">(премиум-эмодзи первым символом подберётся автоматически при публикации)</span></div>
+      <textarea class="form-textarea" id="np-quiz-question" placeholder="Например: Хью Хефнер жил одновременно с несколькими подругами?"></textarea>
+
+      <div class="form-label">Правильный ответ</div>
+      <div style="display:flex;gap:8px;margin-bottom:14px">
+        <button type="button" id="np-quiz-true-btn" onclick="setQuizCorrect(true)" style="flex:1;padding:10px;border-radius:10px;border:none;cursor:pointer;font-weight:700;background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.6)">✅ Правда</button>
+        <button type="button" id="np-quiz-false-btn" onclick="setQuizCorrect(false)" style="flex:1;padding:10px;border-radius:10px;border:none;cursor:pointer;font-weight:700;background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.6)">❌ Ложь</button>
+      </div>
+
+      <div class="form-label">Пояснение <span style="font-size:11px;color:rgba(255,255,255,0.35);font-weight:400">(показывается после ответа, до 200 символов)</span></div>
+      <textarea class="form-textarea" id="np-quiz-solution" placeholder="Короткое объяснение, почему это правда/ложь..." maxlength="200" style="min-height:70px"></textarea>
+
+      <div class="form-label">Эмодзи для вопроса <span style="font-size:11px;color:rgba(255,255,255,0.35);font-weight:400">(необязательно — если не указать, подберётся автоматически)</span></div>
+      <select class="form-input" id="np-quiz-emoji" style="margin-bottom:14px">
+        <option value="">Автоматически (по смыслу вопроса)</option>
+        <option value="SEX">🔞 Секс/тело — пул 🔞 🍆 🍑 (Правило №39)</option>
+        <option value="👑">👑 Правители/монархи</option>
+        <option value="🐾">🐾 Животные</option>
+        <option value="🧠">🧠 Наука/тело</option>
+        <option value="🎬">🎬 Знаменитости</option>
+        <option value="⚔️">⚔️ История/война</option>
+      </select>
+    </div>
 
     <div class="form-label">Дата публикации</div>
     <input class="form-input" type="date" id="np-date" onchange="updateNpPreview()">
@@ -1094,17 +1123,17 @@ function getChannels() {
   // именно его читает loadScheduleSnapshot()). prefix ниже = хвост queue_dir из config.json
   // (queue9 → prefix "9" и т.д.), это то, что QDIR()/ADIR() используют для путей в GitHub.
   // ВАЖНО: pravda_nepravda/pravdailihren/danet_ki/zombiCartoshka — квиз-каналы (Правда/Ложь
-  // опросы с премиум-эмодзи), их посты сейчас создаются отдельными .command-скриптами
-  // (Telethon SendMediaRequest+InputMediaPoll), НЕ через "Новый пост" в мини-аппе — раздел
-  // "Очередь" их корректно покажет (снимок расписания читает любые посты, включая опросы),
-  // но кнопка "Добавить в очередь" создаст для них обычный текстовый пост, а не опрос.
+  // опросы с премиум-эмодзи). format:'quiz' переключает форму "Новый пост" в режим опроса
+  // (вопрос + Правда/Ложь + пояснение) — submitNewPost() пишет в очередь {"poll": {...}},
+  // а auto_publish.py (build_poll_media) реально создаёт InputMediaPoll с премиум-эмодзи
+  // по Правилам №37/38/39, включая пул 🔞/🍆/🍑 для секс-тематики.
   return [
     { id: 0, name: 'Факт по секрету', channel: '@fact_po_secretu', prefix: '3', theme: 'facts', slot_times: [[6,4],[11,21],[13,21],[16,21],[18,21],[22,21]] },
-    { id: 1, name: 'Правда или Хрен', channel: '@pravdailihren', prefix: '7', theme: 'facts', slot_times: [[8,10],[13,10],[13,11],[18,10],[18,11],[23,10]] },
+    { id: 1, name: 'Правда или Хрен', channel: '@pravdailihren', prefix: '7', theme: 'facts', format: 'quiz', slot_times: [[8,10],[13,10],[13,11],[18,10],[18,11],[23,10]] },
     { id: 2, name: 'Взрослые факты', channel: '@vzroslie_fakti', prefix: '8', theme: 'facts', slot_times: [[8,18],[13,18],[15,18],[18,18],[20,18],[23,18]] },
-    { id: 3, name: 'Правда или Неправда', channel: '@pravda_nepravda', prefix: '9', theme: 'facts', slot_times: [[7,16],[10,16],[12,16],[15,10],[16,10],[19,6],[20,6],[23,16]] },
-    { id: 4, name: 'ZombiCartoshka', channel: '@zombiCartoshka', prefix: '10', theme: 'facts', slot_times: [[7,21],[10,21],[12,21],[15,8],[16,8],[19,10],[20,10],[23,21]] },
-    { id: 5, name: 'Данетки', channel: '@danet_ki', prefix: '11', theme: 'facts', slot_times: [[7,33],[10,33],[12,33],[15,3],[16,14],[19,13],[20,19],[23,33]] },
+    { id: 3, name: 'Правда или Неправда', channel: '@pravda_nepravda', prefix: '9', theme: 'facts', format: 'quiz', slot_times: [[7,16],[10,16],[12,16],[15,10],[16,10],[19,6],[20,6],[23,16]] },
+    { id: 4, name: 'ZombiCartoshka', channel: '@zombiCartoshka', prefix: '10', theme: 'facts', format: 'quiz', slot_times: [[7,21],[10,21],[12,21],[15,8],[16,8],[19,10],[20,10],[23,21]] },
+    { id: 5, name: 'Данетки', channel: '@danet_ki', prefix: '11', theme: 'facts', format: 'quiz', slot_times: [[7,33],[10,33],[12,33],[15,3],[16,14],[19,13],[20,19],[23,33]] },
     { id: 6, name: 'Это перчик', channel: '@etoperchik', prefix: '12', theme: 'facts', slot_times: [[8,23],[13,23],[15,23],[18,23],[20,23],[23,23]] },
     { id: 7, name: 'Факто Кота', channel: '@faktokota', prefix: '13', theme: 'facts', slot_times: [[8,10],[13,10],[15,10],[18,10],[20,10],[23,10]] },
     { id: 8, name: 'Факто Кролика', channel: '@faktokrolika', prefix: '14', theme: 'facts', slot_times: [[8,4],[13,4],[15,4],[18,4],[20,4],[23,4]] },
@@ -1132,6 +1161,7 @@ function switchChannel(idx) {
   posts = []; analyticsData = []; reservePosts = []; currentIdx = -1; nextPostIdx = -1;
   renderChannelSwitcher();
   autoDetectChannel2Name();
+  if (document.getElementById('np-normal-fields')) updateNewPostFormMode();
   init().then(() => showTab(currentTab));
 }
 function renderChannelSwitcher() {
@@ -1735,6 +1765,25 @@ function buildInlineKeyboard() {
   if (currentRow.length) rows.push(currentRow);
   return rows;
 }
+let quizCorrect = null; // true/false — выбранный правильный ответ в форме опроса
+function setQuizCorrect(val) {
+  quizCorrect = val;
+  document.getElementById('np-quiz-true-btn').style.background = val===true ? 'linear-gradient(135deg,#2ecc71,#27ae60)' : 'rgba(255,255,255,0.06)';
+  document.getElementById('np-quiz-true-btn').style.color = val===true ? '#fff' : 'rgba(255,255,255,0.6)';
+  document.getElementById('np-quiz-false-btn').style.background = val===false ? 'linear-gradient(135deg,#e74c3c,#c0392b)' : 'rgba(255,255,255,0.06)';
+  document.getElementById('np-quiz-false-btn').style.color = val===false ? '#fff' : 'rgba(255,255,255,0.6)';
+}
+// Переключает форму "Новый пост" между обычным постом (текст/фото) и опросом Правда/Ложь —
+// зависит от format:'quiz' у текущего канала (см. getChannels()). Вызывается при открытии
+// вкладки "Новый пост" (initNewPost) и при смене канала (switchChannel), чтобы форма всегда
+// соответствовала реально выбранному каналу.
+function updateNewPostFormMode() {
+  const isQuiz = CH().format === 'quiz';
+  const normalEl = document.getElementById('np-normal-fields');
+  const quizEl = document.getElementById('np-quiz-fields');
+  if (normalEl) normalEl.style.display = isQuiz ? 'none' : '';
+  if (quizEl) quizEl.style.display = isQuiz ? '' : 'none';
+}
 function initNewPost() {
   // Дата по умолчанию — сегодня
   const now = rigaNow();
@@ -1750,6 +1799,12 @@ function initNewPost() {
     <button class="hour-btn" onclick="selectHour(${h},this)">${String(h).padStart(2,'0')}:00</button>
   `).join('') + `<button class="hour-btn" id="custom-hour-btn" onclick="toggleCustomHour(this)">✏️ Своё</button>`;
   document.getElementById('np-custom-time').style.display = 'none';
+
+  updateNewPostFormMode();
+  document.getElementById('np-quiz-question').value = '';
+  document.getElementById('np-quiz-solution').value = '';
+  document.getElementById('np-quiz-emoji').value = '';
+  setQuizCorrect(null);
 }
 function selectHour(h, btn) {
   selectedHour = h;
@@ -1776,6 +1831,52 @@ function applyCustomHour() {
 let selectedMinute = 0;
 async function submitNewPost() {
   if (!getToken()) { toast("⚙️ Нужен GitHub токен"); return; }
+  const isQuiz = CH().format === 'quiz';
+
+  if (isQuiz) {
+    const question = document.getElementById("np-quiz-question").value.trim();
+    if (!question) { toast("Введи текст вопроса"); return; }
+    if (quizCorrect === null) { toast("Выбери правильный ответ — Правда или Ложь"); return; }
+    if (!selectedHour) { toast("Выбери время публикации"); return; }
+    const dateVal = document.getElementById("np-date").value;
+    if (!dateVal) { toast("Выбери дату"); return; }
+    const solution = document.getElementById("np-quiz-solution").value.trim();
+    const emoji = document.getElementById("np-quiz-emoji").value || null;
+
+    const btn = document.getElementById("np-submit");
+    btn.disabled=true; btn.textContent="Добавляю...";
+    try {
+      const [y,m,d] = dateVal.split("-").map(Number);
+      const scheduledAt = new Date(y, m-1, d, selectedHour, selectedMinute||0, 0);
+
+      const qr = await fetch(`https://api.github.com/repos/${REPO}/contents/${QDIR()}`,
+        {headers:{Authorization:`token ${getToken()}`,Accept:"application/vnd.github.v3+json"}});
+      const existing = qr.ok ? (await qr.json()).filter(f=>f.name.match(/^\d+\.json$/)).map(f=>parseInt(f.name)).filter(n=>!isNaN(n)) : [];
+      const newNum = (existing.length?Math.max(...existing):0)+1;
+      const name = String(newNum).padStart(3,"0")+".json";
+
+      const postData = {
+        poll: { question, correct: quizCorrect, solution, ...(emoji && {emoji}) },
+        scheduled_at: scheduledAt.toISOString(),
+        created_at: new Date().toISOString(),
+      };
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(postData, null, 2))));
+      await ghCreate(`${QDIR()}/${name}`, content, `New quiz post: ${name}`);
+
+      toast("✅ Опрос добавлен в очередь! Появится в расписании Telegram в течение ~30 минут (следующий запуск auto_publish.py)");
+      document.getElementById('np-quiz-question').value = '';
+      document.getElementById('np-quiz-solution').value = '';
+      document.getElementById('np-quiz-emoji').value = '';
+      setQuizCorrect(null);
+      selectedHour = null;
+      document.querySelectorAll(".hour-btn").forEach(b=>b.classList.remove("active"));
+      setTimeout(() => showTab('queue'), 800);
+      init();
+    } catch(e) { toast("❌ "+e.message); }
+    finally { btn.disabled=false; btn.textContent="📤 Добавить в очередь"; }
+    return;
+  }
+
   const text = document.getElementById("np-text").value.trim();
   if (!text) { toast("Введи текст поста"); return; }
   if (!selectedHour) { toast("Выбери время публикации"); return; }

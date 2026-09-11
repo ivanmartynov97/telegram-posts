@@ -24,8 +24,11 @@ import urllib.request, urllib.parse
 from datetime import datetime, timezone, timedelta
 
 from telethon import TelegramClient
-from telethon.tl.functions.messages import GetScheduledHistoryRequest
-from telethon.tl.types import MessageMediaPoll
+from telethon.tl.functions.messages import (GetScheduledHistoryRequest, SendMediaRequest,
+                                             SearchCustomEmojiRequest, GetCustomEmojiDocumentsRequest)
+from telethon.tl.types import (MessageMediaPoll, MessageEntityCustomEmoji, DocumentAttributeCustomEmoji,
+                                TextWithEntities, Poll, PollAnswer, InputMediaPoll)
+import random
 
 BASE         = os.path.dirname(os.path.abspath(__file__))
 CONFIG       = os.path.join(BASE, "config.json")
@@ -220,6 +223,90 @@ def gh_put_analytics(path, obj, gh_token, gh_repo, msg):
     req = urllib.request.Request(url, data=body, method="PUT", headers={**gh_headers(gh_token), "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=15, context=ssl_ctx()) as r:
         return json.loads(r.read())
+
+
+# ── ПОДДЕРЖКА ОПРОСОВ (Правда/Ложь) ДЛЯ КВИЗ-КАНАЛОВ ──
+# Добавлено 11.09.26: мини-апп теперь умеет создавать записи очереди с полем "poll"
+# вместо "text" для квиз-каналов (queue7/9/10/11 = pravdailihren/pravda_nepravda/
+# zombiCartoshka/danet_ki). Правила №37-39 из CHANNEL_RULES.md: премиум-эмодзи ПЕРВЫМ
+# символом вопроса (обязательно, без исключений), варьирующиеся премиум-галочка/крестик
+# у ответов Правда/Ложь, для секс-тематики — эмодзи только из пула 🔞/🍆/🍑.
+SEX_POOL   = ["🔞", "🍆", "🍑"]
+CHECK_POOL = ["✅", "✔️", "☑️", "🟢"]
+CROSS_POOL = ["❌", "✖️", "🚫", "🔴"]
+FALLBACK_POOL = ["❓", "💡", "🔎", "✨", "📌"]
+
+def utf16_len(s):
+    return len(s.encode("utf-16-le")) // 2
+
+_emoji_cache = {}
+async def fresh_emoji(client, char):
+    if char in _emoji_cache:
+        return random.choice(_emoji_cache[char]) if _emoji_cache[char] else None
+    try:
+        elist = await asyncio.wait_for(client(SearchCustomEmojiRequest(emoticon=char, hash=0)), timeout=8)
+        ids = list(getattr(elist, "document_id", []))[:20]
+        if not ids:
+            _emoji_cache[char] = []
+            return None
+        docs = await asyncio.wait_for(client(GetCustomEmojiDocumentsRequest(document_id=ids)), timeout=8)
+        prem = []
+        for d in docs:
+            for a in d.attributes:
+                if isinstance(a, DocumentAttributeCustomEmoji) and not a.free and a.alt == char:
+                    prem.append(d.id)
+        _emoji_cache[char] = prem
+        return random.choice(prem) if prem else None
+    except Exception:
+        return None
+
+async def fresh_emoji_from_pool(client, pool):
+    order = pool[:]
+    random.shuffle(order)
+    for ch in order:
+        doc_id = await fresh_emoji(client, ch)
+        if doc_id:
+            return ch, doc_id
+    return None, None
+
+async def build_poll_media(client, poll_spec):
+    """poll_spec: {"question": str, "correct": bool, "solution": str, "emoji": str|"SEX"|None}"""
+    question = (poll_spec.get("question") or "").strip()
+    correct = bool(poll_spec.get("correct"))
+    solution = (poll_spec.get("solution") or "")[:200]
+    emoji_spec = poll_spec.get("emoji")
+
+    if emoji_spec == "SEX":
+        emoji, doc_id = await fresh_emoji_from_pool(client, SEX_POOL)
+    elif emoji_spec:
+        emoji = emoji_spec
+        doc_id = await fresh_emoji(client, emoji)
+    else:
+        emoji, doc_id = None, None
+    if not doc_id:
+        emoji, doc_id = await fresh_emoji_from_pool(client, FALLBACK_POOL)
+    if not doc_id:
+        return None, None  # не нашли вообще никакого премиум-эмодзи — не публикуем без него (Правило №38)
+
+    q_entities = [MessageEntityCustomEmoji(offset=0, length=utf16_len(emoji), document_id=doc_id)]
+    q_text = TextWithEntities(text=f"{emoji} {question}", entities=q_entities)
+
+    check_char, check_doc = await fresh_emoji_from_pool(client, CHECK_POOL)
+    cross_char, cross_doc = await fresh_emoji_from_pool(client, CROSS_POOL)
+    if not check_doc or not cross_doc:
+        return None, None
+
+    pravda_text = f"{check_char} Правда"
+    lozh_text = f"{cross_char} Ложь"
+    answers = [
+        PollAnswer(text=TextWithEntities(text=lozh_text, entities=[MessageEntityCustomEmoji(offset=0, length=utf16_len(cross_char), document_id=cross_doc)]), option=b"0"),
+        PollAnswer(text=TextWithEntities(text=pravda_text, entities=[MessageEntityCustomEmoji(offset=0, length=utf16_len(check_char), document_id=check_doc)]), option=b"1"),
+    ]
+    correct_idx = 1 if correct else 0
+    poll = Poll(id=0, question=q_text, hash=0, answers=answers, quiz=True, closed=False, public_voters=False)
+    imp = InputMediaPoll(poll=poll, correct_answers=[correct_idx], solution=solution, solution_entities=[])
+    display_text = f"🎯 [Квиз] {emoji} {question}"
+    return imp, display_text
 
 
 async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analytics_dir, dry_run=False, max_per_run=None, schedule_target=None, slot_times=None):
@@ -440,17 +527,18 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
 
         text      = (post.get("text") or "").strip()
         image_url = (post.get("image_url") or "").strip()
+        poll_spec = post.get("poll")  # {"question","correct","solution","emoji"} — квиз-канал, см. build_poll_media()
 
-        if not text:
+        if not text and not poll_spec:
             if not dry_run:
                 try: gh_delete_file_retry(gh_repo, it["path"], sha, gh_token, f"Remove empty: {it['name']}")
                 except Exception: pass
             continue
 
-        # Защита от мусорных постов из Граблей: обрезанный текст (содержит "[…]" или "Listverse"),
-        # слишком короткий текст без смысла, или текст-заглушка из зарубежного скрейпинга.
+        # Защита от мусорных постов из Граблей (не относится к опросам — они не приходят из Граблей):
+        # обрезанный текст (содержит "[…]" или "Listverse"), текст-заглушка из зарубежного скрейпинга.
         JUNK_MARKERS = ["[…]", "Listverse", "Сообщение «", "впервые появилось на"]
-        if any(m in text for m in JUNK_MARKERS):
+        if not poll_spec and any(m in text for m in JUNK_MARKERS):
             print(f"  🗑 {it['name']} — мусорный пост из Граблей, удаляю")
             logging.warning(f"Junk Grably post removed: {it['name']}")
             if not dry_run:
@@ -462,7 +550,7 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
         # в расписании Telegram (например предыдущий запуск успешно отправил его, но удаление
         # из очереди GitHub не прошло из-за таймаута/409 — см. лог) — не публикуем повторно,
         # просто чистим файл из очереди как уже обработанный.
-        if text in existing_texts:
+        if not poll_spec and text in existing_texts:
             print(f"  ⏭ {it['name']} — такой текст уже стоит в расписании Telegram, пропускаю (дубль)")
             logging.warning(f"Skip duplicate already-scheduled text: {it['name']}")
             if not dry_run:
@@ -510,11 +598,30 @@ async def process_channel(client, gh_token, gh_repo, channel, queue_dir, analyti
         dt_str = schedule_dt.strftime("%d.%m %H:%M")
 
         if dry_run:
-            print(f"  [DRY] would schedule {dt_str} — {text[:50]}...")
+            preview = f"[опрос] {poll_spec.get('question','')[:50]}" if poll_spec else text[:50]
+            print(f"  [DRY] would schedule {dt_str} — {preview}...")
             continue
 
         try:
-            if image_url:
+            if poll_spec:
+                # Квиз-канал (Правила №37/38/39 CHANNEL_RULES.md): опрос Правда/Ложь с
+                # премиум-эмодзи. Если премиум-эмодзи не нашлось вообще — НЕ публикуем
+                # без него (Правило №38 запрещает посты без премиум-эмодзи первым символом).
+                media, poll_display_text = await build_poll_media(client, poll_spec)
+                if media is None:
+                    print(f"  ⛔ Не нашёл премиум-эмодзи для опроса — пропускаю (Правило №38)")
+                    logging.warning(f"No premium emoji for poll: {it['name']}")
+                    fail += 1
+                    continue
+                text = poll_display_text
+                msg = await client(SendMediaRequest(peer=entity, media=media, message="",
+                    random_id=random.randint(1, 2**60), schedule_date=int(schedule_dt.timestamp())))
+                if hasattr(msg, "updates"):
+                    for u in msg.updates:
+                        if hasattr(u, "message") and hasattr(u.message, "id"):
+                            msg = u.message
+                            break
+            elif image_url:
                 photo_file = fetch_image_for_telegram(image_url)
                 if photo_file is None:
                     # Картинка не скачалась — пропускаем для queue3/4 (require картинку)
